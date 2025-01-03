@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<LabelDecoration name="Декорация1" id="62">
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Личные сведения:</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="Декорация1КонтекстноеМеню" id="63"/>
+			<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="64"/>
+		</LabelDecoration>
+		<UsualGroup name="Группа2" id="58">
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="59"/>
+			<ChildItems>
+				<InputField name="Код" id="1">
+					<DataPath>Объект.Code</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<InputField name="Наименование" id="4">
+					<DataPath>Объект.Description</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ФИО </v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа1" id="56">
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="57"/>
+			<ChildItems>
+				<InputField name="ДатаРождения" id="50">
+					<DataPath>Объект.ДатаРождения</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДатаРожденияКонтекстноеМеню" id="51"/>
+					<ExtendedTooltip name="ДатаРожденияРасширеннаяПодсказка" id="52"/>
+				</InputField>
+				<InputField name="АдресПроживания" id="53">
+					<DataPath>Объект.АдресПроживания</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="АдресПроживанияКонтекстноеМеню" id="54"/>
+					<ExtendedTooltip name="АдресПроживанияРасширеннаяПодсказка" id="55"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа3" id="60">
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="61"/>
+			<ChildItems>
+				<InputField name="Телефон" id="47">
+					<DataPath>Объект.Телефон</DataPath>
+					<ContextMenu name="ТелефонКонтекстноеМеню" id="48"/>
+					<ExtendedTooltip name="ТелефонРасширеннаяПодсказка" id="49"/>
+				</InputField>
+				<InputField name="ЭлектроннаяПочта" id="44">
+					<DataPath>Объект.ЭлектроннаяПочта</DataPath>
+					<ContextMenu name="ЭлектроннаяПочтаКонтекстноеМеню" id="45"/>
+					<ExtendedTooltip name="ЭлектроннаяПочтаРасширеннаяПодсказка" id="46"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа4" id="80">
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="81"/>
+			<ChildItems>
+				<InputField name="СерияИНомерПаспорта" id="68">
+					<DataPath>Объект.СерияИНомерПаспорта</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="СерияИНомерПаспортаКонтекстноеМеню" id="69"/>
+					<ExtendedTooltip name="СерияИНомерПаспортаРасширеннаяПодсказка" id="70"/>
+				</InputField>
+				<InputField name="ДатаВыдачиПаспорта" id="71">
+					<DataPath>Объект.ДатаВыдачиПаспорта</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДатаВыдачиПаспортаКонтекстноеМеню" id="72"/>
+					<ExtendedTooltip name="ДатаВыдачиПаспортаРасширеннаяПодсказка" id="73"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа5" id="82">
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="83"/>
+			<ChildItems>
+				<InputField name="ОрганВыдавшийПаспорт" id="74">
+					<DataPath>Объект.ОрганВыдавшийПаспорт</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ОрганВыдавшийПаспортКонтекстноеМеню" id="75"/>
+					<ExtendedTooltip name="ОрганВыдавшийПаспортРасширеннаяПодсказка" id="76"/>
+				</InputField>
+				<InputField name="КодПодразделения" id="77">
+					<DataPath>Объект.КодПодразделения</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="КодПодразделенияКонтекстноеМеню" id="78"/>
+					<ExtendedTooltip name="КодПодразделенияРасширеннаяПодсказка" id="79"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<LabelDecoration name="ЗаголовокТрудоваяДеятельность" id="41">
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Трудовая деятельность:</v8:content>
+				</v8:item>
+			</Title>
+			<BackColor>style:FormBackColor</BackColor>
+			<BorderColor>style:ToolTipTextColor</BorderColor>
+			<ContextMenu name="ЗаголовокТрудоваяДеятельностьКонтекстноеМеню" id="42"/>
+			<ExtendedTooltip name="ЗаголовокТрудоваяДеятельностьРасширеннаяПодсказка" id="43"/>
+		</LabelDecoration>
+		<InputField name="Стат" id="38">
+			<DataPath>1/0:65020119-f03c-4fdd-a526-86f90fd5e102</DataPath>
+			<ContextMenu name="СтатКонтекстноеМеню" id="39"/>
+			<ExtendedTooltip name="СтатРасширеннаяПодсказка" id="40"/>
+		</InputField>
+		<Table name="ТрудоваяДеятельность" id="7">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<FileDragMode>AsFile</FileDragMode>
+			<DataPath>Объект.ТрудоваяДеятельность</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ТрудоваяДеятельностьКонтекстноеМеню" id="8"/>
+			<AutoCommandBar name="ТрудоваяДеятельностьКоманднаяПанель" id="9"/>
+			<ExtendedTooltip name="ТрудоваяДеятельностьРасширеннаяПодсказка" id="10"/>
+			<SearchStringAddition name="ТрудоваяДеятельностьСтрокаПоиска" id="11">
+				<AdditionSource>
+					<Item>ТрудоваяДеятельность</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТрудоваяДеятельностьСтрокаПоискаКонтекстноеМеню" id="12"/>
+				<ExtendedTooltip name="ТрудоваяДеятельностьСтрокаПоискаРасширеннаяПодсказка" id="13"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ТрудоваяДеятельностьСостояниеПросмотра" id="14">
+				<AdditionSource>
+					<Item>ТрудоваяДеятельность</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТрудоваяДеятельностьСостояниеПросмотраКонтекстноеМеню" id="15"/>
+				<ExtendedTooltip name="ТрудоваяДеятельностьСостояниеПросмотраРасширеннаяПодсказка" id="16"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ТрудоваяДеятельностьУправлениеПоиском" id="17">
+				<AdditionSource>
+					<Item>ТрудоваяДеятельность</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ТрудоваяДеятельностьУправлениеПоискомКонтекстноеМеню" id="18"/>
+				<ExtendedTooltip name="ТрудоваяДеятельностьУправлениеПоискомРасширеннаяПодсказка" id="19"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="ТрудоваяДеятельностьНомерСтроки" id="20">
+					<DataPath>Объект.ТрудоваяДеятельность.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТрудоваяДеятельностьНомерСтрокиКонтекстноеМеню" id="21"/>
+					<ExtendedTooltip name="ТрудоваяДеятельностьНомерСтрокиРасширеннаяПодсказка" id="22"/>
+				</LabelField>
+				<InputField name="ТрудоваяДеятельностьОрганизация" id="23">
+					<DataPath>Объект.ТрудоваяДеятельность.Организация</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТрудоваяДеятельностьОрганизацияКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="ТрудоваяДеятельностьОрганизацияРасширеннаяПодсказка" id="25"/>
+				</InputField>
+				<InputField name="ТрудоваяДеятельностьНачалоРаботы" id="26">
+					<DataPath>Объект.ТрудоваяДеятельность.НачалоРаботы</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТрудоваяДеятельностьНачалоРаботыКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="ТрудоваяДеятельностьНачалоРаботыРасширеннаяПодсказка" id="28"/>
+				</InputField>
+				<InputField name="ТрудоваяДеятельностьОкончаниеРаботы" id="29">
+					<DataPath>Объект.ТрудоваяДеятельность.ОкончаниеРаботы</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТрудоваяДеятельностьОкончаниеРаботыКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="ТрудоваяДеятельностьОкончаниеРаботыРасширеннаяПодсказка" id="31"/>
+				</InputField>
+				<InputField name="ТрудоваяДеятельностьДолжность" id="35">
+					<DataPath>Объект.ТрудоваяДеятельность.Должность</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТрудоваяДеятельностьДолжностьКонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="ТрудоваяДеятельностьДолжностьРасширеннаяПодсказка" id="37"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.Сотрудники</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<SubsystemsOrder>
+		<Subsystem>Subsystem.ТорговыеТочки</Subsystem>
+		<Subsystem>Subsystem.ОплатаИРасчеты</Subsystem>
+		<Subsystem>Subsystem.АнализПродаж</Subsystem>
+		<Subsystem>Subsystem.Бухгалтерия</Subsystem>
+		<Subsystem>Subsystem.Настройки</Subsystem>
+		<Subsystem>6ed3e829-9ab4-4409-aa5f-6562ae51d79e</Subsystem>
+		<Subsystem>4398cd6b-09e8-4a13-a54d-1aec72239558</Subsystem>
+		<Subsystem>2316c2fe-5a11-49b7-956c-2fa37857bac4</Subsystem>
+		<Subsystem>6ca00d64-62e7-4b38-a4cd-596be755288d</Subsystem>
+		<Subsystem>84cd7ac6-4057-42d0-8a91-0dd8dfb5c9fa</Subsystem>
+		<Subsystem>bd2dd207-e62a-4697-937e-410e70fbbff8</Subsystem>
+		<Subsystem>1086b1bb-7777-44e4-8712-c7e8528a1279</Subsystem>
+		<Subsystem>3d3341dc-479c-41d4-bbd8-861295f1c516</Subsystem>
+	</SubsystemsOrder>
+</CommandInterface>
