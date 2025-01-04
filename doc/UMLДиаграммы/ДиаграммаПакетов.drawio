@@ -1,0 +1,563 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 YaBrowser/24.12.0.0 Safari/537.36" version="26.0.3">
+  <diagram name="Страница — 1" id="X86jJTL3sO_Bmb8rPshm">
+    <mxGraphModel dx="2910" dy="1085" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-143" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Наше предприятие&lt;/span&gt;" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-750" y="985" width="150" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-34" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="148" y="120" width="570" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-21" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Конфигурация:&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Управление производством&lt;/div&gt;" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="190" y="320" width="126" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-22" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Конфигурация:&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Управление торговлей&lt;/div&gt;" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="370" y="320" width="126" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-23" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Конфигурация:&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Управление логистикой&lt;/div&gt;" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="550" y="320" width="126" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-24" value="&lt;div&gt;Конфигурация: Управление предприятием&lt;/div&gt;" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="190" y="150" width="480" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-26" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="310" as="sourcePoint" />
+            <mxPoint x="240" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-27" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="250" as="sourcePoint" />
+            <mxPoint x="260" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-30" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="310" as="sourcePoint" />
+            <mxPoint x="420" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-31" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="250" as="sourcePoint" />
+            <mxPoint x="440" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-32" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="310" as="sourcePoint" />
+            <mxPoint x="600" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-33" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="250" as="sourcePoint" />
+            <mxPoint x="620" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-35" value="&lt;h4 style=&quot;transition: opacity 0.2s ease-in-out, color 0.2s ease-in-out, text-decoration 0.2s ease-in-out, background-color 0.2s ease-in-out, -webkit-text-decoration 0.2s ease-in-out; quotes: &amp;quot;«&amp;quot; &amp;quot;»&amp;quot;; font-size: 16px; line-height: 1.25rem; -webkit-font-smoothing: antialiased; font-family: &amp;quot;Fira Sans&amp;quot;, sans-serif; font-weight: 500; margin: 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;font-family: -apple-system, BlinkMacSystemFont, Arial, sans-serif;&quot;&gt;UML&amp;nbsp;&lt;/span&gt;Диаграмма пакетов&lt;/h4&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-425" y="980" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-36" value="Конфигурация:&amp;nbsp;&lt;div&gt;Управление логистикой&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1440" y="1340" width="260" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-37" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="0f4PeEmaUb3CQ2PzdmtO-36" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-38" value="&lt;div style=&quot;font-weight: 700;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Конфигурация:&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: 700;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Управление торговлей&lt;/span&gt;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1130" y="1340" width="260" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-39" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="0f4PeEmaUb3CQ2PzdmtO-38" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-40" value="&lt;div style=&quot;font-weight: 700;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Конфигурация:&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: 700;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Управление производством&lt;/span&gt;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="820" y="1340" width="260" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-41" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="0f4PeEmaUb3CQ2PzdmtO-40" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-42" value="&lt;div style=&quot;font-weight: 700;&quot;&gt;Конфигурация: Управление предприятием&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="820" y="920" width="1070" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-43" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="0f4PeEmaUb3CQ2PzdmtO-42" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-44" value="Бухгалтерия" style="html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1270" y="960" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-45" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="0f4PeEmaUb3CQ2PzdmtO-44" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-46" value="&lt;h2 style=&quot;font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif; font-size: var(--depot-text-xxl); line-height: var(--depot-text-xxl-line-m); margin: 0px; word-break: break-word; overflow-wrap: break-word; color: var(--depot-color-text-primary); text-align: start; background-color: rgb(255, 255, 255);&quot; class=&quot;CardHeader-Title Typo Typo_text_xxl Typo_line_m Typo_type_bold&quot;&gt;Диспетчеризация&lt;/h2&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1485" y="1400" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-47" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="0f4PeEmaUb3CQ2PzdmtO-46" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-48" value="&lt;h2 style=&quot;font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif; font-size: var(--depot-text-xxl); line-height: var(--depot-text-xxl-line-m); margin: 0px; word-break: break-word; overflow-wrap: break-word; color: var(--depot-color-text-primary); text-align: start; background-color: rgb(255, 255, 255);&quot; class=&quot;CardHeader-Title Typo Typo_text_xxl Typo_line_m Typo_type_bold&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;Транспорт&lt;/span&gt;&lt;/h2&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1485" y="1615" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-49" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="0f4PeEmaUb3CQ2PzdmtO-48" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-50" value="&lt;h2 style=&quot;font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif; font-size: var(--depot-text-xxl); line-height: var(--depot-text-xxl-line-m); margin: 0px; word-break: break-word; overflow-wrap: break-word; color: var(--depot-color-text-primary); text-align: start; background-color: rgb(255, 255, 255);&quot; class=&quot;CardHeader-Title Typo Typo_text_xxl Typo_line_m Typo_type_bold&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;Грузы&lt;/span&gt;&lt;/h2&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1485" y="1543" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-51" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="0f4PeEmaUb3CQ2PzdmtO-50" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-52" value="&lt;h2 style=&quot;font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif; font-size: var(--depot-text-xxl); line-height: var(--depot-text-xxl-line-m); margin: 0px; word-break: break-word; overflow-wrap: break-word; color: var(--depot-color-text-primary); text-align: start; background-color: rgb(255, 255, 255);&quot; class=&quot;CardHeader-Title Typo Typo_text_xxl Typo_line_m Typo_type_bold&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;Сотрудники&lt;/span&gt;&lt;/h2&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1485" y="1687" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-53" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="0f4PeEmaUb3CQ2PzdmtO-52" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-54" value="&lt;h2 style=&quot;font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif; font-size: var(--depot-text-xxl); line-height: var(--depot-text-xxl-line-m); margin: 0px; word-break: break-word; overflow-wrap: break-word; color: var(--depot-color-text-primary); text-align: start; background-color: rgb(255, 255, 255);&quot; class=&quot;CardHeader-Title Typo Typo_text_xxl Typo_line_m Typo_type_bold&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;Маршруты&lt;/span&gt;&lt;/h2&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1485" y="1472" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-55" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="0f4PeEmaUb3CQ2PzdmtO-54" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-58" value="&lt;h2 style=&quot;font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif; font-size: var(--depot-text-xxl); line-height: var(--depot-text-xxl-line-m); margin: 0px; word-break: break-word; overflow-wrap: break-word; color: var(--depot-color-text-primary); text-align: start; background-color: rgb(255, 255, 255);&quot; class=&quot;CardHeader-Title Typo Typo_text_xxl Typo_line_m Typo_type_bold&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;Настройки&lt;/span&gt;&lt;/h2&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1484" y="1759.5" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-59" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="0f4PeEmaUb3CQ2PzdmtO-58" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-60" value="Сотрудники" style="html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1060" y="960" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-61" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="0f4PeEmaUb3CQ2PzdmtO-60" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-64" value="Документооборот" style="html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1480" y="960" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-65" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="0f4PeEmaUb3CQ2PzdmtO-64" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-66" value="Настройки" style="html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1690" y="960" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-67" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="0f4PeEmaUb3CQ2PzdmtO-66" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-68" value="&lt;h2 style=&quot;font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif; font-size: var(--depot-text-xxl); line-height: var(--depot-text-xxl-line-m); margin: 0px; word-break: break-word; overflow-wrap: break-word; color: var(--depot-color-text-primary); text-align: start; background-color: rgb(255, 255, 255);&quot; class=&quot;CardHeader-Title Typo Typo_text_xxl Typo_line_m Typo_type_bold&quot;&gt;Рецептуры&lt;/h2&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="865" y="1543" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-69" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="0f4PeEmaUb3CQ2PzdmtO-68" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-70" value="&lt;h2 style=&quot;font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif; font-size: var(--depot-text-xxl); line-height: var(--depot-text-xxl-line-m); margin: 0px; word-break: break-word; overflow-wrap: break-word; color: var(--depot-color-text-primary); text-align: start; background-color: rgb(255, 255, 255);&quot; class=&quot;CardHeader-Title Typo Typo_text_xxl Typo_line_m Typo_type_bold&quot;&gt;Запасы&lt;/h2&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="865" y="1472" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-71" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="0f4PeEmaUb3CQ2PzdmtO-70" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-72" value="&lt;h2 style=&quot;font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif; font-size: var(--depot-text-xxl); line-height: var(--depot-text-xxl-line-m); margin: 0px; word-break: break-word; overflow-wrap: break-word; color: var(--depot-color-text-primary); text-align: start; background-color: rgb(255, 255, 255);&quot; class=&quot;CardHeader-Title Typo Typo_text_xxl Typo_line_m Typo_type_bold&quot;&gt;Оборудование&lt;/h2&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="865" y="1615" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-73" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="0f4PeEmaUb3CQ2PzdmtO-72" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-74" value="&lt;h2 style=&quot;font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif; font-size: var(--depot-text-xxl); line-height: var(--depot-text-xxl-line-m); margin: 0px; word-break: break-word; overflow-wrap: break-word; color: var(--depot-color-text-primary); text-align: start; background-color: rgb(255, 255, 255);&quot; class=&quot;CardHeader-Title Typo Typo_text_xxl Typo_line_m Typo_type_bold&quot;&gt;Производство&lt;/h2&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="865" y="1400" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-75" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="0f4PeEmaUb3CQ2PzdmtO-74" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-78" value="&lt;h2 style=&quot;font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif; font-size: var(--depot-text-xxl); line-height: var(--depot-text-xxl-line-m); margin: 0px; word-break: break-word; overflow-wrap: break-word; color: var(--depot-color-text-primary); text-align: start; background-color: rgb(255, 255, 255);&quot; class=&quot;CardHeader-Title Typo Typo_text_xxl Typo_line_m Typo_type_bold&quot;&gt;Настройки&lt;/h2&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="865" y="1758" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-79" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="0f4PeEmaUb3CQ2PzdmtO-78" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-80" value="&lt;h2 style=&quot;font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif; font-size: var(--depot-text-xxl); line-height: var(--depot-text-xxl-line-m); margin: 0px; word-break: break-word; overflow-wrap: break-word; color: var(--depot-color-text-primary); text-align: start; background-color: rgb(255, 255, 255);&quot; class=&quot;CardHeader-Title Typo Typo_text_xxl Typo_line_m Typo_type_bold&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;Сотрудники&lt;/span&gt;&lt;/h2&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="865" y="1687" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-81" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="0f4PeEmaUb3CQ2PzdmtO-80" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-82" value="&lt;h2 style=&quot;font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif; font-size: var(--depot-text-xxl); line-height: var(--depot-text-xxl-line-m); margin: 0px; word-break: break-word; overflow-wrap: break-word; color: var(--depot-color-text-primary); text-align: start; background-color: rgb(255, 255, 255);&quot; class=&quot;CardHeader-Title Typo Typo_text_xxl Typo_line_m Typo_type_bold&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;Торговля&lt;/span&gt;&lt;/h2&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1175" y="1400" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-83" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="0f4PeEmaUb3CQ2PzdmtO-82" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-84" value="&lt;h2 style=&quot;font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif; font-size: var(--depot-text-xxl); line-height: var(--depot-text-xxl-line-m); margin: 0px; word-break: break-word; overflow-wrap: break-word; color: var(--depot-color-text-primary); text-align: start; background-color: rgb(255, 255, 255);&quot; class=&quot;CardHeader-Title Typo Typo_text_xxl Typo_line_m Typo_type_bold&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;Сотрудники&lt;/span&gt;&lt;/h2&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1175" y="1615" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-85" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="0f4PeEmaUb3CQ2PzdmtO-84" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-86" value="&lt;h2 style=&quot;font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif; font-size: var(--depot-text-xxl); line-height: var(--depot-text-xxl-line-m); margin: 0px; word-break: break-word; overflow-wrap: break-word; color: var(--depot-color-text-primary); text-align: start; background-color: rgb(255, 255, 255);&quot; class=&quot;CardHeader-Title Typo Typo_text_xxl Typo_line_m Typo_type_bold&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;Оборудование&lt;/span&gt;&lt;/h2&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1175" y="1543" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-87" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="0f4PeEmaUb3CQ2PzdmtO-86" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-88" value="&lt;h2 style=&quot;font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif; font-size: var(--depot-text-xxl); line-height: var(--depot-text-xxl-line-m); margin: 0px; word-break: break-word; overflow-wrap: break-word; color: var(--depot-color-text-primary); text-align: start; background-color: rgb(255, 255, 255);&quot; class=&quot;CardHeader-Title Typo Typo_text_xxl Typo_line_m Typo_type_bold&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;Настройки&lt;/span&gt;&lt;/h2&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1175" y="1687" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-89" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="0f4PeEmaUb3CQ2PzdmtO-88" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-90" value="&lt;h2 style=&quot;font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif; font-size: var(--depot-text-xxl); line-height: var(--depot-text-xxl-line-m); margin: 0px; word-break: break-word; overflow-wrap: break-word; color: var(--depot-color-text-primary); text-align: start; background-color: rgb(255, 255, 255);&quot; class=&quot;CardHeader-Title Typo Typo_text_xxl Typo_line_m Typo_type_bold&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;Запасы&lt;/span&gt;&lt;/h2&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1175" y="1472" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-91" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="0f4PeEmaUb3CQ2PzdmtO-90" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-120" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="850" y="960" width="170" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-62" value="Наше предприятие" style="html=1;dropTarget=0;whiteSpace=wrap;verticalAlign=top;" parent="0f4PeEmaUb3CQ2PzdmtO-120" vertex="1">
+          <mxGeometry width="170" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-63" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="0f4PeEmaUb3CQ2PzdmtO-62" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-94" value="&lt;h2 style=&quot;font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif; font-size: var(--depot-text-xxl); line-height: var(--depot-text-xxl-line-m); margin: 0px; word-break: break-word; overflow-wrap: break-word; color: var(--depot-color-text-primary); text-align: start; background-color: rgb(255, 255, 255);&quot; class=&quot;CardHeader-Title Typo Typo_text_xxl Typo_line_m Typo_type_bold&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;Объекты&lt;/span&gt;&lt;/h2&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" parent="0f4PeEmaUb3CQ2PzdmtO-120" vertex="1">
+          <mxGeometry x="20" y="50" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-95" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="0f4PeEmaUb3CQ2PzdmtO-94" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-96" value="&lt;h2 style=&quot;font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif; font-size: var(--depot-text-xxl); line-height: var(--depot-text-xxl-line-m); margin: 0px; word-break: break-word; overflow-wrap: break-word; color: var(--depot-color-text-primary); text-align: start; background-color: rgb(255, 255, 255);&quot; class=&quot;CardHeader-Title Typo Typo_text_xxl Typo_line_m Typo_type_bold&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;Транспорт&lt;/span&gt;&lt;/h2&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" parent="0f4PeEmaUb3CQ2PzdmtO-120" vertex="1">
+          <mxGeometry x="20" y="110" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-97" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="0f4PeEmaUb3CQ2PzdmtO-96" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-98" value="&lt;h2 style=&quot;font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif; font-size: var(--depot-text-xxl); line-height: var(--depot-text-xxl-line-m); margin: 0px; word-break: break-word; overflow-wrap: break-word; color: var(--depot-color-text-primary); text-align: start; background-color: rgb(255, 255, 255);&quot; class=&quot;CardHeader-Title Typo Typo_text_xxl Typo_line_m Typo_type_bold&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;Продукция&lt;/span&gt;&lt;/h2&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" parent="0f4PeEmaUb3CQ2PzdmtO-120" vertex="1">
+          <mxGeometry x="20" y="170" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-99" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="0f4PeEmaUb3CQ2PzdmtO-98" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-123" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="940" y="1250" width="20" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-121" value="" style="endArrow=classic;html=1;rounded=0;" parent="0f4PeEmaUb3CQ2PzdmtO-123" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="70" as="sourcePoint" />
+            <mxPoint x="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-122" value="" style="endArrow=classic;html=1;rounded=0;" parent="0f4PeEmaUb3CQ2PzdmtO-123" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint as="sourcePoint" />
+            <mxPoint y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-124" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="1250" y="1250" width="20" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-125" value="" style="endArrow=classic;html=1;rounded=0;" parent="0f4PeEmaUb3CQ2PzdmtO-124" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="70" as="sourcePoint" />
+            <mxPoint x="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-126" value="" style="endArrow=classic;html=1;rounded=0;" parent="0f4PeEmaUb3CQ2PzdmtO-124" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint as="sourcePoint" />
+            <mxPoint y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-127" value="" style="group;rotation=90;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="1750" y="1410" width="20" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-128" value="" style="endArrow=classic;html=1;rounded=0;" parent="0f4PeEmaUb3CQ2PzdmtO-127" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-25" y="45" as="sourcePoint" />
+            <mxPoint x="45" y="45" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-129" value="" style="endArrow=classic;html=1;rounded=0;" parent="0f4PeEmaUb3CQ2PzdmtO-127" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="45" y="25" as="sourcePoint" />
+            <mxPoint x="-25" y="25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-130" value="Конфигурация:&amp;nbsp;&lt;div&gt;Водитель грузового автомобиля&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1820" y="1340" width="260" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-131" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="0f4PeEmaUb3CQ2PzdmtO-130" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-132" value="&lt;h2 style=&quot;font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif; font-size: var(--depot-text-xxl); line-height: var(--depot-text-xxl-line-m); margin: 0px; word-break: break-word; overflow-wrap: break-word; color: var(--depot-color-text-primary); text-align: start; background-color: rgb(255, 255, 255);&quot; class=&quot;CardHeader-Title Typo Typo_text_xxl Typo_line_m Typo_type_bold&quot;&gt;Маршрутные листы&lt;/h2&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1865" y="1400" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-133" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="0f4PeEmaUb3CQ2PzdmtO-132" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-135" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="1570" y="1260" width="20" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-136" value="" style="endArrow=classic;html=1;rounded=0;" parent="0f4PeEmaUb3CQ2PzdmtO-135" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="70" as="sourcePoint" />
+            <mxPoint x="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-137" value="" style="endArrow=classic;html=1;rounded=0;" parent="0f4PeEmaUb3CQ2PzdmtO-135" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint as="sourcePoint" />
+            <mxPoint y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-138" value="&lt;h2 style=&quot;font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif; font-size: var(--depot-text-xxl); line-height: var(--depot-text-xxl-line-m); margin: 0px; word-break: break-word; overflow-wrap: break-word; color: var(--depot-color-text-primary); text-align: start; background-color: rgb(255, 255, 255);&quot; class=&quot;CardHeader-Title Typo Typo_text_xxl Typo_line_m Typo_type_bold&quot;&gt;Чат с диспетчером&lt;/h2&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1865" y="1472" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-139" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="0f4PeEmaUb3CQ2PzdmtO-138" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-140" value="&lt;h2 style=&quot;color: var(--depot-color-text-primary); font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif; font-size: var(--depot-text-xxl); line-height: var(--depot-text-xxl-line-m); margin: 0px; word-break: break-word; overflow-wrap: break-word; text-align: start; background-color: rgb(255, 255, 255);&quot; class=&quot;CardHeader-Title Typo Typo_text_xxl Typo_line_m Typo_type_bold&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;Объекты&lt;/span&gt;&lt;/h2&gt;" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-740" y="1020" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-141" value="&lt;h2 style=&quot;color: var(--depot-color-text-primary); font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif; font-size: var(--depot-text-xxl); line-height: var(--depot-text-xxl-line-m); margin: 0px; word-break: break-word; overflow-wrap: break-word; text-align: start; background-color: rgb(255, 255, 255);&quot; class=&quot;CardHeader-Title Typo Typo_text_xxl Typo_line_m Typo_type_bold&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;Транспорт&lt;/span&gt;&lt;/h2&gt;" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-740" y="1090" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-142" value="&lt;h2 style=&quot;color: var(--depot-color-text-primary); font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif; font-size: var(--depot-text-xxl); line-height: var(--depot-text-xxl-line-m); margin: 0px; word-break: break-word; overflow-wrap: break-word; text-align: start; background-color: rgb(255, 255, 255);&quot; class=&quot;CardHeader-Title Typo Typo_text_xxl Typo_line_m Typo_type_bold&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;Продукция&lt;/span&gt;&lt;/h2&gt;" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-740" y="1160" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-217" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="676" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-219" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-460" y="1080" width="1100" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-218" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="0f4PeEmaUb3CQ2PzdmtO-219" vertex="1">
+          <mxGeometry width="1100" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-149" value="Конфигурация: Управление предприятием" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;verticalAlign=top;" parent="0f4PeEmaUb3CQ2PzdmtO-219" vertex="1">
+          <mxGeometry x="35" y="30" width="880" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-145" value="Сотрудники" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;verticalAlign=middle;" parent="0f4PeEmaUb3CQ2PzdmtO-219" vertex="1">
+          <mxGeometry x="230" y="80" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-146" value="Бухгалтерия" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;verticalAlign=middle;" parent="0f4PeEmaUb3CQ2PzdmtO-219" vertex="1">
+          <mxGeometry x="400" y="80" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-147" value="Документооборот" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;verticalAlign=middle;" parent="0f4PeEmaUb3CQ2PzdmtO-219" vertex="1">
+          <mxGeometry x="570" y="80" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-148" value="Настройки" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;verticalAlign=middle;" parent="0f4PeEmaUb3CQ2PzdmtO-219" vertex="1">
+          <mxGeometry x="740" y="80" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-171" value="&lt;div&gt;Конфигурация:&amp;nbsp;&lt;/div&gt;&lt;div&gt;Управление торговлей&lt;/div&gt;" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;verticalAlign=top;" parent="0f4PeEmaUb3CQ2PzdmtO-219" vertex="1">
+          <mxGeometry x="290" y="260" width="205" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-176" value="&lt;h2 style=&quot;color: var(--depot-color-text-primary); font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif; font-size: var(--depot-text-xxl); line-height: var(--depot-text-xxl-line-m); margin: 0px; word-break: break-word; overflow-wrap: break-word; text-align: start; background-color: rgb(255, 255, 255);&quot; class=&quot;CardHeader-Title Typo Typo_text_xxl Typo_line_m Typo_type_bold&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;Настройки&lt;/span&gt;&lt;/h2&gt;" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;verticalAlign=middle;" parent="0f4PeEmaUb3CQ2PzdmtO-219" vertex="1">
+          <mxGeometry x="315" y="674.5" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-195" value="" style="group" parent="0f4PeEmaUb3CQ2PzdmtO-219" vertex="1" connectable="0">
+          <mxGeometry x="382.5" y="190" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-196" value="" style="endArrow=classic;html=1;rounded=0;" parent="0f4PeEmaUb3CQ2PzdmtO-195" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="60" as="sourcePoint" />
+            <mxPoint x="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-197" value="" style="endArrow=classic;html=1;rounded=0;" parent="0f4PeEmaUb3CQ2PzdmtO-195" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint as="sourcePoint" />
+            <mxPoint y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-201" value="" style="group" parent="0f4PeEmaUb3CQ2PzdmtO-219" vertex="1" connectable="0">
+          <mxGeometry x="140" y="190" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-202" value="" style="endArrow=classic;html=1;rounded=0;" parent="0f4PeEmaUb3CQ2PzdmtO-201" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="60" as="sourcePoint" />
+            <mxPoint x="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-203" value="" style="endArrow=classic;html=1;rounded=0;" parent="0f4PeEmaUb3CQ2PzdmtO-201" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint as="sourcePoint" />
+            <mxPoint y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-204" value="" style="group;rotation=90;" parent="0f4PeEmaUb3CQ2PzdmtO-219" vertex="1" connectable="0">
+          <mxGeometry x="790" y="410" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-205" value="" style="endArrow=classic;html=1;rounded=0;" parent="0f4PeEmaUb3CQ2PzdmtO-204" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-25" y="38.57142857142857" as="sourcePoint" />
+            <mxPoint x="45" y="38.57142857142857" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-206" value="" style="endArrow=classic;html=1;rounded=0;" parent="0f4PeEmaUb3CQ2PzdmtO-204" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="45" y="21.428571428571427" as="sourcePoint" />
+            <mxPoint x="-25" y="21.428571428571427" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-208" value="" style="group" parent="0f4PeEmaUb3CQ2PzdmtO-219" vertex="1" connectable="0">
+          <mxGeometry x="635" y="190" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-209" value="" style="endArrow=classic;html=1;rounded=0;" parent="0f4PeEmaUb3CQ2PzdmtO-208" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="60" as="sourcePoint" />
+            <mxPoint x="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-210" value="" style="endArrow=classic;html=1;rounded=0;" parent="0f4PeEmaUb3CQ2PzdmtO-208" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint as="sourcePoint" />
+            <mxPoint y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-211" value="" style="group" parent="0f4PeEmaUb3CQ2PzdmtO-219" vertex="1" connectable="0">
+          <mxGeometry x="47.5" y="260" width="205" height="594.5" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-158" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Конфигурация:&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Управление производством&lt;/span&gt;&lt;/div&gt;" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;verticalAlign=top;" parent="0f4PeEmaUb3CQ2PzdmtO-211" vertex="1">
+          <mxGeometry width="205" height="594.5" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-163" value="&lt;h2 style=&quot;color: var(--depot-color-text-primary); font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif; font-size: var(--depot-text-xxl); line-height: var(--depot-text-xxl-line-m); margin: 0px; word-break: break-word; overflow-wrap: break-word; text-align: start; background-color: rgb(255, 255, 255);&quot; class=&quot;CardHeader-Title Typo Typo_text_xxl Typo_line_m Typo_type_bold&quot;&gt;Производство&lt;/h2&gt;" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;verticalAlign=middle;" parent="0f4PeEmaUb3CQ2PzdmtO-211" vertex="1">
+          <mxGeometry x="27.5" y="64.5" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-164" value="&lt;h2 style=&quot;color: var(--depot-color-text-primary); font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif; font-size: var(--depot-text-xxl); line-height: var(--depot-text-xxl-line-m); margin: 0px; word-break: break-word; overflow-wrap: break-word; text-align: start; background-color: rgb(255, 255, 255);&quot; class=&quot;CardHeader-Title Typo Typo_text_xxl Typo_line_m Typo_type_bold&quot;&gt;Запасы&lt;/h2&gt;" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;verticalAlign=middle;" parent="0f4PeEmaUb3CQ2PzdmtO-211" vertex="1">
+          <mxGeometry x="27.5" y="151.5" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-167" value="&lt;h2 style=&quot;color: var(--depot-color-text-primary); font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif; font-size: var(--depot-text-xxl); line-height: var(--depot-text-xxl-line-m); margin: 0px; word-break: break-word; overflow-wrap: break-word; text-align: start; background-color: rgb(255, 255, 255);&quot; class=&quot;CardHeader-Title Typo Typo_text_xxl Typo_line_m Typo_type_bold&quot;&gt;Рецептуры&lt;/h2&gt;" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;verticalAlign=middle;" parent="0f4PeEmaUb3CQ2PzdmtO-211" vertex="1">
+          <mxGeometry x="27.5" y="241.5" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-168" value="&lt;h2 style=&quot;color: var(--depot-color-text-primary); font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif; font-size: var(--depot-text-xxl); line-height: var(--depot-text-xxl-line-m); margin: 0px; word-break: break-word; overflow-wrap: break-word; text-align: start; background-color: rgb(255, 255, 255);&quot; class=&quot;CardHeader-Title Typo Typo_text_xxl Typo_line_m Typo_type_bold&quot;&gt;Оборудование&lt;/h2&gt;" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;verticalAlign=middle;" parent="0f4PeEmaUb3CQ2PzdmtO-211" vertex="1">
+          <mxGeometry x="27.5" y="328.5" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-169" value="Сотрудники" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;verticalAlign=middle;" parent="0f4PeEmaUb3CQ2PzdmtO-211" vertex="1">
+          <mxGeometry x="27.5" y="414.5" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-170" value="&lt;h2 style=&quot;color: var(--depot-color-text-primary); font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif; font-size: var(--depot-text-xxl); line-height: var(--depot-text-xxl-line-m); margin: 0px; word-break: break-word; overflow-wrap: break-word; text-align: start; background-color: rgb(255, 255, 255);&quot; class=&quot;CardHeader-Title Typo Typo_text_xxl Typo_line_m Typo_type_bold&quot;&gt;Настройки&lt;/h2&gt;" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;verticalAlign=middle;" parent="0f4PeEmaUb3CQ2PzdmtO-211" vertex="1">
+          <mxGeometry x="27.5" y="501.5" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-212" value="" style="group" parent="0f4PeEmaUb3CQ2PzdmtO-219" vertex="1" connectable="0">
+          <mxGeometry x="315" y="324.5" width="150" height="334" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-172" value="&lt;h2 style=&quot;color: var(--depot-color-text-primary); font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif; font-size: var(--depot-text-xxl); line-height: var(--depot-text-xxl-line-m); margin: 0px; word-break: break-word; overflow-wrap: break-word; text-align: start; background-color: rgb(255, 255, 255);&quot; class=&quot;CardHeader-Title Typo Typo_text_xxl Typo_line_m Typo_type_bold&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;Торговля&lt;/span&gt;&lt;/h2&gt;" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;verticalAlign=middle;" parent="0f4PeEmaUb3CQ2PzdmtO-212" vertex="1">
+          <mxGeometry width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-173" value="&lt;h2 style=&quot;color: var(--depot-color-text-primary); font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif; font-size: var(--depot-text-xxl); line-height: var(--depot-text-xxl-line-m); margin: 0px; word-break: break-word; overflow-wrap: break-word; text-align: start; background-color: rgb(255, 255, 255);&quot; class=&quot;CardHeader-Title Typo Typo_text_xxl Typo_line_m Typo_type_bold&quot;&gt;Запасы&lt;/h2&gt;" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;verticalAlign=middle;" parent="0f4PeEmaUb3CQ2PzdmtO-212" vertex="1">
+          <mxGeometry y="87" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-174" value="&lt;h2 style=&quot;color: var(--depot-color-text-primary); font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif; font-size: var(--depot-text-xxl); line-height: var(--depot-text-xxl-line-m); margin: 0px; word-break: break-word; overflow-wrap: break-word; text-align: start; background-color: rgb(255, 255, 255);&quot; class=&quot;CardHeader-Title Typo Typo_text_xxl Typo_line_m Typo_type_bold&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;Оборудование&lt;/span&gt;&lt;/h2&gt;" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;verticalAlign=middle;" parent="0f4PeEmaUb3CQ2PzdmtO-212" vertex="1">
+          <mxGeometry y="177" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-175" value="&lt;h2 style=&quot;color: var(--depot-color-text-primary); font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif; font-size: var(--depot-text-xxl); line-height: var(--depot-text-xxl-line-m); margin: 0px; word-break: break-word; overflow-wrap: break-word; text-align: start; background-color: rgb(255, 255, 255);&quot; class=&quot;CardHeader-Title Typo Typo_text_xxl Typo_line_m Typo_type_bold&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;Сотрудники&lt;/span&gt;&lt;/h2&gt;" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;verticalAlign=middle;" parent="0f4PeEmaUb3CQ2PzdmtO-212" vertex="1">
+          <mxGeometry y="264" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-214" value="" style="group" parent="0f4PeEmaUb3CQ2PzdmtO-219" vertex="1" connectable="0">
+          <mxGeometry x="850" y="263" width="205" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-192" value="Конфигурация:&amp;nbsp;&lt;div style=&quot;&quot;&gt;Водитель грузового автомобиля&lt;/div&gt;" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;verticalAlign=top;" parent="0f4PeEmaUb3CQ2PzdmtO-214" vertex="1">
+          <mxGeometry width="205" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-193" value="&lt;h2 style=&quot;color: var(--depot-color-text-primary); font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif; font-size: var(--depot-text-xxl); line-height: var(--depot-text-xxl-line-m); margin: 0px; word-break: break-word; overflow-wrap: break-word; text-align: start; background-color: rgb(255, 255, 255);&quot; class=&quot;CardHeader-Title Typo Typo_text_xxl Typo_line_m Typo_type_bold&quot;&gt;Маршрутные листы&lt;/h2&gt;" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;verticalAlign=middle;" parent="0f4PeEmaUb3CQ2PzdmtO-214" vertex="1">
+          <mxGeometry x="27.5" y="61.5" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-194" value="&lt;h2 style=&quot;color: var(--depot-color-text-primary); font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif; font-size: var(--depot-text-xxl); line-height: var(--depot-text-xxl-line-m); margin: 0px; word-break: break-word; overflow-wrap: break-word; text-align: start; background-color: rgb(255, 255, 255);&quot; class=&quot;CardHeader-Title Typo Typo_text_xxl Typo_line_m Typo_type_bold&quot;&gt;Чат с диспетчером&lt;/h2&gt;" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;verticalAlign=middle;" parent="0f4PeEmaUb3CQ2PzdmtO-214" vertex="1">
+          <mxGeometry x="27.5" y="149" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-216" value="&lt;h2 style=&quot;color: var(--depot-color-text-primary); font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif; font-size: var(--depot-text-xxl); line-height: var(--depot-text-xxl-line-m); margin: 0px; word-break: break-word; overflow-wrap: break-word; text-align: start; background-color: rgb(255, 255, 255);&quot; class=&quot;CardHeader-Title Typo Typo_text_xxl Typo_line_m Typo_type_bold&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;Настройки&lt;/span&gt;&lt;/h2&gt;" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;verticalAlign=middle;" parent="0f4PeEmaUb3CQ2PzdmtO-214" vertex="1">
+          <mxGeometry x="27.5" y="237" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-215" value="Наше предприятие" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;verticalAlign=middle;" parent="0f4PeEmaUb3CQ2PzdmtO-219" vertex="1">
+          <mxGeometry x="60" y="80" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-184" value="Конфигурация:&amp;nbsp;&lt;div style=&quot;&quot;&gt;Управление логистикой&lt;/div&gt;" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;verticalAlign=top;" parent="0f4PeEmaUb3CQ2PzdmtO-219" vertex="1">
+          <mxGeometry x="542.5" y="263" width="205" height="597" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-185" value="&lt;h2 style=&quot;color: var(--depot-color-text-primary); font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif; font-size: var(--depot-text-xxl); line-height: var(--depot-text-xxl-line-m); margin: 0px; word-break: break-word; overflow-wrap: break-word; text-align: start; background-color: rgb(255, 255, 255);&quot; class=&quot;CardHeader-Title Typo Typo_text_xxl Typo_line_m Typo_type_bold&quot;&gt;Диспетчеризация&lt;/h2&gt;" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;verticalAlign=middle;" parent="0f4PeEmaUb3CQ2PzdmtO-219" vertex="1">
+          <mxGeometry x="570" y="324.5" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-186" value="&lt;h2 style=&quot;color: var(--depot-color-text-primary); font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif; font-size: var(--depot-text-xxl); line-height: var(--depot-text-xxl-line-m); margin: 0px; word-break: break-word; overflow-wrap: break-word; text-align: start; background-color: rgb(255, 255, 255);&quot; class=&quot;CardHeader-Title Typo Typo_text_xxl Typo_line_m Typo_type_bold&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;Маршруты&lt;/span&gt;&lt;/h2&gt;" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;verticalAlign=middle;" parent="0f4PeEmaUb3CQ2PzdmtO-219" vertex="1">
+          <mxGeometry x="570" y="413" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-187" value="&lt;h2 style=&quot;color: var(--depot-color-text-primary); font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif; font-size: var(--depot-text-xxl); line-height: var(--depot-text-xxl-line-m); margin: 0px; word-break: break-word; overflow-wrap: break-word; text-align: start; background-color: rgb(255, 255, 255);&quot; class=&quot;CardHeader-Title Typo Typo_text_xxl Typo_line_m Typo_type_bold&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;Грузы&lt;/span&gt;&lt;/h2&gt;" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;verticalAlign=middle;" parent="0f4PeEmaUb3CQ2PzdmtO-219" vertex="1">
+          <mxGeometry x="570" y="502" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-188" value="&lt;h2 style=&quot;color: var(--depot-color-text-primary); font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif; font-size: var(--depot-text-xxl); line-height: var(--depot-text-xxl-line-m); margin: 0px; word-break: break-word; overflow-wrap: break-word; text-align: start; background-color: rgb(255, 255, 255);&quot; class=&quot;CardHeader-Title Typo Typo_text_xxl Typo_line_m Typo_type_bold&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;Транспорт&lt;/span&gt;&lt;/h2&gt;" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;verticalAlign=middle;" parent="0f4PeEmaUb3CQ2PzdmtO-219" vertex="1">
+          <mxGeometry x="570" y="591" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-189" value="&lt;h2 style=&quot;color: var(--depot-color-text-primary); font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif; font-size: var(--depot-text-xxl); line-height: var(--depot-text-xxl-line-m); margin: 0px; word-break: break-word; overflow-wrap: break-word; text-align: start; background-color: rgb(255, 255, 255);&quot; class=&quot;CardHeader-Title Typo Typo_text_xxl Typo_line_m Typo_type_bold&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;Сотрудники&lt;/span&gt;&lt;/h2&gt;" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;verticalAlign=middle;" parent="0f4PeEmaUb3CQ2PzdmtO-219" vertex="1">
+          <mxGeometry x="570" y="679" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4PeEmaUb3CQ2PzdmtO-190" value="&lt;h2 style=&quot;color: var(--depot-color-text-primary); font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif; font-size: var(--depot-text-xxl); line-height: var(--depot-text-xxl-line-m); margin: 0px; word-break: break-word; overflow-wrap: break-word; text-align: start; background-color: rgb(255, 255, 255);&quot; class=&quot;CardHeader-Title Typo Typo_text_xxl Typo_line_m Typo_type_bold&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;Настройки&lt;/span&gt;&lt;/h2&gt;" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;verticalAlign=middle;" parent="0f4PeEmaUb3CQ2PzdmtO-219" vertex="1">
+          <mxGeometry x="570" y="768" width="150" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
