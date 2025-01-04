@@ -4,7 +4,7 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
-		<name>Document.ПриходнаяНаклад</name>
+		<name>Document.ПриходнаяНакладная</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -172,7 +172,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ОбъектыПредприятия</name>
+		<name>Catalog.ТорговыеТочки</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>

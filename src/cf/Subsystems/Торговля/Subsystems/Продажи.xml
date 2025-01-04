@@ -20,6 +20,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ПроизводствоПродукции</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ДоениеКоров</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Клиенты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ОплатаЧерезКассу</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

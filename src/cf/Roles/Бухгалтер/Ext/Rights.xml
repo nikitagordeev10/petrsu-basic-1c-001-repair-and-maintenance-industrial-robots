@@ -4,7 +4,7 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
-		<name>Document.ПриходнаяНаклад</name>
+		<name>Document.ПриходнаяНакладная</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -115,7 +115,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ПриходнаяНаклад.StandardAttribute.Posted</name>
+		<name>Document.ПриходнаяНакладная.StandardAttribute.Posted</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -126,7 +126,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ПриходнаяНаклад.StandardAttribute.Ref</name>
+		<name>Document.ПриходнаяНакладная.StandardAttribute.Ref</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -137,7 +137,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ПриходнаяНаклад.StandardAttribute.DeletionMark</name>
+		<name>Document.ПриходнаяНакладная.StandardAttribute.DeletionMark</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -148,7 +148,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ПриходнаяНаклад.StandardAttribute.Date</name>
+		<name>Document.ПриходнаяНакладная.StandardAttribute.Date</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -159,7 +159,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ПриходнаяНаклад.StandardAttribute.Number</name>
+		<name>Document.ПриходнаяНакладная.StandardAttribute.Number</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -359,7 +359,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ОбъектыПредприятия</name>
+		<name>Catalog.ТорговыеТочки</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -462,7 +462,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ОбъектыПредприятия.StandardAttribute.PredefinedDataName</name>
+		<name>Catalog.ТорговыеТочки.StandardAttribute.PredefinedDataName</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -473,7 +473,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ОбъектыПредприятия.StandardAttribute.Predefined</name>
+		<name>Catalog.ТорговыеТочки.StandardAttribute.Predefined</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -484,7 +484,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ОбъектыПредприятия.StandardAttribute.Ref</name>
+		<name>Catalog.ТорговыеТочки.StandardAttribute.Ref</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -495,7 +495,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ОбъектыПредприятия.StandardAttribute.DeletionMark</name>
+		<name>Catalog.ТорговыеТочки.StandardAttribute.DeletionMark</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -506,7 +506,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ОбъектыПредприятия.StandardAttribute.IsFolder</name>
+		<name>Catalog.ТорговыеТочки.StandardAttribute.IsFolder</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -517,7 +517,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ОбъектыПредприятия.StandardAttribute.Owner</name>
+		<name>Catalog.ТорговыеТочки.StandardAttribute.Owner</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -528,7 +528,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ОбъектыПредприятия.StandardAttribute.Parent</name>
+		<name>Catalog.ТорговыеТочки.StandardAttribute.Parent</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -539,7 +539,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ОбъектыПредприятия.StandardAttribute.Description</name>
+		<name>Catalog.ТорговыеТочки.StandardAttribute.Description</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -550,7 +550,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ОбъектыПредприятия.StandardAttribute.Code</name>
+		<name>Catalog.ТорговыеТочки.StandardAttribute.Code</name>
 		<right>
 			<name>View</name>
 			<value>false</value>

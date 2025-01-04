@@ -23,7 +23,7 @@
 			<ExtendedTooltip name="ИННРасширеннаяПодсказка" id="9"/>
 		</InputField>
 		<InputField name="ТипОбъектаПредприятия" id="22">
-			<DataPath>Объект.ТипОбъектаПредприятия</DataPath>
+			<DataPath>1/0:f13d9df7-026f-48d1-8414-d0896b3fc14b</DataPath>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="ТипОбъектаПредприятияКонтекстноеМеню" id="23"/>
 			<ExtendedTooltip name="ТипОбъектаПредприятияРасширеннаяПодсказка" id="24"/>
@@ -62,7 +62,7 @@
 	<Attributes>
 		<Attribute name="Объект" id="1">
 			<Type>
-				<v8:Type>cfg:CatalogObject.ОбъектыПредприятия</v8:Type>
+				<v8:Type>cfg:CatalogObject.ТорговыеТочки</v8:Type>
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<SavedData>true</SavedData>

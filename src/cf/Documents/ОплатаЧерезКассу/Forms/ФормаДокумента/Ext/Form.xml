@@ -78,14 +78,14 @@
 					<ContextMenu name="ПокупкаНомерСтрокиКонтекстноеМеню" id="61"/>
 					<ExtendedTooltip name="ПокупкаНомерСтрокиРасширеннаяПодсказка" id="62"/>
 				</LabelField>
-				<InputField name="ПокупкаПродукция" id="63">
-					<DataPath>Объект.Покупка.Продукция</DataPath>
+				<InputField name="ПокупкаНоменклатура" id="63">
+					<DataPath>Объект.Покупка.Номенклатура</DataPath>
 					<EditMode>EnterOnInput</EditMode>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ПокупкаПродукцияКонтекстноеМеню" id="64"/>
-					<ExtendedTooltip name="ПокупкаПродукцияРасширеннаяПодсказка" id="65"/>
+					<ContextMenu name="ПокупкаНоменклатураКонтекстноеМеню" id="64"/>
+					<ExtendedTooltip name="ПокупкаНоменклатураРасширеннаяПодсказка" id="65"/>
 					<Events>
-						<Event name="OnChange">ПокупкаПродукцияПриИзменении</Event>
+						<Event name="OnChange">ПокупкаНоменклатураПриИзменении</Event>
 					</Events>
 				</InputField>
 				<InputField name="ПокупкаНаборСвойств" id="87">
@@ -119,7 +119,7 @@
 					</Events>
 				</InputField>
 				<InputField name="ПокупкаСкидка" id="75">
-					<DataPath>Объект.Покупка.Скидка</DataPath>
+					<DataPath>1/0:e67d0d94-d888-4f12-81cd-55a4590ac7d4/0:9a86ae2f-d6e3-4183-8462-318c9d37c2d1</DataPath>
 					<EditMode>EnterOnInput</EditMode>
 					<FooterText>
 						<v8:item>

@@ -298,14 +298,14 @@
 			<Catalog>Клиенты</Catalog>
 			<Catalog>Сотрудники</Catalog>
 			<Catalog>Номенклатура</Catalog>
-			<Catalog>ОбъектыПредприятия</Catalog>
+			<Catalog>ТорговыеТочки</Catalog>
 			<Catalog>ВариантыПродукции</Catalog>
 			<Catalog>ДополнительныеСвойстваПродукции</Catalog>
 			<Catalog>ВидыГрафиковРаботы</Catalog>
+			<Document>ПриходнаяНакладная</Document>
+			<Document>ОплатаЧерезКассу</Document>
 			<Document>ДоениеКоров</Document>
 			<Document>ПроизводствоПродукции</Document>
-			<Document>ПриходнаяНаклад</Document>
-			<Document>ОплатаЧерезКассу</Document>
 			<Document>НачисленияСотрудникам</Document>
 			<Document>СписаниеПродуктов</Document>
 			<Enum>ВидОбъектаПредприятия</Enum>
