@@ -4,7 +4,7 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
-		<name>Document.Перемещения</name>
+		<name>Document.ПриходнаяНаклад</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -172,7 +172,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ТорговыеТочки</name>
+		<name>Catalog.ОбъектыПредприятия</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -341,13 +341,6 @@
 		</right>
 		<right>
 			<name>SwitchToDataHistoryVersion</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Subsystem.Бухгалтерия</name>
-		<right>
-			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>

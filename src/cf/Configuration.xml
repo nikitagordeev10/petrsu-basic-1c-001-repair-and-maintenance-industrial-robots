@@ -270,20 +270,19 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
-			<Subsystem>ТорговыеТочки</Subsystem>
-			<Subsystem>ОплатаИРасчеты</Subsystem>
-			<Subsystem>АнализПродаж</Subsystem>
-			<Subsystem>Бухгалтерия</Subsystem>
+			<Subsystem>Торговля</Subsystem>
+			<Subsystem>Запасы</Subsystem>
+			<Subsystem>Оборудование</Subsystem>
+			<Subsystem>Сотрудники</Subsystem>
 			<Subsystem>Настройки</Subsystem>
 			<Style>МолочныйСтиль</Style>
-			<CommonPicture>ТорговыеТочки</CommonPicture>
-			<CommonPicture>ОплатаИРасчеты</CommonPicture>
-			<CommonPicture>АнализПродаж</CommonPicture>
-			<CommonPicture>Бухгалтерия</CommonPicture>
+			<CommonPicture>Торговля</CommonPicture>
+			<CommonPicture>Запасы</CommonPicture>
+			<CommonPicture>Оборудование</CommonPicture>
+			<CommonPicture>Сотрудники</CommonPicture>
 			<CommonPicture>Настройки</CommonPicture>
 			<Interface>ИнтерфейсАдминистратора</Interface>
 			<Role>Директор</Role>
-			<Role>Технолог</Role>
 			<Role>Бухгалтер</Role>
 			<Role>СистемныйАдминистратор</Role>
 			<Role>Продавец</Role>
@@ -296,20 +295,18 @@
 			<CommonCommand>ЗагрузкаКурсовВалют</CommonCommand>
 			<Constant>ИспользоватьНесколькоВалют</Constant>
 			<Constant>РассчитыватьСтоимостьАвтоматически</Constant>
-			<Catalog>ТорговыеТочки</Catalog>
+			<Catalog>Клиенты</Catalog>
+			<Catalog>Сотрудники</Catalog>
 			<Catalog>Номенклатура</Catalog>
+			<Catalog>ОбъектыПредприятия</Catalog>
 			<Catalog>ВариантыПродукции</Catalog>
 			<Catalog>ДополнительныеСвойстваПродукции</Catalog>
-			<Catalog>Сотрудники</Catalog>
 			<Catalog>ВидыГрафиковРаботы</Catalog>
-			<Catalog>Банки</Catalog>
-			<Catalog>Валюты</Catalog>
 			<Document>ДоениеКоров</Document>
 			<Document>ПроизводствоПродукции</Document>
-			<Document>Перемещения</Document>
+			<Document>ПриходнаяНаклад</Document>
 			<Document>ОплатаЧерезКассу</Document>
 			<Document>НачисленияСотрудникам</Document>
-			<Document>УстановкаКурсаВалют</Document>
 			<Document>СписаниеПродуктов</Document>
 			<Enum>ВидОбъектаПредприятия</Enum>
 			<Enum>ВидыПродукции</Enum>
@@ -329,7 +326,6 @@
 			<Report>Перерасчет</Report>
 			<InformationRegister>УстановкаЦенНаПродукцию</InformationRegister>
 			<InformationRegister>УстановкаРабочихДней</InformationRegister>
-			<InformationRegister>КурсыВалют</InformationRegister>
 			<InformationRegister>УстановкаШтрахкодовНаПродукцию</InformationRegister>
 			<InformationRegister>ЗначенияСвойствПродукции</InformationRegister>
 			<AccumulationRegister>ОстаткиПродукции</AccumulationRegister>

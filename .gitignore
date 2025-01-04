@@ -34,3 +34,5 @@ src\Config\
 /src/Config
 *.1CL
 *.cgr
+/tools/vanessa-automation-single.1.2.041.30
+/tools/xUnitFor1C-4.2.0.0

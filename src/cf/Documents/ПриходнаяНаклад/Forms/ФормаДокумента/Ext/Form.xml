@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Перемещение</v8:content>
+		</v8:item>
+	</Title>
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Номер" id="1">
+			<DataPath>Объект.Number</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Дата" id="4">
+			<DataPath>Объект.Date</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Склад" id="7">
+			<DataPath>Объект.Отправитель</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="СкладКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="СкладРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="Получатель" id="122">
+			<DataPath>Объект.Получатель</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ПолучательКонтекстноеМеню" id="123"/>
+			<ExtendedTooltip name="ПолучательРасширеннаяПодсказка" id="124"/>
+		</InputField>
+		<Table name="Перемещение" id="94">
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.Перемещение</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ПеремещениеКонтекстноеМеню" id="95"/>
+			<AutoCommandBar name="ПеремещениеКоманднаяПанель" id="96"/>
+			<ExtendedTooltip name="ПеремещениеРасширеннаяПодсказка" id="97"/>
+			<SearchStringAddition name="ПеремещениеСтрокаПоиска" id="98">
+				<AdditionSource>
+					<Item>Перемещение</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ПеремещениеСтрокаПоискаКонтекстноеМеню" id="99"/>
+				<ExtendedTooltip name="ПеремещениеСтрокаПоискаРасширеннаяПодсказка" id="100"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ПеремещениеСостояниеПросмотра" id="101">
+				<AdditionSource>
+					<Item>Перемещение</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ПеремещениеСостояниеПросмотраКонтекстноеМеню" id="102"/>
+				<ExtendedTooltip name="ПеремещениеСостояниеПросмотраРасширеннаяПодсказка" id="103"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ПеремещениеУправлениеПоиском" id="104">
+				<AdditionSource>
+					<Item>Перемещение</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ПеремещениеУправлениеПоискомКонтекстноеМеню" id="105"/>
+				<ExtendedTooltip name="ПеремещениеУправлениеПоискомРасширеннаяПодсказка" id="106"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="ПеремещениеНомерСтроки" id="107">
+					<DataPath>Объект.Перемещение.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ПеремещениеНомерСтрокиКонтекстноеМеню" id="108"/>
+					<ExtendedTooltip name="ПеремещениеНомерСтрокиРасширеннаяПодсказка" id="109"/>
+				</LabelField>
+				<InputField name="ПеремещениеПродукция" id="110">
+					<DataPath>Объект.Перемещение.Продукция</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ПеремещениеПродукцияКонтекстноеМеню" id="111"/>
+					<ExtendedTooltip name="ПеремещениеПродукцияРасширеннаяПодсказка" id="112"/>
+					<Events>
+						<Event name="OnChange">ПеремещениеПродукцияПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="ПеремещениеНаборСвойств" id="125">
+					<DataPath>Объект.Перемещение.НаборСвойств</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ПеремещениеНаборСвойствКонтекстноеМеню" id="126"/>
+					<ExtendedTooltip name="ПеремещениеНаборСвойствРасширеннаяПодсказка" id="127"/>
+				</InputField>
+				<InputField name="ПеремещениеКоличество" id="113">
+					<DataPath>Объект.Перемещение.Количество</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ПеремещениеКоличествоКонтекстноеМеню" id="114"/>
+					<ExtendedTooltip name="ПеремещениеКоличествоРасширеннаяПодсказка" id="115"/>
+					<Events>
+						<Event name="OnChange">ПеремещениеКоличествоПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="ПеремещениеЦена" id="116">
+					<DataPath>Объект.Перемещение.Цена</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ПеремещениеЦенаКонтекстноеМеню" id="117"/>
+					<ExtendedTooltip name="ПеремещениеЦенаРасширеннаяПодсказка" id="118"/>
+					<Events>
+						<Event name="OnChange">ПеремещениеЦенаПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="ПеремещениеСумма" id="119">
+					<DataPath>Объект.Перемещение.Сумма</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ПеремещениеСуммаКонтекстноеМеню" id="120"/>
+					<ExtendedTooltip name="ПеремещениеСуммаРасширеннаяПодсказка" id="121"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.ПриходнаяНаклад</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+	<CommandInterface>
+		<NavigationPanel>
+			<Item>
+				<Command>AccumulationRegister.ОстаткиПродукции.StandardCommand.OpenByRecorder</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+			<Item>
+				<Command>AccumulationRegister.СкидкиНаПродукцию.StandardCommand.OpenByRecorder</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+		</NavigationPanel>
+	</CommandInterface>
+</Form>

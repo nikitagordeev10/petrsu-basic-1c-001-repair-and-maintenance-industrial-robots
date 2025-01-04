@@ -99,7 +99,7 @@
 					</Synonym>
 					<Comment>Место производства</Comment>
 					<Type>
-						<v8:Type>cfg:CatalogRef.ТорговыеТочки</v8:Type>
+						<v8:Type>cfg:CatalogRef.ОбъектыПредприятия</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -138,7 +138,7 @@
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:CatalogRef.Банки</v8:Type>
+						<v8:Type>cfg:CatalogRef.Клиенты</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
