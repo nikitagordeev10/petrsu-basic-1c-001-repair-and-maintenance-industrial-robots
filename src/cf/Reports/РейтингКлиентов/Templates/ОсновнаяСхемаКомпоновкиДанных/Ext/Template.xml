@@ -7,62 +7,44 @@
 	<dataSet xsi:type="DataSetQuery">
 		<name>НаборДанных1</name>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Банк</dataPath>
-			<field>Банк</field>
+			<dataPath>Клиент</dataPath>
+			<field>Клиент</field>
 			<role>
 				<dcscom:dimension>true</dcscom:dimension>
 			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Выручка</dataPath>
-			<field>Выручка</field>
+			<dataPath>Номенклатура</dataPath>
+			<field>Номенклатура</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТорговаяТочка</dataPath>
+			<field>ТорговаяТочка</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Продавец</dataPath>
+			<field>Продавец</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Доход</dataPath>
+			<field>Доход</field>
 			<title xsi:type="v8:LocalStringType">
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Выручка</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>Продукция</dataPath>
-			<field>Продукция</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ОбъектПредприятия</dataPath>
-			<field>ОбъектПредприятия</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>Стоимость</dataPath>
-			<field>Стоимость</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Стоимость</v8:content>
+					<v8:content>Доход</v8:content>
 				</v8:item>
 			</title>
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
-	ПродажиТорговыхТочекОбороты.Клиент,
-	ПродажиТорговыхТочекОбороты.ВыручкаОборот КАК Выручка,
-	ПродажиТорговыхТочекОбороты.СебестоимостьОборот КАК Стоимость
+	ПродажиОбороты.Клиент,
+	ПродажиОбороты.ВыручкаОборот - ПродажиОбороты.СтоимостьОборот КАК Доход
 ИЗ
-	РегистрНакопления.Продажи.Обороты КАК ПродажиТорговыхТочекОбороты</query>
+	РегистрНакопления.Продажи.Обороты КАК ПродажиОбороты
+
+УПОРЯДОЧИТЬ ПО
+	Доход УБЫВ</query>
 	</dataSet>
-	<calculatedField>
-		<dataPath>Доход</dataPath>
-		<expression>Выручка - Стоимость</expression>
-		<title xsi:type="v8:LocalStringType">
-			<v8:item>
-				<v8:lang>ru</v8:lang>
-				<v8:content>Доход</v8:content>
-			</v8:item>
-		</title>
-	</calculatedField>
-	<totalField>
-		<dataPath>Выручка</dataPath>
-		<expression>Сумма(Выручка)</expression>
-	</totalField>
 	<totalField>
 		<dataPath>Доход</dataPath>
 		<expression>Сумма(Доход)</expression>
@@ -146,7 +128,7 @@
 				<dcsset:point>
 					<dcsset:groupItems>
 						<dcsset:item xsi:type="dcsset:GroupItemField">
-							<dcsset:field>Банк</dcsset:field>
+							<dcsset:field>Клиент</dcsset:field>
 							<dcsset:groupType>Items</dcsset:groupType>
 							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
 							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>

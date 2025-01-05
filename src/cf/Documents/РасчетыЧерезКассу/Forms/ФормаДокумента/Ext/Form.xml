@@ -95,13 +95,6 @@
 					<ContextMenu name="ПокупкаНаборСвойствКонтекстноеМеню" id="88"/>
 					<ExtendedTooltip name="ПокупкаНаборСвойствРасширеннаяПодсказка" id="89"/>
 				</InputField>
-				<InputField name="ПокупкаСтоимость" id="90">
-					<DataPath>Объект.Покупка.Стоимость</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ПокупкаСтоимостьКонтекстноеМеню" id="91"/>
-					<ExtendedTooltip name="ПокупкаСтоимостьРасширеннаяПодсказка" id="92"/>
-				</InputField>
 				<InputField name="ПокупкаКоличество" id="66">
 					<DataPath>Объект.Покупка.Количество</DataPath>
 					<EditMode>EnterOnInput</EditMode>

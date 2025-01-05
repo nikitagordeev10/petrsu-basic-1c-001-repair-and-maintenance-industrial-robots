@@ -11,29 +11,29 @@
 			<field>Цена</field>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>ГруппаНоменклатуры</dataPath>
-			<field>ГруппаНоменклатуры</field>
+			<dataPath>Продукт</dataPath>
+			<field>Продукт</field>
 			<title xsi:type="v8:LocalStringType">
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Группа номенклатуры</v8:content>
+					<v8:content>Продукт</v8:content>
 				</v8:item>
 			</title>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Номенклатура</dataPath>
-			<field>Номенклатура</field>
+			<dataPath>ГруппаПродуктов</dataPath>
+			<field>ГруппаПродуктов</field>
 			<title xsi:type="v8:LocalStringType">
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Номенклатура</v8:content>
+					<v8:content>Группа продуктов</v8:content>
 				</v8:item>
 			</title>
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
-	СпрНоменклатура.Родитель КАК ГруппаНоменклатуры,
-	СпрНоменклатура.Ссылка КАК Номенклатура,
+	СпрНоменклатура.Родитель КАК ГруппаПродуктов,
+	СпрНоменклатура.Ссылка КАК Продукт,
 	ЦеныСрезПоследних.Цена
 ИЗ
 	Справочник.Номенклатура КАК СпрНоменклатура
@@ -62,21 +62,24 @@
 		<valueType>
 			<v8:Type>xs:dateTime</v8:Type>
 			<v8:DateQualifiers>
-				<v8:DateFractions>DateTime</v8:DateFractions>
+				<v8:DateFractions>Date</v8:DateFractions>
 			</v8:DateQualifiers>
 		</valueType>
 		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
 		<useRestriction>true</useRestriction>
 	</parameter>
 	<parameter>
-		<name>ВидПродукции</name>
+		<name>ВидНоменклатуры</name>
 		<title xsi:type="v8:LocalStringType">
 			<v8:item>
 				<v8:lang>ru</v8:lang>
-				<v8:content>Вид продукции</v8:content>
+				<v8:content>Вид номенклатуры</v8:content>
 			</v8:item>
 		</title>
-		<value xsi:type="dcscor:DesignTimeValue">Перечисление.ВидыПродукции.ГотоваяПродукция</value>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:EnumRef.ВидыНоменклатуры</v8:Type>
+		</valueType>
+		<value xsi:type="dcscor:DesignTimeValue">Перечисление.ВидыНоменклатуры.Продукт</value>
 		<useRestriction>true</useRestriction>
 	</parameter>
 	<parameter>
@@ -90,25 +93,11 @@
 		<valueType>
 			<v8:Type>xs:dateTime</v8:Type>
 			<v8:DateQualifiers>
-				<v8:DateFractions>DateTime</v8:DateFractions>
+				<v8:DateFractions>Date</v8:DateFractions>
 			</v8:DateQualifiers>
 		</valueType>
 		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
 		<useRestriction>false</useRestriction>
-	</parameter>
-	<parameter>
-		<name>ВидНоменклатуры</name>
-		<title xsi:type="v8:LocalStringType">
-			<v8:item>
-				<v8:lang>ru</v8:lang>
-				<v8:content>Вид номенклатуры</v8:content>
-			</v8:item>
-		</title>
-		<valueType>
-			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:EnumRef.ВидыНоменклатуры</v8:Type>
-		</valueType>
-		<value xsi:nil="true"/>
-		<useRestriction>true</useRestriction>
 	</parameter>
 	<settingsVariant>
 		<dcsset:name>Основной</dcsset:name>
@@ -116,7 +105,7 @@
 		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
 			<dcsset:selection>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>Продукция</dcsset:field>
+					<dcsset:field>Продукт</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>Цена</dcsset:field>
@@ -143,7 +132,7 @@
 					<dcscor:value xsi:type="v8:LocalStringType">
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Цены на продукцию</v8:content>
+							<v8:content>Перечень продуктов</v8:content>
 						</v8:item>
 					</dcscor:value>
 				</dcscor:item>
@@ -151,7 +140,7 @@
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">
 				<dcsset:groupItems>
 					<dcsset:item xsi:type="dcsset:GroupItemField">
-						<dcsset:field>ГруппаПродукции</dcsset:field>
+						<dcsset:field>ГруппаПродуктов</dcsset:field>
 						<dcsset:groupType>Hierarchy</dcsset:groupType>
 						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
 						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
@@ -168,6 +157,11 @@
 					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 						<dcscor:parameter>РасположениеИтогов</dcscor:parameter>
 						<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">None</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:use>false</dcscor:use>
+						<dcscor:parameter>РасположениеПолейГруппировки</dcscor:parameter>
+						<dcscor:value xsi:type="dcsset:DataCompositionGroupFieldsPlacement">SeparatelyAndInTotalsOnly</dcscor:value>
 					</dcscor:item>
 				</dcsset:outputParameters>
 				<dcsset:item xsi:type="dcsset:StructureItemGroup">

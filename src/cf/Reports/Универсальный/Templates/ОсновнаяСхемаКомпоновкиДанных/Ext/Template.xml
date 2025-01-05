@@ -11,27 +11,6 @@
 			<field>КоличествоОборот</field>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Продукция</dataPath>
-			<field>Продукция</field>
-			<role>
-				<dcscom:dimension>true</dcscom:dimension>
-			</role>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>Банк</dataPath>
-			<field>Банк</field>
-			<role>
-				<dcscom:dimension>true</dcscom:dimension>
-			</role>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ОбъектПредприятия</dataPath>
-			<field>ОбъектПредприятия</field>
-			<role>
-				<dcscom:dimension>true</dcscom:dimension>
-			</role>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>ВыручкаОборот</dataPath>
 			<field>ВыручкаОборот</field>
 		</field>
@@ -39,21 +18,51 @@
 			<dataPath>СтоимостьОборот</dataPath>
 			<field>СтоимостьОборот</field>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Номенклатура</dataPath>
+			<field>Номенклатура</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Клиент</dataPath>
+			<field>Клиент</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТорговаяТочка</dataPath>
+			<field>ТорговаяТочка</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Продавец</dataPath>
+			<field>Продавец</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
-	ПродажиТорговыхТочекОбороты.Номенклатура,
-	ПродажиТорговыхТочекОбороты.Клиент,
-	ПродажиТорговыхТочекОбороты.ТорговаяТочка,
-	СУММА(ПродажиТорговыхТочекОбороты.КоличествоОборот) КАК КоличествоОборот,
-	СУММА(ПродажиТорговыхТочекОбороты.ВыручкаОборот) КАК ВыручкаОборот,
-	СУММА(ПродажиТорговыхТочекОбороты.СтоимостьОборот) КАК СтоимостьОборот
+	ПродажиОбороты.Номенклатура,
+	ПродажиОбороты.Клиент,
+	ПродажиОбороты.ТорговаяТочка,
+	ПродажиОбороты.Продавец,
+	СУММА(ПродажиОбороты.КоличествоОборот) КАК КоличествоОборот,
+	СУММА(ПродажиОбороты.ВыручкаОборот) КАК ВыручкаОборот,
+	СУММА(ПродажиОбороты.СтоимостьОборот) КАК СтоимостьОборот
 ИЗ
-	РегистрНакопления.Продажи.Обороты КАК ПродажиТорговыхТочекОбороты
+	РегистрНакопления.Продажи.Обороты КАК ПродажиОбороты
 
 СГРУППИРОВАТЬ ПО
-	ПродажиТорговыхТочекОбороты.Клиент,
-	ПродажиТорговыхТочекОбороты.Номенклатура,
-	ПродажиТорговыхТочекОбороты.ТорговаяТочка</query>
+	ПродажиОбороты.Клиент,
+	ПродажиОбороты.Номенклатура,
+	ПродажиОбороты.ТорговаяТочка,
+	ПродажиОбороты.Продавец</query>
 	</dataSet>
 	<totalField>
 		<dataPath>ВыручкаОборот</dataPath>
@@ -101,6 +110,20 @@
 		<dcsset:name>Основной</dcsset:name>
 		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
 		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>НачалоПериода</dcscor:parameter>
+					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
+					<dcsset:userSettingID>481ef717-c886-4e8c-9302-341f4d56a088</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>КонецПериода</dcscor:parameter>
+					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
+					<dcsset:userSettingID>944ecfc7-fcdf-4e34-8b25-fbbbd29d8565</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
 			<dcsset:item xsi:type="dcsset:StructureItemTable">
 				<dcsset:selection>
 					<dcsset:userSettingID>eea58258-1f52-4508-aa2f-35a261f407e1</dcsset:userSettingID>
