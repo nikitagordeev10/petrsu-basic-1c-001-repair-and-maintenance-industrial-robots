@@ -329,7 +329,7 @@
 			<InformationRegister>УстановкаШтрахкодовНаПродукцию</InformationRegister>
 			<InformationRegister>ЗначенияСвойствПродукции</InformationRegister>
 			<AccumulationRegister>ОстаткиПродуктов</AccumulationRegister>
-			<AccumulationRegister>СтоимостьПродукции</AccumulationRegister>
+			<AccumulationRegister>СтоимостьПродуктов</AccumulationRegister>
 			<AccumulationRegister>ПродажиТорговыхТочек</AccumulationRegister>
 			<ChartOfCharacteristicTypes>СвойстваПродукции</ChartOfCharacteristicTypes>
 			<ChartOfCalculationTypes>ВидыНачислений</ChartOfCalculationTypes>
