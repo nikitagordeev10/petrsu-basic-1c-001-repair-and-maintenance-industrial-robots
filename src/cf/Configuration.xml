@@ -309,7 +309,7 @@
 			<Document>НачисленияСотрудникам</Document>
 			<Document>СписаниеПродуктов</Document>
 			<Enum>ВидОбъектаПредприятия</Enum>
-			<Enum>ВидыПродукции</Enum>
+			<Enum>ВидыНоменклатуры</Enum>
 			<Enum>ВидыРаботы</Enum>
 			<Enum>Должности</Enum>
 			<Report>Продукты</Report>

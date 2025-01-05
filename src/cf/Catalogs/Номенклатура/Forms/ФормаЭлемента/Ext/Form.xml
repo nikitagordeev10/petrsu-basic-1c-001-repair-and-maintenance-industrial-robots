@@ -41,7 +41,7 @@
 			<ExtendedTooltip name="ШтрихкодРасширеннаяПодсказка" id="18"/>
 		</InputField>
 		<InputField name="ВидНоменклатуры" id="13">
-			<DataPath>Объект.ВидПродукции</DataPath>
+			<DataPath>Объект.ВидНоменклатуры</DataPath>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="ВидНоменклатурыКонтекстноеМеню" id="14"/>
 			<ExtendedTooltip name="ВидНоменклатурыРасширеннаяПодсказка" id="15"/>

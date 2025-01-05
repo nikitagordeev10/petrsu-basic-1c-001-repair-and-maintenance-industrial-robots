@@ -270,7 +270,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Номенклатура.Attribute.ВидПродукции</name>
+		<name>Catalog.Номенклатура.Attribute.ВидНоменклатуры</name>
 		<right>
 			<name>View</name>
 			<value>false</value>

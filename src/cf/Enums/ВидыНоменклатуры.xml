@@ -2,25 +2,25 @@
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
 	<Enum uuid="9aa0c2f2-adc6-4725-ace9-5e5d80e6a6fb">
 		<InternalInfo>
-			<xr:GeneratedType name="EnumRef.ВидыПродукции" category="Ref">
+			<xr:GeneratedType name="EnumRef.ВидыНоменклатуры" category="Ref">
 				<xr:TypeId>9756c2f3-7ac0-4c3f-979c-e4c002310f43</xr:TypeId>
 				<xr:ValueId>f586559c-100a-4723-b9db-866f8b7cdf79</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="EnumManager.ВидыПродукции" category="Manager">
+			<xr:GeneratedType name="EnumManager.ВидыНоменклатуры" category="Manager">
 				<xr:TypeId>798363b8-deca-44e5-aefd-cf179392d5a1</xr:TypeId>
 				<xr:ValueId>460b5ec5-4e18-4100-aba9-5dc257582a53</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="EnumList.ВидыПродукции" category="List">
+			<xr:GeneratedType name="EnumList.ВидыНоменклатуры" category="List">
 				<xr:TypeId>483166b8-05bc-46ee-98ad-a3d2407caedc</xr:TypeId>
 				<xr:ValueId>c81959ca-7398-4086-915b-6f3f7dde3bd6</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ВидыПродукции</Name>
+			<Name>ВидыНоменклатуры</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Виды продукции</v8:content>
+					<v8:content>Виды номенклатуры</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -40,11 +40,11 @@
 		<ChildObjects>
 			<EnumValue uuid="eee28012-7fe1-48d7-bd20-146c565120dd">
 				<Properties>
-					<Name>ГотоваяПродукция</Name>
+					<Name>Продукт</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Готовая продукция</v8:content>
+							<v8:content>Продукт</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -52,23 +52,11 @@
 			</EnumValue>
 			<EnumValue uuid="6dd98150-253e-417f-af4a-132bf3f1cb7e">
 				<Properties>
-					<Name>Сырье</Name>
+					<Name>Услуга</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Сырье</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-				</Properties>
-			</EnumValue>
-			<EnumValue uuid="9cb053d9-13c4-47cb-8255-f2b5f5e2dc50">
-				<Properties>
-					<Name>Упаковка</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Упаковка</v8:content>
+							<v8:content>Услуга</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
