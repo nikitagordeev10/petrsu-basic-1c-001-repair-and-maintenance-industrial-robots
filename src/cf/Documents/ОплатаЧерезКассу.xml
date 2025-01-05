@@ -358,11 +358,11 @@
 					</Attribute>
 					<Attribute uuid="0299fa98-0ee9-4aea-ae00-0317c31bc65b">
 						<Properties>
-							<Name>Себестоимость</Name>
+							<Name>Стоимость</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Себестоимость</v8:content>
+									<v8:content>Стоимость</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>
@@ -484,14 +484,14 @@
 					</Attribute>
 				</ChildObjects>
 			</TabularSection>
-			<Template>ПечатьЧека</Template>
+			<Template>ПечатьКассовогоЧека</Template>
 			<Command uuid="22e03d92-e160-4f39-92ca-f63b2946b7a8">
 				<Properties>
-					<Name>ПечатьЧека</Name>
+					<Name>ПечатьКассовогоЧека</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Печать чека</v8:content>
+							<v8:content>Печать кассового чека</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

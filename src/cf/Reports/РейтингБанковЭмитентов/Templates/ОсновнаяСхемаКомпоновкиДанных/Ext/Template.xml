@@ -32,12 +32,12 @@
 			<field>ОбъектПредприятия</field>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Себестоимость</dataPath>
-			<field>Себестоимость</field>
+			<dataPath>Стоимость</dataPath>
+			<field>Стоимость</field>
 			<title xsi:type="v8:LocalStringType">
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Себестоимость</v8:content>
+					<v8:content>Стоимость</v8:content>
 				</v8:item>
 			</title>
 		</field>
@@ -45,13 +45,13 @@
 		<query>ВЫБРАТЬ
 	ПродажиТорговыхТочекОбороты.Банк,
 	ПродажиТорговыхТочекОбороты.ВыручкаОборот КАК Выручка,
-	ПродажиТорговыхТочекОбороты.СебестоимостьОборот КАК Себестоимость
+	ПродажиТорговыхТочекОбороты.СебестоимостьОборот КАК Стоимость
 ИЗ
 	РегистрНакопления.ПродажиТорговыхТочек.Обороты КАК ПродажиТорговыхТочекОбороты</query>
 	</dataSet>
 	<calculatedField>
 		<dataPath>Доход</dataPath>
-		<expression>Выручка - Себестоимость</expression>
+		<expression>Выручка - Стоимость</expression>
 		<title xsi:type="v8:LocalStringType">
 			<v8:item>
 				<v8:lang>ru</v8:lang>
