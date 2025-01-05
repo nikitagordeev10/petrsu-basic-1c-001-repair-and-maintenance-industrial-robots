@@ -263,7 +263,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.УстановкаЦенНаПродукцию</name>
+		<name>InformationRegister.Цены</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>

@@ -324,7 +324,7 @@
 			<Report>КурсВалютНаДату</Report>
 			<Report>НачисленияCотрудникам</Report>
 			<Report>Перерасчет</Report>
-			<InformationRegister>УстановкаЦенНаПродукцию</InformationRegister>
+			<InformationRegister>Цены</InformationRegister>
 			<InformationRegister>УстановкаРабочихДней</InformationRegister>
 			<InformationRegister>УстановкаШтрахкодовНаПродукцию</InformationRegister>
 			<InformationRegister>ЗначенияСвойствПродукции</InformationRegister>

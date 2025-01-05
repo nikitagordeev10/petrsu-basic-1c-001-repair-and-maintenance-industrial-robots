@@ -494,7 +494,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.УстановкаЦенНаПродукцию</name>
+		<name>InformationRegister.Цены</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -553,7 +553,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.УстановкаЦенНаПродукцию.StandardAttribute.Active</name>
+		<name>InformationRegister.Цены.StandardAttribute.Active</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -564,7 +564,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.УстановкаЦенНаПродукцию.StandardAttribute.LineNumber</name>
+		<name>InformationRegister.Цены.StandardAttribute.LineNumber</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -575,7 +575,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.УстановкаЦенНаПродукцию.StandardAttribute.Recorder</name>
+		<name>InformationRegister.Цены.StandardAttribute.Recorder</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -586,7 +586,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.УстановкаЦенНаПродукцию.StandardAttribute.Period</name>
+		<name>InformationRegister.Цены.StandardAttribute.Period</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
