@@ -138,7 +138,7 @@
 				<DefaultVisible>false</DefaultVisible>
 			</Item>
 			<Item>
-				<Command>AccumulationRegister.СебестоимостьПродукции.StandardCommand.OpenByRecorder</Command>
+				<Command>AccumulationRegister.СтоимостьПродукции.StandardCommand.OpenByRecorder</Command>
 				<Type>Auto</Type>
 				<DefaultVisible>false</DefaultVisible>
 			</Item>

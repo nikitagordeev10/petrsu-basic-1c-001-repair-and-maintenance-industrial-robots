@@ -33,29 +33,33 @@
 			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Продукция</dataPath>
-			<field>Продукция</field>
+			<dataPath>Продукт</dataPath>
+			<field>Продукт</field>
 			<role>
 				<dcscom:dimension>true</dcscom:dimension>
 			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>ОбъектПредприятия</dataPath>
-			<field>ОбъектПредприятия</field>
+			<dataPath>ТорговаяТочка</dataPath>
+			<field>ТорговаяТочка</field>
 			<role>
 				<dcscom:dimension>true</dcscom:dimension>
 			</role>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НаборСвойств</dataPath>
+			<field>НаборСвойств</field>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
-	ОстаткиПродукцииОстаткиИОбороты.Номенклатура,
-	ОстаткиПродукцииОстаткиИОбороты.ОбъектПредприятия,
-	ОстаткиПродукцииОстаткиИОбороты.КоличествоНачальныйОстаток,
-	ОстаткиПродукцииОстаткиИОбороты.КоличествоПриход,
-	ОстаткиПродукцииОстаткиИОбороты.КоличествоРасход,
-	ОстаткиПродукцииОстаткиИОбороты.КоличествоКонечныйОстаток
+	ОстаткиПродуктовОстаткиИОбороты.Продукт,
+	ОстаткиПродуктовОстаткиИОбороты.ТорговаяТочка,
+	ОстаткиПродуктовОстаткиИОбороты.КоличествоНачальныйОстаток,
+	ОстаткиПродуктовОстаткиИОбороты.КоличествоПриход,
+	ОстаткиПродуктовОстаткиИОбороты.КоличествоРасход,
+	ОстаткиПродуктовОстаткиИОбороты.КоличествоКонечныйОстаток
 ИЗ
-	РегистрНакопления.ОстаткиПродуктов.ОстаткиИОбороты КАК ОстаткиПродукцииОстаткиИОбороты</query>
+	РегистрНакопления.ОстаткиПродуктов.ОстаткиИОбороты КАК ОстаткиПродуктовОстаткиИОбороты</query>
 	</dataSet>
 	<parameter>
 		<name>НачалоПериода</name>
@@ -102,10 +106,10 @@
 		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
 			<dcsset:selection>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>ОбъектПредприятия</dcsset:field>
+					<dcsset:field>ТорговаяТочка</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>Продукция</dcsset:field>
+					<dcsset:field>Продукт</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>КоличествоНачальныйОстаток</dcsset:field>
@@ -134,7 +138,7 @@
 			</dcsset:dataParameters>
 			<dcsset:order>
 				<dcsset:item xsi:type="dcsset:OrderItemField">
-					<dcsset:field>ОбъектПредприятия</dcsset:field>
+					<dcsset:field>ТорговаяТочка</dcsset:field>
 					<dcsset:orderType>Asc</dcsset:orderType>
 				</dcsset:item>
 			</dcsset:order>

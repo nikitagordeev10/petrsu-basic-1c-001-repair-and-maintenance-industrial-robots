@@ -7,4 +7,19 @@
 			</Visibility>
 		</Command>
 	</CommandsVisibility>
+	<CommandsOrder>
+		<Command name="AccumulationRegister.ОстаткиПродуктов.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Report.Продукты.StandardCommand.Open">
+			<CommandGroup>ActionsPanelReports</CommandGroup>
+		</Command>
+	</CommandsOrder>
+	<GroupsOrder>
+		<Group>NavigationPanelOrdinary</Group>
+		<Group>NavigationPanelSeeAlso</Group>
+		<Group>ActionsPanelCreate</Group>
+		<Group>ActionsPanelReports</Group>
+		<Group>ActionsPanelTools</Group>
+	</GroupsOrder>
 </CommandInterface>

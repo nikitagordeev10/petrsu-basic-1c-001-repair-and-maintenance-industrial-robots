@@ -63,7 +63,7 @@
 			<RegisterRecords>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ОстаткиПродуктов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ПродажиТорговыхТочек</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.СебестоимостьПродукции</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.СтоимостьПродукции</xr:Item>
 			</RegisterRecords>
 			<PostInPrivilegedMode>true</PostInPrivilegedMode>
 			<UnpostInPrivilegedMode>true</UnpostInPrivilegedMode>

@@ -142,7 +142,7 @@
 				<DefaultVisible>false</DefaultVisible>
 			</Item>
 			<Item>
-				<Command>AccumulationRegister.СкидкиНаПродукцию.StandardCommand.OpenByRecorder</Command>
+				<Command>1:3d00a52b-fe35-490d-83e3-1a84f6bd25dc</Command>
 				<Type>Auto</Type>
 				<DefaultVisible>false</DefaultVisible>
 			</Item>

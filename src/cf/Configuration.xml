@@ -312,7 +312,7 @@
 			<Enum>ВидыПродукции</Enum>
 			<Enum>ВидыРаботы</Enum>
 			<Enum>Должности</Enum>
-			<Report>ОстаткиПродукцииПоОбъектамПредприятия</Report>
+			<Report>Продукты</Report>
 			<Report>РеестрДокументовОплатаЧерезКассу</Report>
 			<Report>РейтингПродукции</Report>
 			<Report>ВыручкаТорговыхТочек</Report>
@@ -329,9 +329,8 @@
 			<InformationRegister>УстановкаШтрахкодовНаПродукцию</InformationRegister>
 			<InformationRegister>ЗначенияСвойствПродукции</InformationRegister>
 			<AccumulationRegister>ОстаткиПродуктов</AccumulationRegister>
-			<AccumulationRegister>СкидкиНаПродукцию</AccumulationRegister>
+			<AccumulationRegister>СтоимостьПродукции</AccumulationRegister>
 			<AccumulationRegister>ПродажиТорговыхТочек</AccumulationRegister>
-			<AccumulationRegister>СебестоимостьПродукции</AccumulationRegister>
 			<ChartOfCharacteristicTypes>СвойстваПродукции</ChartOfCharacteristicTypes>
 			<ChartOfCalculationTypes>ВидыНачислений</ChartOfCalculationTypes>
 			<CalculationRegister>Начисления</CalculationRegister>

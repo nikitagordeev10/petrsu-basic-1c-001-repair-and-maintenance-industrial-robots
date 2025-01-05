@@ -115,7 +115,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Report.ОстаткиПродукцииПоОбъектамПредприятия</name>
+		<name>Report.Продукты</name>
 		<right>
 			<name>Use</name>
 			<value>true</value>
@@ -127,29 +127,6 @@
 	</object>
 	<object>
 		<name>AccumulationRegister.ПродажиТорговыхТочек</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>TotalsControl</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>AccumulationRegister.СкидкиНаПродукцию</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
