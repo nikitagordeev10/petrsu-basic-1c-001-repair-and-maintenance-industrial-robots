@@ -237,7 +237,7 @@
 		</right>
 	</object>
 	<object>
-		<name>AccumulationRegister.ОстаткиПродукции.Dimension.Продукция</name>
+		<name>AccumulationRegister.ОстаткиПродуктов.Dimension.Продукт</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -248,7 +248,7 @@
 		</right>
 	</object>
 	<object>
-		<name>AccumulationRegister.ОстаткиПродукции.Resource.Количество</name>
+		<name>AccumulationRegister.ОстаткиПродуктов.Resource.Количество</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -337,7 +337,7 @@
 		</right>
 	</object>
 	<object>
-		<name>AccumulationRegister.ОстаткиПродукции.Dimension.ОбъектПредприятия</name>
+		<name>AccumulationRegister.ОстаткиПродуктов.Dimension.ТорговаяТочка</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -774,7 +774,7 @@
 		</right>
 	</object>
 	<object>
-		<name>AccumulationRegister.ОстаткиПродукции.StandardAttribute.RecordType</name>
+		<name>AccumulationRegister.ОстаткиПродуктов.StandardAttribute.RecordType</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -785,7 +785,7 @@
 		</right>
 	</object>
 	<object>
-		<name>AccumulationRegister.ОстаткиПродукции.StandardAttribute.Active</name>
+		<name>AccumulationRegister.ОстаткиПродуктов.StandardAttribute.Active</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -796,7 +796,7 @@
 		</right>
 	</object>
 	<object>
-		<name>AccumulationRegister.ОстаткиПродукции.StandardAttribute.LineNumber</name>
+		<name>AccumulationRegister.ОстаткиПродуктов.StandardAttribute.LineNumber</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -807,7 +807,7 @@
 		</right>
 	</object>
 	<object>
-		<name>AccumulationRegister.ОстаткиПродукции.StandardAttribute.Recorder</name>
+		<name>AccumulationRegister.ОстаткиПродуктов.StandardAttribute.Recorder</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -818,7 +818,7 @@
 		</right>
 	</object>
 	<object>
-		<name>AccumulationRegister.ОстаткиПродукции.StandardAttribute.Period</name>
+		<name>AccumulationRegister.ОстаткиПродуктов.StandardAttribute.Period</name>
 		<right>
 			<name>View</name>
 			<value>false</value>

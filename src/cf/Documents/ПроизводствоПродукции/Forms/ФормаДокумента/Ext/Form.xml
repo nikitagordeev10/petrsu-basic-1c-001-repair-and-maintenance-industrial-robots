@@ -133,7 +133,7 @@
 	<CommandInterface>
 		<NavigationPanel>
 			<Item>
-				<Command>AccumulationRegister.ОстаткиПродукции.StandardCommand.OpenByRecorder</Command>
+				<Command>AccumulationRegister.ОстаткиПродуктов.StandardCommand.OpenByRecorder</Command>
 				<Type>Auto</Type>
 				<DefaultVisible>false</DefaultVisible>
 			</Item>

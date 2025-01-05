@@ -555,7 +555,7 @@
 		</right>
 	</object>
 	<object>
-		<name>AccumulationRegister.ОстаткиПродукции</name>
+		<name>AccumulationRegister.ОстаткиПродуктов</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>

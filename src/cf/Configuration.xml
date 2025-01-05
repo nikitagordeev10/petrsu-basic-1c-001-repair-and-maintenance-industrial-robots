@@ -328,7 +328,7 @@
 			<InformationRegister>УстановкаРабочихДней</InformationRegister>
 			<InformationRegister>УстановкаШтрахкодовНаПродукцию</InformationRegister>
 			<InformationRegister>ЗначенияСвойствПродукции</InformationRegister>
-			<AccumulationRegister>ОстаткиПродукции</AccumulationRegister>
+			<AccumulationRegister>ОстаткиПродуктов</AccumulationRegister>
 			<AccumulationRegister>СкидкиНаПродукцию</AccumulationRegister>
 			<AccumulationRegister>ПродажиТорговыхТочек</AccumulationRegister>
 			<AccumulationRegister>СебестоимостьПродукции</AccumulationRegister>
