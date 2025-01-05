@@ -647,7 +647,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Report.РеестрДокументовОплатаЧерезКассу</name>
+		<name>Report.РеестрДокументовРасчетыЧерезКассу</name>
 		<right>
 			<name>Use</name>
 			<value>true</value>

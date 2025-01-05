@@ -289,12 +289,6 @@
 			<CommonModule>РаботаСДокументамиКлиент</CommonModule>
 			<CommonModule>РаботаСоСправочникамиСервер</CommonModule>
 			<CommonModule>ПроведениеРасчетовСервер</CommonModule>
-			<WSReference>КурсыВалютССайтаЦБ</WSReference>
-			<FunctionalOption>ИспользоватьНесколькоВалют</FunctionalOption>
-			<FunctionalOption>ВалютныйУчет</FunctionalOption>
-			<CommonCommand>ЗагрузкаКурсовВалют</CommonCommand>
-			<Constant>ИспользоватьНесколькоВалют</Constant>
-			<Constant>РассчитыватьСтоимостьАвтоматически</Constant>
 			<Catalog>Клиенты</Catalog>
 			<Catalog>Сотрудники</Catalog>
 			<Catalog>Номенклатура</Catalog>
@@ -309,19 +303,19 @@
 			<Enum>ВидыРаботы</Enum>
 			<Enum>Должности</Enum>
 			<Report>Продукты</Report>
-			<Report>РеестрДокументовОплатаЧерезКассу</Report>
-			<Report>РейтингПродукции</Report>
+			<Report>РеестрДокументовРасчетыЧерезКассу</Report>
+			<Report>РейтингПродуктов</Report>
+			<Report>РейтингУслуг</Report>
 			<Report>ВыручкаТорговыхТочек</Report>
-			<Report>ЦеныНаПродукцию</Report>
-			<Report>РейтингБанковЭмитентов</Report>
+			<Report>ВыручкаПродавцов</Report>
+			<Report>ПереченьПродуктов</Report>
+			<Report>ПереченьУслуг</Report>
+			<Report>РейтингКлиентов</Report>
 			<Report>Универсальный</Report>
 			<Report>разд___</Report>
-			<Report>КурсВалютНаДату</Report>
 			<Report>НачисленияCотрудникам</Report>
-			<Report>Перерасчет</Report>
 			<InformationRegister>Цены</InformationRegister>
 			<InformationRegister>УстановкаРабочихДней</InformationRegister>
-			<InformationRegister>УстановкаШтрахкодовНаПродукцию</InformationRegister>
 			<InformationRegister>ЗначенияСвойствПродукции</InformationRegister>
 			<AccumulationRegister>ОстаткиПродуктов</AccumulationRegister>
 			<AccumulationRegister>СтоимостьПродуктов</AccumulationRegister>

@@ -20,7 +20,7 @@
 		<Command name="InformationRegister.Цены.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
-		<Command name="InformationRegister.УстановкаШтрахкодовНаПродукцию.StandardCommand.OpenList">
+		<Command name="0:f5ce3562-918b-4d8b-be88-7f284362cd66">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
 	</CommandsOrder>
