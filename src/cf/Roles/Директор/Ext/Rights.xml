@@ -4,7 +4,7 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
-		<name>Document.ПриходнаяНакладная</name>
+		<name>Document.ПриходныеНакладные</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -126,7 +126,7 @@
 		</right>
 	</object>
 	<object>
-		<name>AccumulationRegister.ПродажиТорговыхТочек</name>
+		<name>AccumulationRegister.Продажи</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -248,17 +248,6 @@
 		</right>
 		<right>
 			<name>SwitchToDataHistoryVersion</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Report.ПроизведеноНаПроизводстве</name>
-		<right>
-			<name>Use</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>

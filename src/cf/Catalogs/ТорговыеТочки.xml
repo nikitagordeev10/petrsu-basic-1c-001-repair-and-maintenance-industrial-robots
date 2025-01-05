@@ -28,7 +28,7 @@
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Торговые точки</v8:content>
+					<v8:content>Справочник «Торговые точки»</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -81,14 +81,24 @@
 					<v8:content>Торговая точка</v8:content>
 				</v8:item>
 			</ObjectPresentation>
-			<ExtendedObjectPresentation/>
+			<ExtendedObjectPresentation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Торговая точка</v8:content>
+				</v8:item>
+			</ExtendedObjectPresentation>
 			<ListPresentation>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Торговые точки</v8:content>
+					<v8:content>Справочник «Торговые точки»</v8:content>
 				</v8:item>
 			</ListPresentation>
-			<ExtendedListPresentation/>
+			<ExtendedListPresentation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Справочник «Торговые точки»</v8:content>
+				</v8:item>
+			</ExtendedListPresentation>
 			<Explanation/>
 			<CreateOnInput>Use</CreateOnInput>
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
