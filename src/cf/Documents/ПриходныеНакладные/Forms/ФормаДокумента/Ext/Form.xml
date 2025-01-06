@@ -75,12 +75,12 @@
 					<ContextMenu name="ПриходНомерСтрокиКонтекстноеМеню" id="108"/>
 					<ExtendedTooltip name="ПриходНомерСтрокиРасширеннаяПодсказка" id="109"/>
 				</LabelField>
-				<InputField name="ПриходПродукция" id="110">
+				<InputField name="ПриходПродукт" id="110">
 					<DataPath>Объект.Приход.Продукт</DataPath>
 					<EditMode>EnterOnInput</EditMode>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ПриходПродукцияКонтекстноеМеню" id="111"/>
-					<ExtendedTooltip name="ПриходПродукцияРасширеннаяПодсказка" id="112"/>
+					<ContextMenu name="ПриходПродуктКонтекстноеМеню" id="111"/>
+					<ExtendedTooltip name="ПриходПродуктРасширеннаяПодсказка" id="112"/>
 					<Events>
 						<Event name="OnChange">ПриходПродуктПриИзменении</Event>
 					</Events>
@@ -143,6 +143,11 @@
 			</Item>
 			<Item>
 				<Command>1:3d00a52b-fe35-490d-83e3-1a84f6bd25dc</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+			<Item>
+				<Command>AccumulationRegister.СтоимостьПродуктов.StandardCommand.OpenByRecorder</Command>
 				<Type>Auto</Type>
 				<DefaultVisible>false</DefaultVisible>
 			</Item>

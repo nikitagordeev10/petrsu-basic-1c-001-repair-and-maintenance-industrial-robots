@@ -296,6 +296,7 @@
 			<Catalog>ВариантыНоменклатуры</Catalog>
 			<Catalog>ДополнительныеСвойстваНоменклатуры</Catalog>
 			<Catalog>ВидыГрафиковРаботы</Catalog>
+			<Catalog>Субконто</Catalog>
 			<Document>ПриходныеНакладные</Document>
 			<Document>РасчетыЧерезКассу</Document>
 			<Document>НачисленияСотрудникам</Document>
@@ -314,6 +315,7 @@
 			<Report>Универсальный</Report>
 			<Report>НачисленияCотрудникам</Report>
 			<Report>ОстаткиПродуктовПоСвойствам</Report>
+			<Report>ОборотноСальдоваяВедомость</Report>
 			<InformationRegister>Цены</InformationRegister>
 			<InformationRegister>ЗначенияСвойствНоменклатуры</InformationRegister>
 			<InformationRegister>УстановкаРабочихДней</InformationRegister>
@@ -321,6 +323,9 @@
 			<AccumulationRegister>СтоимостьПродуктов</AccumulationRegister>
 			<AccumulationRegister>Продажи</AccumulationRegister>
 			<ChartOfCharacteristicTypes>СвойстваНоменклатуры</ChartOfCharacteristicTypes>
+			<ChartOfCharacteristicTypes>ВидыСубконто</ChartOfCharacteristicTypes>
+			<ChartOfAccounts>Основной</ChartOfAccounts>
+			<AccountingRegister>Управленческий</AccountingRegister>
 			<ChartOfCalculationTypes>ВидыНачислений</ChartOfCalculationTypes>
 			<CalculationRegister>Начисления</CalculationRegister>
 		</ChildObjects>
