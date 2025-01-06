@@ -2,33 +2,33 @@
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
 	<Catalog uuid="c23bd4ed-d155-4be1-9780-c24f022dd1de">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.ДополнительныеСвойстваПродукции" category="Object">
+			<xr:GeneratedType name="CatalogObject.ДополнительныеСвойстваНоменклатуры" category="Object">
 				<xr:TypeId>8d6c0a32-de67-46da-89c0-ac62fe750c20</xr:TypeId>
 				<xr:ValueId>e4773482-db90-4b5c-983e-4bd9084ea82c</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.ДополнительныеСвойстваПродукции" category="Ref">
+			<xr:GeneratedType name="CatalogRef.ДополнительныеСвойстваНоменклатуры" category="Ref">
 				<xr:TypeId>72e61cf7-6514-4b6b-bf28-1a480710cc02</xr:TypeId>
 				<xr:ValueId>92231bab-7ae5-40f3-a95a-78ffc9c7451a</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.ДополнительныеСвойстваПродукции" category="Selection">
+			<xr:GeneratedType name="CatalogSelection.ДополнительныеСвойстваНоменклатуры" category="Selection">
 				<xr:TypeId>8a55149f-5afb-4769-8b2b-1be3c17423f3</xr:TypeId>
 				<xr:ValueId>e0c68b7c-2143-472c-9a6e-f3d4741c78c1</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.ДополнительныеСвойстваПродукции" category="List">
+			<xr:GeneratedType name="CatalogList.ДополнительныеСвойстваНоменклатуры" category="List">
 				<xr:TypeId>a8f53aca-ab0b-402a-82ca-16cccdfd7323</xr:TypeId>
 				<xr:ValueId>4985061a-1c0e-4504-8fa8-a0c56a6e55d3</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.ДополнительныеСвойстваПродукции" category="Manager">
+			<xr:GeneratedType name="CatalogManager.ДополнительныеСвойстваНоменклатуры" category="Manager">
 				<xr:TypeId>c37abbf1-198f-4851-acef-224ce4672a99</xr:TypeId>
 				<xr:ValueId>eac0728d-5cb7-450e-ad30-04166a676ce8</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ДополнительныеСвойстваПродукции</Name>
+			<Name>ДополнительныеСвойстваНоменклатуры</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Дополнительные свойства продукции</v8:content>
+					<v8:content>Справочник «Дополнительные свойства номенклатуры»</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -39,7 +39,7 @@
 			<FoldersOnTop>true</FoldersOnTop>
 			<UseStandardCommands>true</UseStandardCommands>
 			<Owners>
-				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCharacteristicTypes.СвойстваПродукции</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCharacteristicTypes.СвойстваНоменклатуры</xr:Item>
 			</Owners>
 			<SubordinationUse>ToItems</SubordinationUse>
 			<CodeLength>9</CodeLength>
@@ -56,13 +56,13 @@
 			<QuickChoice>false</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
-				<xr:Field>Catalog.ДополнительныеСвойстваПродукции.StandardAttribute.Description</xr:Field>
-				<xr:Field>Catalog.ДополнительныеСвойстваПродукции.StandardAttribute.Code</xr:Field>
+				<xr:Field>Catalog.ДополнительныеСвойстваНоменклатуры.StandardAttribute.Description</xr:Field>
+				<xr:Field>Catalog.ДополнительныеСвойстваНоменклатуры.StandardAttribute.Code</xr:Field>
 			</InputByString>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
-			<DefaultObjectForm/>
+			<DefaultObjectForm>Catalog.ДополнительныеСвойстваНоменклатуры.Form.ФормаЭлемента</DefaultObjectForm>
 			<DefaultFolderForm/>
 			<DefaultListForm/>
 			<DefaultChoiceForm/>
@@ -88,6 +88,8 @@
 			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Form>ФормаЭлемента</Form>
+		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

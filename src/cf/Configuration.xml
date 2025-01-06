@@ -293,8 +293,8 @@
 			<Catalog>Сотрудники</Catalog>
 			<Catalog>Номенклатура</Catalog>
 			<Catalog>ТорговыеТочки</Catalog>
-			<Catalog>ВариантыПродукции</Catalog>
-			<Catalog>ДополнительныеСвойстваПродукции</Catalog>
+			<Catalog>ВариантыНоменклатуры</Catalog>
+			<Catalog>ДополнительныеСвойстваНоменклатуры</Catalog>
 			<Catalog>ВидыГрафиковРаботы</Catalog>
 			<Document>ПриходныеНакладные</Document>
 			<Document>РасчетыЧерезКассу</Document>
@@ -312,15 +312,15 @@
 			<Report>ПереченьУслуг</Report>
 			<Report>РейтингКлиентов</Report>
 			<Report>Универсальный</Report>
-			<Report>разд___</Report>
 			<Report>НачисленияCотрудникам</Report>
+			<Report>ОстаткиПродуктовПоСвойствам</Report>
 			<InformationRegister>Цены</InformationRegister>
+			<InformationRegister>ЗначенияСвойствНоменклатуры</InformationRegister>
 			<InformationRegister>УстановкаРабочихДней</InformationRegister>
-			<InformationRegister>ЗначенияСвойствПродукции</InformationRegister>
 			<AccumulationRegister>ОстаткиПродуктов</AccumulationRegister>
 			<AccumulationRegister>СтоимостьПродуктов</AccumulationRegister>
 			<AccumulationRegister>Продажи</AccumulationRegister>
-			<ChartOfCharacteristicTypes>СвойстваПродукции</ChartOfCharacteristicTypes>
+			<ChartOfCharacteristicTypes>СвойстваНоменклатуры</ChartOfCharacteristicTypes>
 			<ChartOfCalculationTypes>ВидыНачислений</ChartOfCalculationTypes>
 			<CalculationRegister>Начисления</CalculationRegister>
 		</ChildObjects>

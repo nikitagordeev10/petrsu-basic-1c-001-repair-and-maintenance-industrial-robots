@@ -2,46 +2,46 @@
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
 	<ChartOfCharacteristicTypes uuid="0142f55b-5f7a-417c-9077-9e347ca563b2">
 		<InternalInfo>
-			<xr:GeneratedType name="ChartOfCharacteristicTypesObject.СвойстваПродукции" category="Object">
+			<xr:GeneratedType name="ChartOfCharacteristicTypesObject.СвойстваНоменклатуры" category="Object">
 				<xr:TypeId>77f76f8c-3287-4f25-a6c3-aa15e7aa0210</xr:TypeId>
 				<xr:ValueId>c20dd8e8-9cbd-43e9-8f5e-0ad1d4b3f92d</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="ChartOfCharacteristicTypesRef.СвойстваПродукции" category="Ref">
+			<xr:GeneratedType name="ChartOfCharacteristicTypesRef.СвойстваНоменклатуры" category="Ref">
 				<xr:TypeId>d767545d-a410-41de-b33a-f1084751917c</xr:TypeId>
 				<xr:ValueId>5c8b5b02-0974-49c9-9258-ad3372febace</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="ChartOfCharacteristicTypesSelection.СвойстваПродукции" category="Selection">
+			<xr:GeneratedType name="ChartOfCharacteristicTypesSelection.СвойстваНоменклатуры" category="Selection">
 				<xr:TypeId>a9aeef15-569d-4ebb-b0eb-9231d4cccbd6</xr:TypeId>
 				<xr:ValueId>b7b20391-3c0a-4b7d-98e5-c345a0a4acea</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="ChartOfCharacteristicTypesList.СвойстваПродукции" category="List">
+			<xr:GeneratedType name="ChartOfCharacteristicTypesList.СвойстваНоменклатуры" category="List">
 				<xr:TypeId>26557e65-ba67-4e46-9a43-2fec2b41225f</xr:TypeId>
 				<xr:ValueId>3e4c7a04-587c-459c-8f99-777cadd982ea</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="Characteristic.СвойстваПродукции" category="Characteristic">
+			<xr:GeneratedType name="Characteristic.СвойстваНоменклатуры" category="Characteristic">
 				<xr:TypeId>eb7f0b2c-3c9c-4b30-b200-94bbfc2ccb38</xr:TypeId>
 				<xr:ValueId>faa96306-e3da-40da-b64e-7e3e7b10cbc7</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="ChartOfCharacteristicTypesManager.СвойстваПродукции" category="Manager">
+			<xr:GeneratedType name="ChartOfCharacteristicTypesManager.СвойстваНоменклатуры" category="Manager">
 				<xr:TypeId>80c5f61f-cd56-4d8b-b3dc-e313e46cdf25</xr:TypeId>
 				<xr:ValueId>07556dcd-54d6-4ffe-b3b3-b7ead3d5407a</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>СвойстваПродукции</Name>
+			<Name>СвойстваНоменклатуры</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Свойства продукции</v8:content>
+					<v8:content>План видов характеристик «Свойства номенклатуры»</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>true</UseStandardCommands>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
-			<CharacteristicExtValues>Catalog.ДополнительныеСвойстваПродукции</CharacteristicExtValues>
+			<CharacteristicExtValues>Catalog.ДополнительныеСвойстваНоменклатуры</CharacteristicExtValues>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
-				<v8:Type>cfg:CatalogRef.ДополнительныеСвойстваПродукции</v8:Type>
+				<v8:Type>cfg:CatalogRef.ДополнительныеСвойстваНоменклатуры</v8:Type>
 				<v8:Type>xs:string</v8:Type>
 				<v8:Type>xs:dateTime</v8:Type>
 				<v8:Type>xs:decimal</v8:Type>
@@ -73,15 +73,15 @@
 			<QuickChoice>false</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
-				<xr:Field>ChartOfCharacteristicTypes.СвойстваПродукции.StandardAttribute.Description</xr:Field>
-				<xr:Field>ChartOfCharacteristicTypes.СвойстваПродукции.StandardAttribute.Code</xr:Field>
+				<xr:Field>ChartOfCharacteristicTypes.СвойстваНоменклатуры.StandardAttribute.Description</xr:Field>
+				<xr:Field>ChartOfCharacteristicTypes.СвойстваНоменклатуры.StandardAttribute.Code</xr:Field>
 			</InputByString>
 			<CreateOnInput>DontUse</CreateOnInput>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-			<DefaultObjectForm>ChartOfCharacteristicTypes.СвойстваПродукции.Form.ФормаЭлемента</DefaultObjectForm>
+			<DefaultObjectForm>ChartOfCharacteristicTypes.СвойстваНоменклатуры.Form.ФормаЭлемента</DefaultObjectForm>
 			<DefaultFolderForm/>
 			<DefaultListForm/>
 			<DefaultChoiceForm/>

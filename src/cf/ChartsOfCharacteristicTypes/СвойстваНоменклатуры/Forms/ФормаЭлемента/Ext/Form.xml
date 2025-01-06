@@ -11,11 +11,18 @@
 			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
 		</InputField>
+		<InputField name="ТипЗначения" id="7">
+			<DataPath>Объект.ValueType</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ТипЗначенияКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ТипЗначенияРасширеннаяПодсказка" id="9"/>
+		</InputField>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
 			<Type>
-				<v8:Type>cfg:CatalogObject.ВариантыПродукции</v8:Type>
+				<v8:Type>cfg:ChartOfCharacteristicTypesObject.СвойстваНоменклатуры</v8:Type>
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<SavedData>true</SavedData>

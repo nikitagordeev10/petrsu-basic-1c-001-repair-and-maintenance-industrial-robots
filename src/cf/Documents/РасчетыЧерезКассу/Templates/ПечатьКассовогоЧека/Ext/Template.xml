@@ -273,7 +273,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Продукция</v8:content>
+							<v8:content>Номенклатура</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -327,7 +327,7 @@
 			<c>
 				<c>
 					<f>17</f>
-					<parameter>Продукция</parameter>
+					<parameter>Номенклатура</parameter>
 				</c>
 			</c>
 			<c>

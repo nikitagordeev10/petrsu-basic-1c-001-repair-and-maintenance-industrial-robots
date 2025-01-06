@@ -1,38 +1,16 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
-	<Report uuid="51cb1465-54af-4769-b440-ec7aee53a737">
-		<InternalInfo>
-			<xr:GeneratedType name="ReportObject.разд___" category="Object">
-				<xr:TypeId>a83c3cc3-28ef-41be-9fc3-e38d9bab0d4b</xr:TypeId>
-				<xr:ValueId>1a054c13-933d-4a1f-a311-b209586117f1</xr:ValueId>
-			</xr:GeneratedType>
-			<xr:GeneratedType name="ReportManager.разд___" category="Manager">
-				<xr:TypeId>46d4bcee-c6a5-4841-b795-fec1ab2bb24c</xr:TypeId>
-				<xr:ValueId>4cb803e8-e62b-4ad2-b6bc-d1f9aab039a3</xr:ValueId>
-			</xr:GeneratedType>
-		</InternalInfo>
+	<Template uuid="257ecaf9-4dc3-4412-ad60-3e71c1c17298">
 		<Properties>
-			<Name>разд___</Name>
+			<Name>ОсновнаяСхемаКомпоновкиДанных</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Разд</v8:content>
+					<v8:content>Основная схема компоновки данных</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<UseStandardCommands>true</UseStandardCommands>
-			<DefaultForm/>
-			<AuxiliaryForm/>
-			<MainDataCompositionSchema/>
-			<DefaultSettingsForm/>
-			<AuxiliarySettingsForm/>
-			<DefaultVariantForm/>
-			<VariantsStorage/>
-			<SettingsStorage/>
-			<IncludeHelpInContents>false</IncludeHelpInContents>
-			<ExtendedPresentation/>
-			<Explanation/>
+			<TemplateType>DataCompositionSchema</TemplateType>
 		</Properties>
-		<ChildObjects/>
-	</Report>
+	</Template>
 </MetaDataObject>

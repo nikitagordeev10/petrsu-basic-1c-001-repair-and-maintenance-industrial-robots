@@ -18,6 +18,7 @@
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ОстаткиПродуктов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.Продукты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ОстаткиПродуктовПоСвойствам</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

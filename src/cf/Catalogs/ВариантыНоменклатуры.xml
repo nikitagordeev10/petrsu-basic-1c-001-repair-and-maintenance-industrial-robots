@@ -2,33 +2,33 @@
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
 	<Catalog uuid="7aee5731-48e5-47ac-9dfa-feb9c122e59a">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.ВариантыПродукции" category="Object">
+			<xr:GeneratedType name="CatalogObject.ВариантыНоменклатуры" category="Object">
 				<xr:TypeId>8d30506b-c89f-4258-a2e8-ec728e84024b</xr:TypeId>
 				<xr:ValueId>8c848923-563d-442c-ad86-de053bb9ce53</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.ВариантыПродукции" category="Ref">
+			<xr:GeneratedType name="CatalogRef.ВариантыНоменклатуры" category="Ref">
 				<xr:TypeId>ff4de111-4607-4470-bccb-b6c419b81316</xr:TypeId>
 				<xr:ValueId>46387e38-0128-4d7d-85e7-66d2d6f8459f</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.ВариантыПродукции" category="Selection">
+			<xr:GeneratedType name="CatalogSelection.ВариантыНоменклатуры" category="Selection">
 				<xr:TypeId>b1ea1f8d-2e00-41d3-9917-7f82bd205cd9</xr:TypeId>
 				<xr:ValueId>1246cb8d-f0b2-469c-b078-2f3c8996a5ce</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.ВариантыПродукции" category="List">
+			<xr:GeneratedType name="CatalogList.ВариантыНоменклатуры" category="List">
 				<xr:TypeId>7a871af4-2a9f-471f-8c6e-abd1e03574ef</xr:TypeId>
 				<xr:ValueId>76e91024-7991-4e12-8c4c-4c04608a05f4</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.ВариантыПродукции" category="Manager">
+			<xr:GeneratedType name="CatalogManager.ВариантыНоменклатуры" category="Manager">
 				<xr:TypeId>83db825b-4f3d-4496-9521-3f26880e91af</xr:TypeId>
 				<xr:ValueId>004ee7c9-79d7-4420-ba04-2a06349e2e3f</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ВариантыПродукции</Name>
+			<Name>ВариантыНоменклатуры</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Варианты продукции</v8:content>
+					<v8:content>Справочник «Варианты номенклатуры»</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -306,15 +306,15 @@
 			<QuickChoice>false</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
-				<xr:Field>Catalog.ВариантыПродукции.StandardAttribute.Description</xr:Field>
-				<xr:Field>Catalog.ВариантыПродукции.StandardAttribute.Code</xr:Field>
+				<xr:Field>Catalog.ВариантыНоменклатуры.StandardAttribute.Description</xr:Field>
+				<xr:Field>Catalog.ВариантыНоменклатуры.StandardAttribute.Code</xr:Field>
 			</InputByString>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
-			<DefaultObjectForm>Catalog.ВариантыПродукции.Form.ФормаЭлемента</DefaultObjectForm>
+			<DefaultObjectForm>Catalog.ВариантыНоменклатуры.Form.ФормаЭлемента</DefaultObjectForm>
 			<DefaultFolderForm/>
-			<DefaultListForm>Catalog.ВариантыПродукции.Form.ФормаСписка</DefaultListForm>
+			<DefaultListForm>Catalog.ВариантыНоменклатуры.Form.ФормаСписка</DefaultListForm>
 			<DefaultChoiceForm/>
 			<DefaultFolderChoiceForm/>
 			<AuxiliaryObjectForm/>
@@ -330,11 +330,16 @@
 			<ObjectPresentation>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Вариант продукции</v8:content>
+					<v8:content>Вариант номенклатуры</v8:content>
 				</v8:item>
 			</ObjectPresentation>
 			<ExtendedObjectPresentation/>
-			<ListPresentation/>
+			<ListPresentation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Варианты номенклатуры</v8:content>
+				</v8:item>
+			</ListPresentation>
 			<ExtendedListPresentation/>
 			<Explanation/>
 			<CreateOnInput>Use</CreateOnInput>
