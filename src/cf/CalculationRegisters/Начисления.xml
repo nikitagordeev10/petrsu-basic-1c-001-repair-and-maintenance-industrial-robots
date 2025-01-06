@@ -46,15 +46,20 @@
 			<Periodicity>Month</Periodicity>
 			<ActionPeriod>true</ActionPeriod>
 			<BasePeriod>true</BasePeriod>
-			<Schedule>InformationRegister.УстановкаРабочихДней</Schedule>
-			<ScheduleValue>InformationRegister.УстановкаРабочихДней.Resource.Значение</ScheduleValue>
-			<ScheduleDate>InformationRegister.УстановкаРабочихДней.Dimension.Дата</ScheduleDate>
-			<ChartOfCalculationTypes>ChartOfCalculationTypes.ВидыНачислений</ChartOfCalculationTypes>
+			<Schedule>InformationRegister.ГрафикиРаботы</Schedule>
+			<ScheduleValue>InformationRegister.ГрафикиРаботы.Resource.Значение</ScheduleValue>
+			<ScheduleDate>InformationRegister.ГрафикиРаботы.Dimension.Дата</ScheduleDate>
+			<ChartOfCalculationTypes>ChartOfCalculationTypes.ОсновныеНачисления</ChartOfCalculationTypes>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<DataLockControlMode>Managed</DataLockControlMode>
 			<FullTextSearch>DontUse</FullTextSearch>
 			<ListPresentation/>
-			<ExtendedListPresentation/>
+			<ExtendedListPresentation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Движения в регистре Начисления</v8:content>
+				</v8:item>
+			</ExtendedListPresentation>
 			<Explanation/>
 		</Properties>
 		<ChildObjects>
@@ -130,7 +135,7 @@
 					<ChoiceForm/>
 					<LinkByType/>
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<ScheduleLink>InformationRegister.УстановкаРабочихДней.Dimension.ГрафикРаботы</ScheduleLink>
+					<ScheduleLink>InformationRegister.ГрафикиРаботы.Dimension.ГрафикРаботы</ScheduleLink>
 					<Indexing>DontIndex</Indexing>
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>

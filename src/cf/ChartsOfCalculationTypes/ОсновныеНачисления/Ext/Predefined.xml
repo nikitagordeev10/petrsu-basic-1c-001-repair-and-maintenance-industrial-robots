@@ -12,7 +12,7 @@
 		<Description>Оклад</Description>
 		<ActionPeriodIsBase>false</ActionPeriodIsBase>
 		<Displaced>
-			<CalculationType>ChartOfCalculationTypes.ВидыНачислений.Невыход</CalculationType>
+			<CalculationType>ChartOfCalculationTypes.ОсновныеНачисления.Невыход</CalculationType>
 		</Displaced>
 	</Item>
 	<Item id="7c610511-4b69-4c23-bfa0-bac31a6649e6">
@@ -21,11 +21,11 @@
 		<Description>Премия</Description>
 		<ActionPeriodIsBase>false</ActionPeriodIsBase>
 		<Base>
-			<CalculationType>ChartOfCalculationTypes.ВидыНачислений.Оклад</CalculationType>
+			<CalculationType>ChartOfCalculationTypes.ОсновныеНачисления.Оклад</CalculationType>
 		</Base>
 		<Leading>
-			<CalculationType>ChartOfCalculationTypes.ВидыНачислений.Невыход</CalculationType>
-			<CalculationType>ChartOfCalculationTypes.ВидыНачислений.Оклад</CalculationType>
+			<CalculationType>ChartOfCalculationTypes.ОсновныеНачисления.Невыход</CalculationType>
+			<CalculationType>ChartOfCalculationTypes.ОсновныеНачисления.Оклад</CalculationType>
 		</Leading>
 	</Item>
 </PredefinedData>

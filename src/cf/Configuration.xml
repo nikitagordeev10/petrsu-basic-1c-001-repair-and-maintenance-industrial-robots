@@ -318,7 +318,7 @@
 			<Report>ОборотноСальдоваяВедомость</Report>
 			<InformationRegister>Цены</InformationRegister>
 			<InformationRegister>ЗначенияСвойствНоменклатуры</InformationRegister>
-			<InformationRegister>УстановкаРабочихДней</InformationRegister>
+			<InformationRegister>ГрафикиРаботы</InformationRegister>
 			<AccumulationRegister>ОстаткиПродуктов</AccumulationRegister>
 			<AccumulationRegister>СтоимостьПродуктов</AccumulationRegister>
 			<AccumulationRegister>Продажи</AccumulationRegister>
@@ -326,7 +326,7 @@
 			<ChartOfCharacteristicTypes>ВидыСубконто</ChartOfCharacteristicTypes>
 			<ChartOfAccounts>Основной</ChartOfAccounts>
 			<AccountingRegister>Управленческий</AccountingRegister>
-			<ChartOfCalculationTypes>ВидыНачислений</ChartOfCalculationTypes>
+			<ChartOfCalculationTypes>ОсновныеНачисления</ChartOfCalculationTypes>
 			<CalculationRegister>Начисления</CalculationRegister>
 		</ChildObjects>
 	</Configuration>

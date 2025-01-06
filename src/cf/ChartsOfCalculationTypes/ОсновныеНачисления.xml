@@ -2,57 +2,57 @@
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
 	<ChartOfCalculationTypes uuid="7459288c-59f0-4d36-8171-8dda7b8b3f54">
 		<InternalInfo>
-			<xr:GeneratedType name="ChartOfCalculationTypesObject.ВидыНачислений" category="Object">
+			<xr:GeneratedType name="ChartOfCalculationTypesObject.ОсновныеНачисления" category="Object">
 				<xr:TypeId>14c81695-af34-4964-aedb-72d3ee00856a</xr:TypeId>
 				<xr:ValueId>175a9b3f-d22f-470c-94a3-2db62e10cd64</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="ChartOfCalculationTypesRef.ВидыНачислений" category="Ref">
+			<xr:GeneratedType name="ChartOfCalculationTypesRef.ОсновныеНачисления" category="Ref">
 				<xr:TypeId>a5f7366a-9e2f-4f0d-a526-9f2d4825cdd0</xr:TypeId>
 				<xr:ValueId>0dad0f3f-e704-4947-94ec-3e5ae6a38020</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="ChartOfCalculationTypesSelection.ВидыНачислений" category="Selection">
+			<xr:GeneratedType name="ChartOfCalculationTypesSelection.ОсновныеНачисления" category="Selection">
 				<xr:TypeId>fc2e97f4-6ca0-4f49-9a22-dcab274dc5da</xr:TypeId>
 				<xr:ValueId>d446163a-03d5-4bd2-83f0-f2bc2e33b6e8</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="ChartOfCalculationTypesList.ВидыНачислений" category="List">
+			<xr:GeneratedType name="ChartOfCalculationTypesList.ОсновныеНачисления" category="List">
 				<xr:TypeId>5e9ec6f3-f320-43aa-9280-e355754d3cc9</xr:TypeId>
 				<xr:ValueId>0111c36a-7080-4424-a6e2-316d9be8824f</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="ChartOfCalculationTypesManager.ВидыНачислений" category="Manager">
+			<xr:GeneratedType name="ChartOfCalculationTypesManager.ОсновныеНачисления" category="Manager">
 				<xr:TypeId>759b33ef-a33f-41f0-96f6-fa7c45455ce0</xr:TypeId>
 				<xr:ValueId>3b8209b7-ed46-45b7-8aab-a52c79089a87</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DisplacingCalculationTypes.ВидыНачислений" category="DisplacingCalculationTypes">
+			<xr:GeneratedType name="DisplacingCalculationTypes.ОсновныеНачисления" category="DisplacingCalculationTypes">
 				<xr:TypeId>8095cf1b-3fa4-4055-8110-673617678568</xr:TypeId>
 				<xr:ValueId>2d4585e0-c984-4295-8cce-008c587d672a</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DisplacingCalculationTypesRow.ВидыНачислений" category="DisplacingCalculationTypesRow">
+			<xr:GeneratedType name="DisplacingCalculationTypesRow.ОсновныеНачисления" category="DisplacingCalculationTypesRow">
 				<xr:TypeId>d121419f-2a7f-4cc8-a96a-5e49afe1bb1c</xr:TypeId>
 				<xr:ValueId>928d64d1-ce64-4b7f-9ac1-ab68ccc857d9</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="BaseCalculationTypes.ВидыНачислений" category="BaseCalculationTypes">
+			<xr:GeneratedType name="BaseCalculationTypes.ОсновныеНачисления" category="BaseCalculationTypes">
 				<xr:TypeId>b79fc9a3-8627-4274-906a-58c4ef940543</xr:TypeId>
 				<xr:ValueId>d2215730-0c23-432f-99e7-bb4c35744e5a</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="BaseCalculationTypesRow.ВидыНачислений" category="BaseCalculationTypesRow">
+			<xr:GeneratedType name="BaseCalculationTypesRow.ОсновныеНачисления" category="BaseCalculationTypesRow">
 				<xr:TypeId>562e5b21-a136-41f7-ba7c-65f3edd69d8f</xr:TypeId>
 				<xr:ValueId>f8d69418-2d5e-4bba-b514-51267c6f6c13</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="LeadingCalculationTypes.ВидыНачислений" category="LeadingCalculationTypes">
+			<xr:GeneratedType name="LeadingCalculationTypes.ОсновныеНачисления" category="LeadingCalculationTypes">
 				<xr:TypeId>40753d58-f85b-4ae7-8145-f7b189f1e661</xr:TypeId>
 				<xr:ValueId>fc2d7aab-64ea-48d0-82be-c9d382fa0d66</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="LeadingCalculationTypesRow.ВидыНачислений" category="LeadingCalculationTypesRow">
+			<xr:GeneratedType name="LeadingCalculationTypesRow.ОсновныеНачисления" category="LeadingCalculationTypesRow">
 				<xr:TypeId>e04a0e3e-c057-4e55-b0e7-11410676948c</xr:TypeId>
 				<xr:ValueId>ca5199b3-eec5-4504-8e46-6d641bbd78d4</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ВидыНачислений</Name>
+			<Name>ОсновныеНачисления</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Виды начислений</v8:content>
+					<v8:content>План видов расчета «Основные начисления»</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -66,8 +66,8 @@
 			<QuickChoice>false</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
-				<xr:Field>ChartOfCalculationTypes.ВидыНачислений.StandardAttribute.Description</xr:Field>
-				<xr:Field>ChartOfCalculationTypes.ВидыНачислений.StandardAttribute.Code</xr:Field>
+				<xr:Field>ChartOfCalculationTypes.ОсновныеНачисления.StandardAttribute.Description</xr:Field>
+				<xr:Field>ChartOfCalculationTypes.ОсновныеНачисления.StandardAttribute.Code</xr:Field>
 			</InputByString>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
@@ -83,7 +83,7 @@
 			<BasedOn/>
 			<DependenceOnCalculationTypes>OnActionPeriod</DependenceOnCalculationTypes>
 			<BaseCalculationTypes>
-				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCalculationTypes.ВидыНачислений</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCalculationTypes.ОсновныеНачисления</xr:Item>
 			</BaseCalculationTypes>
 			<ActionPeriodUse>true</ActionPeriodUse>
 			<Characteristics/>
@@ -94,7 +94,12 @@
 			<FullTextSearch>Use</FullTextSearch>
 			<ObjectPresentation/>
 			<ExtendedObjectPresentation/>
-			<ListPresentation/>
+			<ListPresentation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Виды расчетов</v8:content>
+				</v8:item>
+			</ListPresentation>
 			<ExtendedListPresentation/>
 			<Explanation/>
 			<DataHistory>DontUse</DataHistory>
