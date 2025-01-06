@@ -17,6 +17,7 @@
 			<Picture/>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Сотрудники</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.НачисленияСотрудникам</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

@@ -94,7 +94,7 @@
 					<dcscor:value xsi:type="v8:LocalStringType">
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>НачисленияСотрудникам</v8:content>
+							<v8:content>Начисления сотрудникам</v8:content>
 						</v8:item>
 					</dcscor:value>
 				</dcscor:item>

@@ -313,9 +313,11 @@
 			<Report>ПереченьУслуг</Report>
 			<Report>РейтингКлиентов</Report>
 			<Report>Универсальный</Report>
-			<Report>НачисленияCотрудникам</Report>
 			<Report>ОстаткиПродуктовПоСвойствам</Report>
 			<Report>ОборотноСальдоваяВедомость</Report>
+			<Report>Перерасчет</Report>
+			<Report>НачисленияCотрудникам</Report>
+			<Report>ДиаграммаНачислений</Report>
 			<InformationRegister>Цены</InformationRegister>
 			<InformationRegister>ЗначенияСвойствНоменклатуры</InformationRegister>
 			<InformationRegister>ГрафикиРаботы</InformationRegister>

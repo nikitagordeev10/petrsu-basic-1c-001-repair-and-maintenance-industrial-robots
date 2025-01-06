@@ -1,29 +1,29 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
-	<Report uuid="b263e7e9-1272-4ed8-989a-cba9da29a897">
+	<Report uuid="a90b50ed-585f-42bb-b64f-913bae15f51c">
 		<InternalInfo>
-			<xr:GeneratedType name="ReportObject.НачисленияCотрудникам" category="Object">
-				<xr:TypeId>898c3145-f8b3-415f-8716-ecdef483c6c5</xr:TypeId>
-				<xr:ValueId>b0b24adf-da62-4659-ae43-974c26007aa7</xr:ValueId>
+			<xr:GeneratedType name="ReportObject.ДиаграммаНачислений" category="Object">
+				<xr:TypeId>0481c388-ca50-420d-95bb-026b3dbb0aec</xr:TypeId>
+				<xr:ValueId>7eb44c0d-3b47-4fb1-bcf5-ce8c9879ced4</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="ReportManager.НачисленияCотрудникам" category="Manager">
-				<xr:TypeId>13dbc088-8279-4ef1-916a-454625b21a0d</xr:TypeId>
-				<xr:ValueId>c1ad722c-2e85-436b-a822-a0ce3791d067</xr:ValueId>
+			<xr:GeneratedType name="ReportManager.ДиаграммаНачислений" category="Manager">
+				<xr:TypeId>09e0c61a-3c14-4076-9d52-c3e16f674c82</xr:TypeId>
+				<xr:ValueId>dc3e7aa4-8d64-4b06-a04a-ae81cc95fcea</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>НачисленияCотрудникам</Name>
+			<Name>ДиаграммаНачислений</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Отчет «Начисления cотрудникам»</v8:content>
+					<v8:content>Отчет «Диаграмма начислений»</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>true</UseStandardCommands>
-			<DefaultForm>Report.НачисленияCотрудникам.Form.ФормаОтчета</DefaultForm>
+			<DefaultForm>Report.ДиаграммаНачислений.Form.ФормаОтчета</DefaultForm>
 			<AuxiliaryForm/>
-			<MainDataCompositionSchema>Report.НачисленияCотрудникам.Template.ОсновнаяСхемаКомпоновкиДанных</MainDataCompositionSchema>
+			<MainDataCompositionSchema/>
 			<DefaultSettingsForm/>
 			<AuxiliarySettingsForm/>
 			<DefaultVariantForm/>
@@ -35,7 +35,6 @@
 		</Properties>
 		<ChildObjects>
 			<Form>ФормаОтчета</Form>
-			<Template>ОсновнаяСхемаКомпоновкиДанных</Template>
 		</ChildObjects>
 	</Report>
 </MetaDataObject>
