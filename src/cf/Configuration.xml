@@ -290,6 +290,9 @@
 			<CommonModule>РаботаСДокументамиКлиент</CommonModule>
 			<CommonModule>РаботаСоСправочникамиСервер</CommonModule>
 			<CommonModule>ПроведениеРасчетовСервер</CommonModule>
+			<CommonModule>РегламентныеПроцедурыСервер</CommonModule>
+			<ScheduledJob>ОбновлениеИндекса</ScheduledJob>
+			<ScheduledJob>СлияниеИндексов</ScheduledJob>
 			<Catalog>Клиенты</Catalog>
 			<Catalog>Сотрудники</Catalog>
 			<Catalog>Номенклатура</Catalog>
@@ -321,6 +324,7 @@
 			<Report>НачисленияCотрудникам</Report>
 			<Report>ДиаграммаНачислений</Report>
 			<Report>ПоискДанных</Report>
+			<DataProcessor>ПланировщикЗаданий</DataProcessor>
 			<InformationRegister>Цены</InformationRegister>
 			<InformationRegister>ЗначенияСвойствНоменклатуры</InformationRegister>
 			<InformationRegister>ГрафикиРаботы</InformationRegister>
