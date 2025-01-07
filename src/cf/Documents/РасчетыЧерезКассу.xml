@@ -28,7 +28,7 @@
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Расчеты через кассу</v8:content>
+					<v8:content>Документ «Расчеты через кассу»</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -50,7 +50,7 @@
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
 			<DefaultObjectForm>Document.РасчетыЧерезКассу.Form.ФормаДокумента</DefaultObjectForm>
-			<DefaultListForm/>
+			<DefaultListForm>Document.РасчетыЧерезКассу.Form.ФормаСписка</DefaultListForm>
 			<DefaultChoiceForm/>
 			<AuxiliaryObjectForm/>
 			<AuxiliaryListForm/>
@@ -72,28 +72,18 @@
 			<DataLockFields/>
 			<DataLockControlMode>Managed</DataLockControlMode>
 			<FullTextSearch>Use</FullTextSearch>
-			<ObjectPresentation>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Расчет через кассу</v8:content>
-				</v8:item>
-			</ObjectPresentation>
+			<ObjectPresentation/>
 			<ExtendedObjectPresentation>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Расчет через кассу</v8:content>
 				</v8:item>
 			</ExtendedObjectPresentation>
-			<ListPresentation>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Документы «Расчеты через кассу»</v8:content>
-				</v8:item>
-			</ListPresentation>
+			<ListPresentation/>
 			<ExtendedListPresentation>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Документы «Расчеты через кассу»</v8:content>
+					<v8:content>Расчеты через кассу</v8:content>
 				</v8:item>
 			</ExtendedListPresentation>
 			<Explanation/>
@@ -221,6 +211,7 @@
 				</Properties>
 			</Attribute>
 			<Form>ФормаДокумента</Form>
+			<Form>ФормаСписка</Form>
 			<TabularSection uuid="e67d0d94-d888-4f12-81cd-55a4590ac7d4">
 				<InternalInfo>
 					<xr:GeneratedType name="DocumentTabularSection.РасчетыЧерезКассу.Покупка" category="TabularSection">

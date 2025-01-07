@@ -28,7 +28,7 @@
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Приходные накладные</v8:content>
+					<v8:content>Документ «Приходные накладные»</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -50,7 +50,7 @@
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
 			<DefaultObjectForm>Document.ПриходныеНакладные.Form.ФормаДокумента</DefaultObjectForm>
-			<DefaultListForm/>
+			<DefaultListForm>Document.ПриходныеНакладные.Form.ФормаСписка</DefaultListForm>
 			<DefaultChoiceForm/>
 			<AuxiliaryObjectForm/>
 			<AuxiliaryListForm/>
@@ -71,28 +71,18 @@
 			<DataLockFields/>
 			<DataLockControlMode>Managed</DataLockControlMode>
 			<FullTextSearch>Use</FullTextSearch>
-			<ObjectPresentation>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Приходная накладная</v8:content>
-				</v8:item>
-			</ObjectPresentation>
+			<ObjectPresentation/>
 			<ExtendedObjectPresentation>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Приходная накладная</v8:content>
 				</v8:item>
 			</ExtendedObjectPresentation>
-			<ListPresentation>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Документы «Приходные накладные»</v8:content>
-				</v8:item>
-			</ListPresentation>
+			<ListPresentation/>
 			<ExtendedListPresentation>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Документы «Приходные накладные»</v8:content>
+					<v8:content>Приходные накладные</v8:content>
 				</v8:item>
 			</ExtendedListPresentation>
 			<Explanation/>
@@ -142,6 +132,7 @@
 				</Properties>
 			</Attribute>
 			<Form>ФормаДокумента</Form>
+			<Form>ФормаСписка</Form>
 			<TabularSection uuid="6b0220a8-b543-4718-8c2e-9cb74d803635">
 				<InternalInfo>
 					<xr:GeneratedType name="DocumentTabularSection.ПриходныеНакладные.Приход" category="TabularSection">

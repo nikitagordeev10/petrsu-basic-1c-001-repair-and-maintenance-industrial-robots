@@ -187,7 +187,7 @@
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
 			<DefaultObjectForm/>
-			<DefaultListForm/>
+			<DefaultListForm>Document.НачисленияСотрудникам.Form.ФормаСписка</DefaultListForm>
 			<DefaultChoiceForm/>
 			<AuxiliaryObjectForm/>
 			<AuxiliaryListForm/>
@@ -206,24 +206,14 @@
 			<DataLockFields/>
 			<DataLockControlMode>Managed</DataLockControlMode>
 			<FullTextSearch>Use</FullTextSearch>
-			<ObjectPresentation>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Начисление сотруднику</v8:content>
-				</v8:item>
-			</ObjectPresentation>
+			<ObjectPresentation/>
 			<ExtendedObjectPresentation>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Начисление сотруднику</v8:content>
 				</v8:item>
 			</ExtendedObjectPresentation>
-			<ListPresentation>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Начисление сотрудникам</v8:content>
-				</v8:item>
-			</ListPresentation>
+			<ListPresentation/>
 			<ExtendedListPresentation>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -324,6 +314,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
+			<Form>ФормаСписка</Form>
 			<TabularSection uuid="d72b77da-47bd-4d30-aabf-7ebd85e390f1">
 				<InternalInfo>
 					<xr:GeneratedType name="DocumentTabularSection.НачисленияСотрудникам.Начисления" category="TabularSection">

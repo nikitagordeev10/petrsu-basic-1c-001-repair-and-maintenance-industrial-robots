@@ -17,11 +17,11 @@
 			<Picture/>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Номенклатура</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ТорговыеТочки</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ДополнительныеСвойстваНоменклатуры</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ВариантыНоменклатуры</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCharacteristicTypes.СвойстваНоменклатуры</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЗначенияСвойствНоменклатуры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ВидыНоменклатуры</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

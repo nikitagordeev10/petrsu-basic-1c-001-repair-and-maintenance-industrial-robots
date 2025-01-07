@@ -18,6 +18,8 @@
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.НачисленияCотрудникам</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ДиаграммаНачислений</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CalculationRegister.Начисления</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.Перерасчет</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

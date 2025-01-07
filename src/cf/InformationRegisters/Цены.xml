@@ -54,20 +54,20 @@
 			<FullTextSearch>DontUse</FullTextSearch>
 			<EnableTotalsSliceFirst>false</EnableTotalsSliceFirst>
 			<EnableTotalsSliceLast>false</EnableTotalsSliceLast>
-			<RecordPresentation>
+			<RecordPresentation/>
+			<ExtendedRecordPresentation>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Регистр сведений «Цена на номенклатуру»</v8:content>
+					<v8:content>Цена на номенклатуру</v8:content>
 				</v8:item>
-			</RecordPresentation>
-			<ExtendedRecordPresentation/>
-			<ListPresentation>
+			</ExtendedRecordPresentation>
+			<ListPresentation/>
+			<ExtendedListPresentation>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Регистр сведений «Цены на номенклатуру»</v8:content>
+					<v8:content>Цены на номенклатуру</v8:content>
 				</v8:item>
-			</ListPresentation>
-			<ExtendedListPresentation/>
+			</ExtendedListPresentation>
 			<Explanation/>
 			<DataHistory>DontUse</DataHistory>
 			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>

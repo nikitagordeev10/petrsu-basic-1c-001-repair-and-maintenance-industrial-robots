@@ -78,9 +78,19 @@
 			<DataLockControlMode>Managed</DataLockControlMode>
 			<FullTextSearch>Use</FullTextSearch>
 			<ObjectPresentation/>
-			<ExtendedObjectPresentation/>
+			<ExtendedObjectPresentation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дополнительное свойство номенклатуры</v8:content>
+				</v8:item>
+			</ExtendedObjectPresentation>
 			<ListPresentation/>
-			<ExtendedListPresentation/>
+			<ExtendedListPresentation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дополнительные свойства номенклатуры</v8:content>
+				</v8:item>
+			</ExtendedListPresentation>
 			<Explanation/>
 			<CreateOnInput>Use</CreateOnInput>
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>

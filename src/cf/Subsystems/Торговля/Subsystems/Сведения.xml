@@ -17,9 +17,8 @@
 			<Picture/>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Клиенты</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Report.ПереченьПродуктов</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCharacteristicTypes.ВидыСубконто</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">ChartOfAccounts.Основной</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ТорговыеТочки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.Цены</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

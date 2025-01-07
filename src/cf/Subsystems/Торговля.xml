@@ -24,7 +24,6 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">Report.Универсальный</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ПоискДанных</xr:Item>
 			</Content>
 		</Properties>

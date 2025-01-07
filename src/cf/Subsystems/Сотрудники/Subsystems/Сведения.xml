@@ -17,7 +17,11 @@
 			<Picture/>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Сотрудники</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.НачисленияСотрудникам</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ВидыГрафиковРаботы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCalculationTypes.ОсновныеНачисления</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ГрафикиРаботы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ВидыРаботы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.Должности</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

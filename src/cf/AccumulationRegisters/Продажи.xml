@@ -44,12 +44,7 @@
 			<DataLockControlMode>Managed</DataLockControlMode>
 			<FullTextSearch>DontUse</FullTextSearch>
 			<EnableTotalsSplitting>true</EnableTotalsSplitting>
-			<ListPresentation>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Движения по регистру «Продажи»</v8:content>
-				</v8:item>
-			</ListPresentation>
+			<ListPresentation/>
 			<ExtendedListPresentation>
 				<v8:item>
 					<v8:lang>ru</v8:lang>

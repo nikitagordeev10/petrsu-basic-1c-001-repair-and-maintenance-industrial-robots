@@ -16,11 +16,7 @@
 			<Explanation/>
 			<Picture/>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCalculationTypes.ОсновныеНачисления</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ВидыГрафиковРаботы</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ГрафикиРаботы</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CalculationRegister.Начисления</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Report.Перерасчет</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.НачисленияСотрудникам</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
