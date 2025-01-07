@@ -282,10 +282,11 @@
 			<CommonPicture>Сотрудники</CommonPicture>
 			<CommonPicture>Настройки</CommonPicture>
 			<Interface>ИнтерфейсАдминистратора</Interface>
-			<Role>Директор</Role>
-			<Role>Бухгалтер</Role>
 			<Role>СистемныйАдминистратор</Role>
+			<Role>АдминистраторТорговойТочки</Role>
 			<Role>Продавец</Role>
+			<Role>Расчетчик</Role>
+			<Role>Бухгалтер</Role>
 			<CommonModule>РаботаСДокументамиКлиент</CommonModule>
 			<CommonModule>РаботаСоСправочникамиСервер</CommonModule>
 			<CommonModule>ПроведениеРасчетовСервер</CommonModule>
@@ -300,6 +301,7 @@
 			<Document>ПриходныеНакладные</Document>
 			<Document>РасчетыЧерезКассу</Document>
 			<Document>НачисленияСотрудникам</Document>
+			<Document>ВводНачальныхОстатковНоменклатуры</Document>
 			<Enum>ВидыНоменклатуры</Enum>
 			<Enum>ВидыРаботы</Enum>
 			<Enum>Должности</Enum>

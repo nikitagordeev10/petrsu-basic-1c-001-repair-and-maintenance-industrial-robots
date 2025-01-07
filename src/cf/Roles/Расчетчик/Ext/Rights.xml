@@ -4,7 +4,58 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
-		<name>Document.ПриходныеНакладные</name>
+		<name>Report.Перерасчет</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Subsystem.Сотрудники.Subsystem.Документы</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CalculationRegister.Начисления</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Subsystem.Сотрудники.Subsystem.Сведения</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Subsystem.Сотрудники</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.НачисленияСотрудникам</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -39,10 +90,6 @@
 		</right>
 		<right>
 			<name>Edit</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveDelete</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -115,41 +162,14 @@
 		</right>
 	</object>
 	<object>
-		<name>Report.Продукты</name>
-		<right>
-			<name>Use</name>
-			<value>true</value>
-		</right>
+		<name>Subsystem.Сотрудники.Subsystem.Аналитика</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
 	<object>
-		<name>AccumulationRegister.Продажи</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>TotalsControl</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ТорговыеТочки</name>
+		<name>ChartOfCalculationTypes.ОсновныеНачисления</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -252,7 +272,29 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.Цены</name>
+		<name>Report.ДиаграммаНачислений</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Report.НачисленияCотрудникам</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ГрафикиРаботы</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -311,7 +353,18 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Номенклатура</name>
+		<name>Report.ПоискДанных</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ВидыГрафиковРаботы</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -341,10 +394,6 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>InteractiveDelete</name>
-			<value>true</value>
-		</right>
-		<right>
 			<name>InteractiveSetDeletionMark</name>
 			<value>true</value>
 		</right>
@@ -358,10 +407,6 @@
 		</right>
 		<right>
 			<name>InputByString</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveDeletePredefinedData</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -416,30 +461,6 @@
 	<object>
 		<name>Configuration.УправлениеТорговлей</name>
 		<right>
-			<name>Administration</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>DataAdministration</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataBaseConfiguration</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ExclusiveMode</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ActiveUsers</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>EventLog</name>
-			<value>true</value>
-		</right>
-		<right>
 			<name>ThinClient</name>
 			<value>true</value>
 		</right>
@@ -449,26 +470,6 @@
 		</right>
 		<right>
 			<name>MobileClient</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ThickClient</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ExternalConnection</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Automation</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>TechnicalSpecialistMode</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>CollaborationSystemInfoBaseRegistration</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -496,50 +497,11 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>ExclusiveModeTerminationAtSessionStart</name>
-			<value>true</value>
-		</right>
-		<right>
 			<name>SaveUserData</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>ConfigurationExtensionsAdministration</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveOpenExtDataProcessors</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveOpenExtReports</name>
-			<value>true</value>
-		</right>
-		<right>
 			<name>Output</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>AccumulationRegister.ОстаткиПродуктов</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>TotalsControl</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -574,10 +536,6 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>InteractiveDelete</name>
-			<value>true</value>
-		</right>
-		<right>
 			<name>InteractiveSetDeletionMark</name>
 			<value>true</value>
 		</right>
@@ -591,10 +549,6 @@
 		</right>
 		<right>
 			<name>InputByString</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveDeletePredefinedData</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -647,13 +601,13 @@
 		</right>
 	</object>
 	<object>
-		<name>Report.РеестрДокументовРасчетыЧерезКассу</name>
+		<name>CalculationRegister.Начисления.Recalculation.Перерачет</name>
 		<right>
-			<name>Use</name>
+			<name>Read</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>View</name>
+			<name>Update</name>
 			<value>true</value>
 		</right>
 	</object>
