@@ -19,8 +19,7 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">32751977-8bff-494f-842f-ab598131b038</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">52dbf98f-d04a-4079-820b-0be31e0f20ff</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ПоискДанных</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects>

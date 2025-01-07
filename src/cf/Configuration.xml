@@ -318,6 +318,7 @@
 			<Report>Перерасчет</Report>
 			<Report>НачисленияCотрудникам</Report>
 			<Report>ДиаграммаНачислений</Report>
+			<Report>ПоискДанных</Report>
 			<InformationRegister>Цены</InformationRegister>
 			<InformationRegister>ЗначенияСвойствНоменклатуры</InformationRegister>
 			<InformationRegister>ГрафикиРаботы</InformationRegister>
