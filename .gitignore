@@ -13,7 +13,7 @@ out
 .sonarlint/
 .idea/
 
-
+1CHelpIndex
 1Cv8FTxt
 1Cv8JobScheduler
 1Cv8Log
@@ -37,3 +37,4 @@ src\Config\
 /tools/vanessa-automation-single.1.2.041.30
 /tools/xUnitFor1C-4.2.0.0
 *.cf
+
