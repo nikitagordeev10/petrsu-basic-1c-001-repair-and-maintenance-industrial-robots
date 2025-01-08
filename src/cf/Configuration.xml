@@ -291,8 +291,13 @@
 			<CommonModule>РаботаСоСправочникамиСервер</CommonModule>
 			<CommonModule>ПроведениеРасчетовСервер</CommonModule>
 			<CommonModule>РегламентныеПроцедурыСервер</CommonModule>
+			<CommonModule>ОбменСервер</CommonModule>
+			<ExchangePlan>Филиалы</ExchangePlan>
+			<ExchangePlan>Отделения</ExchangePlan>
 			<ScheduledJob>ОбновлениеИндекса</ScheduledJob>
 			<ScheduledJob>СлияниеИндексов</ScheduledJob>
+			<Constant>ПрефиксНумерации</Constant>
+			<CommonForm>ОбщиеНастройки</CommonForm>
 			<Catalog>Клиенты</Catalog>
 			<Catalog>Сотрудники</Catalog>
 			<Catalog>Номенклатура</Catalog>
@@ -324,7 +329,9 @@
 			<Report>НачисленияCотрудникам</Report>
 			<Report>ДиаграммаНачислений</Report>
 			<Report>ПоискДанных</Report>
+			<DataProcessor>ОбменДанными</DataProcessor>
 			<DataProcessor>ПланировщикЗаданий</DataProcessor>
+			<DataProcessor>ОбменСОтделениями</DataProcessor>
 			<InformationRegister>Цены</InformationRegister>
 			<InformationRegister>ЗначенияСвойствНоменклатуры</InformationRegister>
 			<InformationRegister>ГрафикиРаботы</InformationRegister>

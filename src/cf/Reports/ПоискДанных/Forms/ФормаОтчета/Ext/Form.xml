@@ -9,7 +9,7 @@
 		<Autofill>false</Autofill>
 	</AutoCommandBar>
 	<ChildItems>
-		<UsualGroup name="Группа1" id="11">
+		<UsualGroup name="Группа1" id="22">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -22,7 +22,9 @@
 					<v8:content>Группа1</v8:content>
 				</v8:item>
 			</ToolTip>
-			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="12"/>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="23"/>
 			<ChildItems>
 				<InputField name="ПоисковоеВыражение" id="1">
 					<DataPath>ПоисковоеВыражение</DataPath>
@@ -59,8 +61,22 @@
 			<ContextMenu name="СообщениеОРезультатеКонтекстноеМеню" id="9"/>
 			<ExtendedTooltip name="СообщениеОРезультатеРасширеннаяПодсказка" id="10"/>
 		</LabelField>
-		<UsualGroup name="Группа2" id="16">
-			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="17"/>
+		<UsualGroup name="Группа2" id="24">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа2</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа2</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="25"/>
 			<ChildItems>
 				<Button name="ПредыдущаяПорция" id="18">
 					<Type>UsualButton</Type>

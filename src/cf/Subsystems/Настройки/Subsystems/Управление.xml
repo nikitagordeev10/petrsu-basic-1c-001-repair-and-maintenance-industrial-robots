@@ -17,7 +17,6 @@
 			<Picture/>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ВводНачальныхОстатковНоменклатуры</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ПланировщикЗаданий</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCharacteristicTypes.ВидыСубконто</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">ChartOfAccounts.Основной</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Субконто</xr:Item>
