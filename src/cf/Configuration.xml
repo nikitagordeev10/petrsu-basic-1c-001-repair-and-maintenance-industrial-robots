@@ -296,7 +296,13 @@
 			<ExchangePlan>Отделения</ExchangePlan>
 			<ScheduledJob>ОбновлениеИндекса</ScheduledJob>
 			<ScheduledJob>СлияниеИндексов</ScheduledJob>
+			<FunctionalOption>БухгалтерскийУчет</FunctionalOption>
+			<FunctionalOption>РасчетЗарплаты</FunctionalOption>
+			<FunctionalOption>УчетКлиентов</FunctionalOption>
 			<Constant>ПрефиксНумерации</Constant>
+			<Constant>БухгалтерскийУчет</Constant>
+			<Constant>РасчетЗарплаты</Constant>
+			<Constant>УчетКлиентов</Constant>
 			<CommonForm>ОбщиеНастройки</CommonForm>
 			<Catalog>Клиенты</Catalog>
 			<Catalog>Сотрудники</Catalog>
