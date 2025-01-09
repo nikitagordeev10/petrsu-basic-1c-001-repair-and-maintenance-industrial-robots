@@ -1,40 +1,60 @@
+# Файлы окружения
 .env
 env.json
-build/
-allure-report/
-oscript_modules/
 
+# Файлы конфигурации и временные файлы
 ConfigDumpInfo.xml
 lastUploadedCommit.txt
 lastUploadedConfigDumpInfo.xml
-build
-out
-.scannerwork
-.sonarlint/
-.idea/
 
+# Логи и служебные файлы платформы 1С
 1CHelpIndex
 1Cv8FTxt
 1Cv8JobScheduler
 1Cv8Log
-sources
-xf_img
-xf_Tests
-xf_vanessa-automation-single.1.2.041.30
+
+# Каталоги сборки и отчётов
+build/
+out/
+allure-report/
+test-results/
+.scannerwork
+.sonarlint/
+
+# Файлы IDE
+.idea/
+.vscode/
+
+# Каталоги и файлы внешних инструментов
+oscript_modules/
+tools/vanessa-automation-single.*
+tools/xUnitFor1C-*
+
+# Временные файлы и каталоги конфигурации
+*.cf
+*.cfl
+*.cgr
+*.lgd
 *.CD
 *.1CD
-*.cfl
-*.lgd
-
-
-test-results/
-
-src\Config\
-
-/src/Config
 *.1CL
-*.cgr
-/tools/vanessa-automation-single.1.2.041.30
-/tools/xUnitFor1C-4.2.0.0
-*.cf
 
+# Каталоги исходного кода и другие временные каталоги
+src/Config/
+xf_img/
+xf_Tests/
+xf_vanessa-automation-single.*
+sources/
+
+# Исключение временных файлов из корневой директории
+~$*
+*.bak
+*.tmp
+*.lock
+
+# Игнорирование временных файлов в случае работы через Docker
+docker-compose.override.yml
+.dockerignore
+
+# Добавлено для логов работы с GIT
+*.log
