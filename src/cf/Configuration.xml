@@ -281,6 +281,23 @@
 			<CommonPicture>Оборудование</CommonPicture>
 			<CommonPicture>Сотрудники</CommonPicture>
 			<CommonPicture>Настройки</CommonPicture>
+			<CommonPicture>КнопкаЗакрытие</CommonPicture>
+			<CommonPicture>КнопкаОчистка</CommonPicture>
+			<CommonPicture>ОперацияАрккосинус</CommonPicture>
+			<CommonPicture>ОперацияАрксинус</CommonPicture>
+			<CommonPicture>ОперацияВозведениеВСтепень</CommonPicture>
+			<CommonPicture>ОперацияВычитание</CommonPicture>
+			<CommonPicture>ОперацияДеление</CommonPicture>
+			<CommonPicture>ОперацияКвадратныйКорень</CommonPicture>
+			<CommonPicture>ОперацияКосинус</CommonPicture>
+			<CommonPicture>ОперацияОбратноеЗначение</CommonPicture>
+			<CommonPicture>ОперацияСинус</CommonPicture>
+			<CommonPicture>ОперацияСложение</CommonPicture>
+			<CommonPicture>ОперацияТангенс</CommonPicture>
+			<CommonPicture>ОперацияУмножение</CommonPicture>
+			<CommonPicture>ОперацияФакториал</CommonPicture>
+			<CommonPicture>ОперацияЭкспонента</CommonPicture>
+			<CommonPicture>КнопкаИнформация</CommonPicture>
 			<Interface>ИнтерфейсАдминистратора</Interface>
 			<Role>СистемныйАдминистратор</Role>
 			<Role>АдминистраторТорговойТочки</Role>
@@ -338,6 +355,7 @@
 			<DataProcessor>ОбменДанными</DataProcessor>
 			<DataProcessor>ПланировщикЗаданий</DataProcessor>
 			<DataProcessor>ОбменСОтделениями</DataProcessor>
+			<DataProcessor>Калькулятор</DataProcessor>
 			<InformationRegister>Цены</InformationRegister>
 			<InformationRegister>ЗначенияСвойствНоменклатуры</InformationRegister>
 			<InformationRegister>ГрафикиРаботы</InformationRegister>
