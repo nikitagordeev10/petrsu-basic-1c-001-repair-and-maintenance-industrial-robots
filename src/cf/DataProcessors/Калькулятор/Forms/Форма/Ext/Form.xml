@@ -10,7 +10,6 @@
 			<Width>5</Width>
 			<Height>1</Height>
 			<CommandName>Form.Command.КнопкаИнформация</CommandName>
-			<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 			<Picture>
 				<xr:Ref>CommonPicture.КнопкаИнформация</xr:Ref>
 				<xr:LoadTransparent>true</xr:LoadTransparent>
@@ -27,7 +26,7 @@
 			<Group>Vertical</Group>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
-			<BackColor>#F6F4F1</BackColor>
+			<BackColor>#F9F7F5</BackColor>
 			<ExtendedTooltip name="Группа8РасширеннаяПодсказка" id="109"/>
 			<ChildItems>
 				<UsualGroup name="Группа12" id="134">
@@ -39,6 +38,8 @@
 							<DataPath>Табло</DataPath>
 							<TitleLocation>None</TitleLocation>
 							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<BackColor>#CECDB4</BackColor>
+							<BorderColor>#1D1D1D</BorderColor>
 							<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 							<ContextMenu name="ТаблоКонтекстноеМеню" id="100"/>
 							<ExtendedTooltip name="ТаблоРасширеннаяПодсказка" id="101"/>
@@ -51,6 +52,9 @@
 							<Height>1</Height>
 							<AutoMaxHeight>false</AutoMaxHeight>
 							<CommandName>Form.Command.ОперацияСложение</CommandName>
+							<TextColor>#FBFBFB</TextColor>
+							<BackColor>#E87E26</BackColor>
+							<BorderColor>#1D1D1D</BorderColor>
 							<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 							<Picture>
 								<xr:Ref>CommonPicture.ОперацияСложение</xr:Ref>
@@ -69,6 +73,9 @@
 							<Width>5</Width>
 							<Height>1</Height>
 							<CommandName>Form.Command.Цифра7</CommandName>
+							<TextColor>#FBFBFB</TextColor>
+							<BackColor>#A92D2D</BackColor>
+							<BorderColor>#1D1D1D</BorderColor>
 							<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 							<Title>
 								<v8:item>
@@ -83,6 +90,9 @@
 							<Width>5</Width>
 							<Height>1</Height>
 							<CommandName>Form.Command.Цифра7</CommandName>
+							<TextColor>#FBFBFB</TextColor>
+							<BackColor>#A92D2D</BackColor>
+							<BorderColor>#1D1D1D</BorderColor>
 							<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 							<Title>
 								<v8:item>
@@ -107,6 +117,7 @@
 									<v8:content>Арифметические операции</v8:content>
 								</v8:item>
 							</Title>
+							<TitleTextColor>#07090A</TitleTextColor>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -114,7 +125,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
-							<BackColor>#F6F4F1</BackColor>
+							<BackColor>#F9F7F5</BackColor>
 							<ExtendedTooltip name="АрифметическиеОперацииРасширеннаяПодсказка" id="22"/>
 							<ChildItems>
 								<UsualGroup name="Группа20" id="340">
@@ -127,6 +138,9 @@
 											<Width>8</Width>
 											<Height>1</Height>
 											<CommandName>Form.Command.Цифра7</CommandName>
+											<TextColor>#FBFBFB</TextColor>
+											<BackColor>#919191</BackColor>
+											<BorderColor>#1D1D1D</BorderColor>
 											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 											<Title>
 												<v8:item>
@@ -141,6 +155,9 @@
 											<Width>8</Width>
 											<Height>1</Height>
 											<CommandName>Form.Command.Цифра7</CommandName>
+											<TextColor>#FBFBFB</TextColor>
+											<BackColor>#919191</BackColor>
+											<BorderColor>#1D1D1D</BorderColor>
 											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 											<Title>
 												<v8:item>
@@ -155,6 +172,9 @@
 											<Width>8</Width>
 											<Height>1</Height>
 											<CommandName>Form.Command.Цифра7</CommandName>
+											<TextColor>#FBFBFB</TextColor>
+											<BackColor>#919191</BackColor>
+											<BorderColor>#1D1D1D</BorderColor>
 											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 											<Title>
 												<v8:item>
@@ -169,6 +189,9 @@
 											<Width>8</Width>
 											<Height>1</Height>
 											<CommandName>Form.Command.Цифра7</CommandName>
+											<TextColor>#FBFBFB</TextColor>
+											<BackColor>#919191</BackColor>
+											<BorderColor>#1D1D1D</BorderColor>
 											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 											<Title>
 												<v8:item>
@@ -195,6 +218,9 @@
 											<Width>8</Width>
 											<Height>1</Height>
 											<CommandName>Form.Command.Цифра7</CommandName>
+											<TextColor>#FBFBFB</TextColor>
+											<BackColor>#919191</BackColor>
+											<BorderColor>#1D1D1D</BorderColor>
 											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 											<Title>
 												<v8:item>
@@ -209,6 +235,9 @@
 											<Width>8</Width>
 											<Height>1</Height>
 											<CommandName>Form.Command.Цифра7</CommandName>
+											<TextColor>#FBFBFB</TextColor>
+											<BackColor>#919191</BackColor>
+											<BorderColor>#1D1D1D</BorderColor>
 											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 											<Title>
 												<v8:item>
@@ -240,6 +269,9 @@
 													<Width>8</Width>
 													<Height>1</Height>
 													<CommandName>Form.Command.Цифра7</CommandName>
+													<TextColor>#FBFBFB</TextColor>
+													<BackColor>#919191</BackColor>
+													<BorderColor>#1D1D1D</BorderColor>
 													<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 													<Title>
 														<v8:item>
@@ -254,6 +286,9 @@
 													<Width>8</Width>
 													<Height>1</Height>
 													<CommandName>Form.Command.Цифра7</CommandName>
+													<TextColor>#FBFBFB</TextColor>
+													<BackColor>#919191</BackColor>
+													<BorderColor>#1D1D1D</BorderColor>
 													<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 													<Title>
 														<v8:item>
@@ -268,6 +303,9 @@
 													<Width>8</Width>
 													<Height>1</Height>
 													<CommandName>Form.Command.Цифра7</CommandName>
+													<TextColor>#FBFBFB</TextColor>
+													<BackColor>#919191</BackColor>
+													<BorderColor>#1D1D1D</BorderColor>
 													<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 													<Title>
 														<v8:item>
@@ -282,6 +320,9 @@
 													<Width>8</Width>
 													<Height>1</Height>
 													<CommandName>Form.Command.Цифра7</CommandName>
+													<TextColor>#FBFBFB</TextColor>
+													<BackColor>#919191</BackColor>
+													<BorderColor>#1D1D1D</BorderColor>
 													<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 													<Title>
 														<v8:item>
@@ -309,6 +350,9 @@
 													<Width>8</Width>
 													<Height>1</Height>
 													<CommandName>Form.Command.Цифра7</CommandName>
+													<TextColor>#FBFBFB</TextColor>
+													<BackColor>#919191</BackColor>
+													<BorderColor>#1D1D1D</BorderColor>
 													<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 													<Title>
 														<v8:item>
@@ -323,6 +367,9 @@
 													<Width>8</Width>
 													<Height>1</Height>
 													<CommandName>Form.Command.Цифра7</CommandName>
+													<TextColor>#FBFBFB</TextColor>
+													<BackColor>#919191</BackColor>
+													<BorderColor>#1D1D1D</BorderColor>
 													<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 													<Title>
 														<v8:item>
@@ -337,6 +384,9 @@
 													<Width>8</Width>
 													<Height>1</Height>
 													<CommandName>Form.Command.Цифра7</CommandName>
+													<TextColor>#FBFBFB</TextColor>
+													<BackColor>#919191</BackColor>
+													<BorderColor>#1D1D1D</BorderColor>
 													<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 													<Title>
 														<v8:item>
@@ -351,6 +401,9 @@
 													<Width>8</Width>
 													<Height>1</Height>
 													<CommandName>Form.Command.Цифра7</CommandName>
+													<TextColor>#FBFBFB</TextColor>
+													<BackColor>#919191</BackColor>
+													<BorderColor>#1D1D1D</BorderColor>
 													<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 													<Title>
 														<v8:item>
@@ -372,6 +425,9 @@
 													<Width>8</Width>
 													<Height>1</Height>
 													<CommandName>Form.Command.Цифра7</CommandName>
+													<TextColor>#FBFBFB</TextColor>
+													<BackColor>#919191</BackColor>
+													<BorderColor>#1D1D1D</BorderColor>
 													<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 													<Title>
 														<v8:item>
@@ -386,6 +442,9 @@
 													<Width>8</Width>
 													<Height>1</Height>
 													<CommandName>Form.Command.Цифра7</CommandName>
+													<TextColor>#FBFBFB</TextColor>
+													<BackColor>#919191</BackColor>
+													<BorderColor>#1D1D1D</BorderColor>
 													<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 													<Title>
 														<v8:item>
@@ -400,6 +459,9 @@
 													<Width>8</Width>
 													<Height>1</Height>
 													<CommandName>Form.Command.Цифра7</CommandName>
+													<TextColor>#FBFBFB</TextColor>
+													<BackColor>#919191</BackColor>
+													<BorderColor>#1D1D1D</BorderColor>
 													<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 													<Title>
 														<v8:item>
@@ -414,6 +476,9 @@
 													<Width>8</Width>
 													<Height>1</Height>
 													<CommandName>Form.Command.Цифра7</CommandName>
+													<TextColor>#FBFBFB</TextColor>
+													<BackColor>#919191</BackColor>
+													<BorderColor>#1D1D1D</BorderColor>
 													<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 													<Title>
 														<v8:item>
@@ -435,6 +500,9 @@
 													<Width>8</Width>
 													<Height>1</Height>
 													<CommandName>Form.Command.Цифра7</CommandName>
+													<TextColor>#FBFBFB</TextColor>
+													<BackColor>#919191</BackColor>
+													<BorderColor>#1D1D1D</BorderColor>
 													<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 													<Title>
 														<v8:item>
@@ -449,6 +517,9 @@
 													<Width>8</Width>
 													<Height>1</Height>
 													<CommandName>Form.Command.Цифра7</CommandName>
+													<TextColor>#FBFBFB</TextColor>
+													<BackColor>#919191</BackColor>
+													<BorderColor>#1D1D1D</BorderColor>
 													<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 													<Title>
 														<v8:item>
@@ -463,6 +534,9 @@
 													<Width>8</Width>
 													<Height>1</Height>
 													<CommandName>Form.Command.Цифра7</CommandName>
+													<TextColor>#FBFBFB</TextColor>
+													<BackColor>#919191</BackColor>
+													<BorderColor>#1D1D1D</BorderColor>
 													<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 													<Title>
 														<v8:item>
@@ -477,6 +551,9 @@
 													<Width>8</Width>
 													<Height>1</Height>
 													<CommandName>Form.Command.Цифра7</CommandName>
+													<TextColor>#FBFBFB</TextColor>
+													<BackColor>#919191</BackColor>
+													<BorderColor>#1D1D1D</BorderColor>
 													<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 													<Title>
 														<v8:item>
@@ -498,6 +575,9 @@
 													<Width>8</Width>
 													<Height>1</Height>
 													<CommandName>Form.Command.Цифра7</CommandName>
+													<TextColor>#FBFBFB</TextColor>
+													<BackColor>#919191</BackColor>
+													<BorderColor>#1D1D1D</BorderColor>
 													<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 													<Title>
 														<v8:item>
@@ -512,6 +592,9 @@
 													<Width>8</Width>
 													<Height>1</Height>
 													<CommandName>Form.Command.Цифра7</CommandName>
+													<TextColor>#FBFBFB</TextColor>
+													<BackColor>#919191</BackColor>
+													<BorderColor>#1D1D1D</BorderColor>
 													<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 													<Title>
 														<v8:item>
@@ -526,6 +609,9 @@
 													<Width>8</Width>
 													<Height>1</Height>
 													<CommandName>Form.Command.Цифра7</CommandName>
+													<TextColor>#FBFBFB</TextColor>
+													<BackColor>#919191</BackColor>
+													<BorderColor>#1D1D1D</BorderColor>
 													<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 													<Title>
 														<v8:item>
@@ -540,6 +626,9 @@
 													<Width>8</Width>
 													<Height>1</Height>
 													<CommandName>Form.Command.Цифра7</CommandName>
+													<TextColor>#FBFBFB</TextColor>
+													<BackColor>#919191</BackColor>
+													<BorderColor>#1D1D1D</BorderColor>
 													<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 													<Title>
 														<v8:item>
@@ -567,8 +656,9 @@
 									<v8:content>Математические константы</v8:content>
 								</v8:item>
 							</Title>
+							<TitleTextColor>#07090A</TitleTextColor>
 							<Group>AlwaysHorizontal</Group>
-							<BackColor>#F6F4F1</BackColor>
+							<BackColor>#F9F7F5</BackColor>
 							<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="333"/>
 							<ChildItems>
 								<UsualGroup name="Группа24" id="336">
@@ -582,6 +672,9 @@
 											<Width>8</Width>
 											<Height>1</Height>
 											<CommandName>Form.Command.Цифра7</CommandName>
+											<TextColor>#FBFBFB</TextColor>
+											<BackColor>#919191</BackColor>
+											<BorderColor>#1D1D1D</BorderColor>
 											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 											<Title>
 												<v8:item>
@@ -596,6 +689,9 @@
 											<Width>8</Width>
 											<Height>1</Height>
 											<CommandName>Form.Command.Цифра7</CommandName>
+											<TextColor>#FBFBFB</TextColor>
+											<BackColor>#919191</BackColor>
+											<BorderColor>#1D1D1D</BorderColor>
 											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 											<Title>
 												<v8:item>
@@ -624,6 +720,7 @@
 									<v8:content>Числа</v8:content>
 								</v8:item>
 							</Title>
+							<TitleTextColor>#07090A</TitleTextColor>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -631,7 +728,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
-							<BackColor>#F6F4F1</BackColor>
+							<BackColor>#F9F7F5</BackColor>
 							<ExtendedTooltip name="Числа1РасширеннаяПодсказка" id="137"/>
 							<ChildItems>
 								<UsualGroup name="Группа10" id="138">
@@ -644,6 +741,9 @@
 											<Width>5</Width>
 											<Height>1</Height>
 											<CommandName>Form.Command.Цифра7</CommandName>
+											<TextColor>#020202</TextColor>
+											<BackColor>#E5E5E5</BackColor>
+											<BorderColor>#1D1D1D</BorderColor>
 											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 											<Title>
 												<v8:item>
@@ -658,6 +758,9 @@
 											<Width>5</Width>
 											<Height>1</Height>
 											<CommandName>Form.Command.Цифра8</CommandName>
+											<TextColor>#020202</TextColor>
+											<BackColor>#E5E5E5</BackColor>
+											<BorderColor>#1D1D1D</BorderColor>
 											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 											<Title>
 												<v8:item>
@@ -672,6 +775,9 @@
 											<Width>5</Width>
 											<Height>1</Height>
 											<CommandName>Form.Command.Цифра9</CommandName>
+											<TextColor>#020202</TextColor>
+											<BackColor>#E5E5E5</BackColor>
+											<BorderColor>#1D1D1D</BorderColor>
 											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 											<Title>
 												<v8:item>
@@ -693,6 +799,9 @@
 											<Width>5</Width>
 											<Height>1</Height>
 											<CommandName>Form.Command.Цифра4</CommandName>
+											<TextColor>#020202</TextColor>
+											<BackColor>#E5E5E5</BackColor>
+											<BorderColor>#1D1D1D</BorderColor>
 											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 											<Title>
 												<v8:item>
@@ -707,6 +816,9 @@
 											<Width>5</Width>
 											<Height>1</Height>
 											<CommandName>Form.Command.Цифра5</CommandName>
+											<TextColor>#020202</TextColor>
+											<BackColor>#E5E5E5</BackColor>
+											<BorderColor>#1D1D1D</BorderColor>
 											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 											<Title>
 												<v8:item>
@@ -721,6 +833,9 @@
 											<Width>5</Width>
 											<Height>1</Height>
 											<CommandName>Form.Command.Цифра6</CommandName>
+											<TextColor>#020202</TextColor>
+											<BackColor>#E5E5E5</BackColor>
+											<BorderColor>#1D1D1D</BorderColor>
 											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 											<Title>
 												<v8:item>
@@ -742,6 +857,9 @@
 											<Width>5</Width>
 											<Height>1</Height>
 											<CommandName>Form.Command.Цифра1</CommandName>
+											<TextColor>#020202</TextColor>
+											<BackColor>#E5E5E5</BackColor>
+											<BorderColor>#1D1D1D</BorderColor>
 											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 											<Title>
 												<v8:item>
@@ -756,6 +874,9 @@
 											<Width>5</Width>
 											<Height>1</Height>
 											<CommandName>Form.Command.Цифра2</CommandName>
+											<TextColor>#020202</TextColor>
+											<BackColor>#E5E5E5</BackColor>
+											<BorderColor>#1D1D1D</BorderColor>
 											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 											<Title>
 												<v8:item>
@@ -770,6 +891,9 @@
 											<Width>5</Width>
 											<Height>1</Height>
 											<CommandName>Form.Command.Цифра3</CommandName>
+											<TextColor>#020202</TextColor>
+											<BackColor>#E5E5E5</BackColor>
+											<BorderColor>#1D1D1D</BorderColor>
 											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 											<Title>
 												<v8:item>
@@ -792,6 +916,9 @@
 											<Width>5</Width>
 											<Height>1</Height>
 											<CommandName>Form.Command.Цифра0</CommandName>
+											<TextColor>#020202</TextColor>
+											<BackColor>#E5E5E5</BackColor>
+											<BorderColor>#1D1D1D</BorderColor>
 											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 											<Title>
 												<v8:item>
@@ -806,6 +933,9 @@
 											<Width>5</Width>
 											<Height>1</Height>
 											<CommandName>Form.Command.Цифра7</CommandName>
+											<TextColor>#020202</TextColor>
+											<BackColor>#E5E5E5</BackColor>
+											<BorderColor>#1D1D1D</BorderColor>
 											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 											<Title>
 												<v8:item>
@@ -820,6 +950,9 @@
 											<Width>5</Width>
 											<Height>1</Height>
 											<CommandName>Form.Command.Цифра9</CommandName>
+											<TextColor>#020202</TextColor>
+											<BackColor>#E5E5E5</BackColor>
+											<BorderColor>#1D1D1D</BorderColor>
 											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 											<Title>
 												<v8:item>
@@ -840,6 +973,7 @@
 									<v8:content>Символы</v8:content>
 								</v8:item>
 							</Title>
+							<TitleTextColor>#07090A</TitleTextColor>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -847,7 +981,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
-							<BackColor>#F6F4F1</BackColor>
+							<BackColor>#F9F7F5</BackColor>
 							<ExtendedTooltip name="ЧислаРасширеннаяПодсказка" id="117"/>
 							<ChildItems>
 								<UsualGroup name="Группа2" id="87">
@@ -860,6 +994,9 @@
 											<Width>4</Width>
 											<Height>1</Height>
 											<CommandName>Form.Command.Цифра7</CommandName>
+											<TextColor>#FBFBFB</TextColor>
+											<BackColor>#919191</BackColor>
+											<BorderColor>#1D1D1D</BorderColor>
 											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 											<Title>
 												<v8:item>
@@ -874,6 +1011,9 @@
 											<Width>4</Width>
 											<Height>1</Height>
 											<CommandName>Form.Command.Цифра8</CommandName>
+											<TextColor>#FBFBFB</TextColor>
+											<BackColor>#919191</BackColor>
+											<BorderColor>#1D1D1D</BorderColor>
 											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 											<Title>
 												<v8:item>
@@ -888,6 +1028,9 @@
 											<Width>4</Width>
 											<Height>1</Height>
 											<CommandName>Form.Command.Цифра9</CommandName>
+											<TextColor>#FBFBFB</TextColor>
+											<BackColor>#919191</BackColor>
+											<BorderColor>#1D1D1D</BorderColor>
 											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 											<Title>
 												<v8:item>
@@ -903,6 +1046,9 @@
 											<Width>4</Width>
 											<Height>1</Height>
 											<CommandName>Form.Command.ОперацияДеление</CommandName>
+											<TextColor>#FBFBFB</TextColor>
+											<BackColor>#919191</BackColor>
+											<BorderColor>#1D1D1D</BorderColor>
 											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 											<Picture>
 												<xr:Ref>CommonPicture.ОперацияДеление</xr:Ref>
@@ -922,6 +1068,9 @@
 											<Width>4</Width>
 											<Height>1</Height>
 											<CommandName>Form.Command.ОперацияДеление</CommandName>
+											<TextColor>#FBFBFB</TextColor>
+											<BackColor>#919191</BackColor>
+											<BorderColor>#1D1D1D</BorderColor>
 											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 											<Picture>
 												<xr:Ref>CommonPicture.ОперацияДеление</xr:Ref>
@@ -941,6 +1090,9 @@
 											<Width>4</Width>
 											<Height>1</Height>
 											<CommandName>Form.Command.ОперацияДеление</CommandName>
+											<TextColor>#FBFBFB</TextColor>
+											<BackColor>#919191</BackColor>
+											<BorderColor>#1D1D1D</BorderColor>
 											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 											<Picture>
 												<xr:Ref>CommonPicture.ОперацияДеление</xr:Ref>
@@ -960,6 +1112,9 @@
 											<Width>4</Width>
 											<Height>1</Height>
 											<CommandName>Form.Command.ОперацияДеление</CommandName>
+											<TextColor>#FBFBFB</TextColor>
+											<BackColor>#919191</BackColor>
+											<BorderColor>#1D1D1D</BorderColor>
 											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 											<Picture>
 												<xr:Ref>CommonPicture.ОперацияДеление</xr:Ref>
@@ -985,6 +1140,9 @@
 											<Width>4</Width>
 											<Height>1</Height>
 											<CommandName>Form.Command.Цифра4</CommandName>
+											<TextColor>#FBFBFB</TextColor>
+											<BackColor>#919191</BackColor>
+											<BorderColor>#1D1D1D</BorderColor>
 											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 											<Title>
 												<v8:item>
@@ -999,6 +1157,9 @@
 											<Width>4</Width>
 											<Height>1</Height>
 											<CommandName>Form.Command.Цифра5</CommandName>
+											<TextColor>#FBFBFB</TextColor>
+											<BackColor>#919191</BackColor>
+											<BorderColor>#1D1D1D</BorderColor>
 											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 											<Title>
 												<v8:item>
@@ -1013,6 +1174,9 @@
 											<Width>4</Width>
 											<Height>1</Height>
 											<CommandName>Form.Command.Цифра6</CommandName>
+											<TextColor>#FBFBFB</TextColor>
+											<BackColor>#919191</BackColor>
+											<BorderColor>#1D1D1D</BorderColor>
 											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 											<Title>
 												<v8:item>
@@ -1032,6 +1196,9 @@
 											<AutoMaxHeight>false</AutoMaxHeight>
 											<MaxHeight>1</MaxHeight>
 											<CommandName>Form.Command.ОперацияУмножение</CommandName>
+											<TextColor>#FBFBFB</TextColor>
+											<BackColor>#919191</BackColor>
+											<BorderColor>#1D1D1D</BorderColor>
 											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 											<Picture>
 												<xr:Ref>CommonPicture.ОперацияУмножение</xr:Ref>
@@ -1055,6 +1222,9 @@
 											<AutoMaxHeight>false</AutoMaxHeight>
 											<MaxHeight>1</MaxHeight>
 											<CommandName>Form.Command.ОперацияУмножение</CommandName>
+											<TextColor>#FBFBFB</TextColor>
+											<BackColor>#919191</BackColor>
+											<BorderColor>#1D1D1D</BorderColor>
 											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 											<Picture>
 												<xr:Ref>CommonPicture.ОперацияУмножение</xr:Ref>
@@ -1078,6 +1248,9 @@
 											<AutoMaxHeight>false</AutoMaxHeight>
 											<MaxHeight>1</MaxHeight>
 											<CommandName>Form.Command.ОперацияУмножение</CommandName>
+											<TextColor>#FBFBFB</TextColor>
+											<BackColor>#919191</BackColor>
+											<BorderColor>#1D1D1D</BorderColor>
 											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 											<Picture>
 												<xr:Ref>CommonPicture.ОперацияУмножение</xr:Ref>
@@ -1101,6 +1274,9 @@
 											<AutoMaxHeight>false</AutoMaxHeight>
 											<MaxHeight>1</MaxHeight>
 											<CommandName>Form.Command.ОперацияУмножение</CommandName>
+											<TextColor>#FBFBFB</TextColor>
+											<BackColor>#919191</BackColor>
+											<BorderColor>#1D1D1D</BorderColor>
 											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 											<Picture>
 												<xr:Ref>CommonPicture.ОперацияУмножение</xr:Ref>
@@ -1126,6 +1302,9 @@
 											<Width>4</Width>
 											<Height>1</Height>
 											<CommandName>Form.Command.Цифра1</CommandName>
+											<TextColor>#FBFBFB</TextColor>
+											<BackColor>#919191</BackColor>
+											<BorderColor>#1D1D1D</BorderColor>
 											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 											<Title>
 												<v8:item>
@@ -1140,6 +1319,9 @@
 											<Width>4</Width>
 											<Height>1</Height>
 											<CommandName>Form.Command.Цифра2</CommandName>
+											<TextColor>#FBFBFB</TextColor>
+											<BackColor>#919191</BackColor>
+											<BorderColor>#1D1D1D</BorderColor>
 											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 											<Title>
 												<v8:item>
@@ -1154,6 +1336,9 @@
 											<Width>4</Width>
 											<Height>1</Height>
 											<CommandName>Form.Command.Цифра3</CommandName>
+											<TextColor>#FBFBFB</TextColor>
+											<BackColor>#919191</BackColor>
+											<BorderColor>#1D1D1D</BorderColor>
 											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 											<Title>
 												<v8:item>
@@ -1170,6 +1355,9 @@
 											<Height>1</Height>
 											<AutoMaxHeight>false</AutoMaxHeight>
 											<CommandName>Form.Command.ОперацияВычитание</CommandName>
+											<TextColor>#FBFBFB</TextColor>
+											<BackColor>#919191</BackColor>
+											<BorderColor>#1D1D1D</BorderColor>
 											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 											<Picture>
 												<xr:Ref>CommonPicture.ОперацияВычитание</xr:Ref>
@@ -1190,6 +1378,9 @@
 											<Height>1</Height>
 											<AutoMaxHeight>false</AutoMaxHeight>
 											<CommandName>Form.Command.ОперацияВычитание</CommandName>
+											<TextColor>#FBFBFB</TextColor>
+											<BackColor>#919191</BackColor>
+											<BorderColor>#1D1D1D</BorderColor>
 											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 											<Picture>
 												<xr:Ref>CommonPicture.ОперацияВычитание</xr:Ref>
@@ -1210,6 +1401,9 @@
 											<Height>1</Height>
 											<AutoMaxHeight>false</AutoMaxHeight>
 											<CommandName>Form.Command.ОперацияВычитание</CommandName>
+											<TextColor>#FBFBFB</TextColor>
+											<BackColor>#919191</BackColor>
+											<BorderColor>#1D1D1D</BorderColor>
 											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 											<Picture>
 												<xr:Ref>CommonPicture.ОперацияВычитание</xr:Ref>
@@ -1230,6 +1424,9 @@
 											<Height>1</Height>
 											<AutoMaxHeight>false</AutoMaxHeight>
 											<CommandName>Form.Command.ОперацияВычитание</CommandName>
+											<TextColor>#FBFBFB</TextColor>
+											<BackColor>#919191</BackColor>
+											<BorderColor>#1D1D1D</BorderColor>
 											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 											<Picture>
 												<xr:Ref>CommonPicture.ОперацияВычитание</xr:Ref>
@@ -1256,6 +1453,9 @@
 											<Width>4</Width>
 											<Height>1</Height>
 											<CommandName>Form.Command.Цифра0</CommandName>
+											<TextColor>#FBFBFB</TextColor>
+											<BackColor>#919191</BackColor>
+											<BorderColor>#1D1D1D</BorderColor>
 											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 											<Title>
 												<v8:item>
@@ -1270,6 +1470,9 @@
 											<Width>4</Width>
 											<Height>1</Height>
 											<CommandName>Form.Command.Цифра7</CommandName>
+											<TextColor>#FBFBFB</TextColor>
+											<BackColor>#919191</BackColor>
+											<BorderColor>#1D1D1D</BorderColor>
 											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 											<Title>
 												<v8:item>
@@ -1284,6 +1487,9 @@
 											<Width>4</Width>
 											<Height>1</Height>
 											<CommandName>Form.Command.Цифра9</CommandName>
+											<TextColor>#FBFBFB</TextColor>
+											<BackColor>#919191</BackColor>
+											<BorderColor>#1D1D1D</BorderColor>
 											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 											<Title>
 												<v8:item>
@@ -1298,6 +1504,9 @@
 											<Width>4</Width>
 											<Height>1</Height>
 											<CommandName>Form.Command.Цифра0</CommandName>
+											<TextColor>#FBFBFB</TextColor>
+											<BackColor>#919191</BackColor>
+											<BorderColor>#1D1D1D</BorderColor>
 											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 											<Title>
 												<v8:item>
@@ -1312,6 +1521,9 @@
 											<Width>4</Width>
 											<Height>1</Height>
 											<CommandName>Form.Command.Цифра0</CommandName>
+											<TextColor>#FBFBFB</TextColor>
+											<BackColor>#919191</BackColor>
+											<BorderColor>#1D1D1D</BorderColor>
 											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 											<Title>
 												<v8:item>
@@ -1326,6 +1538,9 @@
 											<Width>4</Width>
 											<Height>1</Height>
 											<CommandName>Form.Command.Цифра0</CommandName>
+											<TextColor>#FBFBFB</TextColor>
+											<BackColor>#919191</BackColor>
+											<BorderColor>#1D1D1D</BorderColor>
 											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 											<Title>
 												<v8:item>
@@ -1340,6 +1555,9 @@
 											<Width>4</Width>
 											<Height>1</Height>
 											<CommandName>Form.Command.Цифра0</CommandName>
+											<TextColor>#FBFBFB</TextColor>
+											<BackColor>#919191</BackColor>
+											<BorderColor>#1D1D1D</BorderColor>
 											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 											<Title>
 												<v8:item>
