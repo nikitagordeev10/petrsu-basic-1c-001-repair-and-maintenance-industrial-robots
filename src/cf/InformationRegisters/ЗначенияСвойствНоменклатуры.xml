@@ -42,8 +42,8 @@
 			<Comment/>
 			<UseStandardCommands>true</UseStandardCommands>
 			<EditType>InDialog</EditType>
-			<DefaultRecordForm>InformationRegister.ЗначенияСвойствНоменклатуры.Form.ФормаЗаписи</DefaultRecordForm>
-			<DefaultListForm>InformationRegister.ЗначенияСвойствНоменклатуры.Form.ФормаСписка</DefaultListForm>
+			<DefaultRecordForm/>
+			<DefaultListForm/>
 			<AuxiliaryRecordForm/>
 			<AuxiliaryListForm/>
 			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
@@ -55,19 +55,9 @@
 			<EnableTotalsSliceFirst>false</EnableTotalsSliceFirst>
 			<EnableTotalsSliceLast>false</EnableTotalsSliceLast>
 			<RecordPresentation/>
-			<ExtendedRecordPresentation>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Свойство и значение</v8:content>
-				</v8:item>
-			</ExtendedRecordPresentation>
+			<ExtendedRecordPresentation/>
 			<ListPresentation/>
-			<ExtendedListPresentation>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Состав варианта номенклатуры</v8:content>
-				</v8:item>
-			</ExtendedListPresentation>
+			<ExtendedListPresentation/>
 			<Explanation/>
 			<DataHistory>DontUse</DataHistory>
 			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>

@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PlanOfCharacteristicKindPredefinedItems" version="2.18">
+	<Item id="6eaf7eb3-7cf0-4012-881d-1accd32a73fb">
+		<Name>ВесИзделияСУпаковкойКГ</Name>
+		<Code>00000000001</Code>
+		<Description>Вес изделия с упаковкой (кг)</Description>
+		<Type>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>15</v8:Digits>
+				<v8:FractionDigits>3</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d344ad22-bbe7-4741-b998-273ec86ed799">
+		<Name>ГабаритыВУпаковкеВысотаСМ</Name>
+		<Code>00000000002</Code>
+		<Description>Габариты в упаковке, высота (см)</Description>
+		<Type>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>15</v8:Digits>
+				<v8:FractionDigits>3</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="624e1449-bcac-4ca3-81d8-f39d05b152ef">
+		<Name>ГабаритыВУпаковкеДлинаСМ</Name>
+		<Code>00000000003</Code>
+		<Description>Габариты в упаковке, длина (см)</Description>
+		<Type>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>15</v8:Digits>
+				<v8:FractionDigits>3</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9803766b-aa2d-4697-9393-0383e87145be">
+		<Name>ГабаритыВУпаковкеШиринаСМ</Name>
+		<Code>00000000004</Code>
+		<Description>Габариты в упаковке, ширина (см)</Description>
+		<Type>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>15</v8:Digits>
+				<v8:FractionDigits>3</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="60caff6b-c36f-4ee3-8e8b-689b50e18c07">
+		<Name>ВозможностьШтабелирования</Name>
+		<Code>00000000005</Code>
+		<Description>Требования к перевозке</Description>
+		<Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:EnumRef.ВозможностьШтабелирования</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8b29e71e-9e05-4b4e-8bbf-e56921a634c4">
+		<Name>ТребованияКПеревозке</Name>
+		<Code>00000000006</Code>
+		<Description>Требования к перевозке</Description>
+		<Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:EnumRef.ТребованияКПеревозке</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1fc031ee-65f0-4d42-8143-8bff5151fdad">
+		<Name>Хрупкость</Name>
+		<Code>00000000007</Code>
+		<Description>Хрупкость</Description>
+		<Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:EnumRef.Хрупкость</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

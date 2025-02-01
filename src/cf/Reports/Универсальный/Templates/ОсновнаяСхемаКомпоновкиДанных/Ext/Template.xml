@@ -26,13 +26,6 @@
 			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Клиент</dataPath>
-			<field>Клиент</field>
-			<role>
-				<dcscom:dimension>true</dcscom:dimension>
-			</role>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>ТорговаяТочка</dataPath>
 			<field>ТорговаяТочка</field>
 			<role>
@@ -46,10 +39,17 @@
 				<dcscom:dimension>true</dcscom:dimension>
 			</role>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Покупатель</dataPath>
+			<field>Покупатель</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	ПродажиОбороты.Номенклатура,
-	ПродажиОбороты.Клиент,
+	ПродажиОбороты.Покупатель,
 	ПродажиОбороты.ТорговаяТочка,
 	ПродажиОбороты.Продавец,
 	СУММА(ПродажиОбороты.КоличествоОборот) КАК КоличествоОборот,
@@ -59,7 +59,7 @@
 	РегистрНакопления.Продажи.Обороты КАК ПродажиОбороты
 
 СГРУППИРОВАТЬ ПО
-	ПродажиОбороты.Клиент,
+	ПродажиОбороты.Покупатель,
 	ПродажиОбороты.Номенклатура,
 	ПродажиОбороты.ТорговаяТочка,
 	ПродажиОбороты.Продавец</query>

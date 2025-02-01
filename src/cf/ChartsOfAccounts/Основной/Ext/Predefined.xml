@@ -11,7 +11,7 @@
 			<Flag ref="ChartOfAccounts.Основной.AccountingFlag.Количественный">true</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes>
-			<ExtDimensionType name="ChartOfCharacteristicTypes.ВидыСубконто.Продукты">
+			<ExtDimensionType name="ChartOfCharacteristicTypes.ВидыСубконто.Номенклатура">
 				<Turnover>false</Turnover>
 				<AccountingFlags>
 					<Flag ref="ChartOfAccounts.Основной.ExtDimensionAccountingFlag.Количественный">true</Flag>
@@ -42,10 +42,10 @@
 			<Flag ref="ChartOfAccounts.Основной.AccountingFlag.Количественный">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes>
-			<ExtDimensionType name="ChartOfCharacteristicTypes.ВидыСубконто.Клиенты">
+			<ExtDimensionType name="ChartOfCharacteristicTypes.ВидыСубконто.Покупатели">
 				<Turnover>false</Turnover>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.Основной.ExtDimensionAccountingFlag.Количественный">true</Flag>
+					<Flag ref="ChartOfAccounts.Основной.ExtDimensionAccountingFlag.Количественный">false</Flag>
 				</AccountingFlags>
 			</ExtDimensionType>
 		</ExtDimensionTypes>

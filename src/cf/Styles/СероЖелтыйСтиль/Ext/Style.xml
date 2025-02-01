@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Style xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Item name="ActivityColor">
+		<Color>#D1D1D1</Color>
+	</Item>
+	<Item name="AccentColor">
+		<Color>#A8A8A8</Color>
+	</Item>
+	<Item name="NavigationColor">
+		<Color>#F5F5F5</Color>
+	</Item>
+	<Item name="AuxiliaryNavigationColor">
+		<Color>#B4B4B4</Color>
+	</Item>
+	<Item name="ImportantColor">
+		<Color>#E1C16E</Color>
+	</Item>
+</Style>

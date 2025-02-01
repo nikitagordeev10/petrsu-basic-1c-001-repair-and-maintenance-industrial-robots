@@ -74,6 +74,12 @@
 				<LabelField name="НаборСвойств" id="16">
 					<DataPath>Список.НаборСвойств</DataPath>
 					<DefaultItem>true</DefaultItem>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вариант номенклатуры</v8:content>
+						</v8:item>
+					</Title>
 					<ContextMenu name="НаборСвойствКонтекстноеМеню" id="17"/>
 					<ExtendedTooltip name="НаборСвойствРасширеннаяПодсказка" id="18"/>
 				</LabelField>

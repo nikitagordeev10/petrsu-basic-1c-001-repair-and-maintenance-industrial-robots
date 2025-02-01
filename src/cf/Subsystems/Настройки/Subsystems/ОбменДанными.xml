@@ -16,12 +16,13 @@
 			<Explanation/>
 			<Picture/>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">ExchangePlan.Филиалы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ExchangePlan.Доставка</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ОбменДанными</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.ОбщиеНастройки</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ПланировщикЗаданий</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">ExchangePlan.Отделения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ExchangePlan.Производство</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ОбменСОтделениями</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ExchangePlan.ТорговаяТочка</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

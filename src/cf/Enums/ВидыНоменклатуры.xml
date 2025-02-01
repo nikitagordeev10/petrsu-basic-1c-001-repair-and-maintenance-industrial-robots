@@ -40,11 +40,35 @@
 		<ChildObjects>
 			<EnumValue uuid="eee28012-7fe1-48d7-bd20-146c565120dd">
 				<Properties>
-					<Name>Продукт</Name>
+					<Name>ИзготовленнаяПродукция</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Продукт</v8:content>
+							<v8:content>Изготовленная продукция</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="9aecd850-4472-4c20-bf00-e2fb01a9ba94">
+				<Properties>
+					<Name>Комплектующие</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Комплектующие</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="48659dc4-4b90-4577-a580-fe3db3dc57bc">
+				<Properties>
+					<Name>Упаковка</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Упаковка</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

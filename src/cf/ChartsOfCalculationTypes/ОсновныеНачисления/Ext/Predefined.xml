@@ -11,6 +11,9 @@
 		<Code>Оклад</Code>
 		<Description>Оклад</Description>
 		<ActionPeriodIsBase>false</ActionPeriodIsBase>
+		<Leading>
+			<CalculationType>ChartOfCalculationTypes.ОсновныеНачисления.Невыход</CalculationType>
+		</Leading>
 		<Displaced>
 			<CalculationType>ChartOfCalculationTypes.ОсновныеНачисления.Невыход</CalculationType>
 		</Displaced>

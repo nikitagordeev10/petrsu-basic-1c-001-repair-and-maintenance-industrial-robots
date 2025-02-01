@@ -31,7 +31,7 @@
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Фраза</v8:content>
+							<v8:content>Запрос</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
@@ -78,15 +78,15 @@
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="25"/>
 			<ChildItems>
-				<Button name="ПредыдущаяПорция" id="18">
+				<Button name="ПредыдущаяСтраница" id="18">
 					<Type>UsualButton</Type>
-					<CommandName>Form.Command.ПредыдущаяПорция</CommandName>
-					<ExtendedTooltip name="ПредыдущаяПорцияРасширеннаяПодсказка" id="19"/>
+					<CommandName>Form.Command.ПредыдущаяСтраница</CommandName>
+					<ExtendedTooltip name="ПредыдущаяСтраницаРасширеннаяПодсказка" id="19"/>
 				</Button>
-				<Button name="СледующаяПорция" id="20">
+				<Button name="СледующаяСтраница" id="20">
 					<Type>UsualButton</Type>
-					<CommandName>Form.Command.СледующаяПорция</CommandName>
-					<ExtendedTooltip name="СледующаяПорцияРасширеннаяПодсказка" id="21"/>
+					<CommandName>Form.Command.СледующаяСтраница</CommandName>
+					<ExtendedTooltip name="СледующаяСтраницаРасширеннаяПодсказка" id="21"/>
 				</Button>
 			</ChildItems>
 		</UsualGroup>
@@ -187,35 +187,35 @@
 			</ToolTip>
 			<Action>Поиск</Action>
 		</Command>
-		<Command name="ПредыдущаяПорция" id="2">
+		<Command name="ПредыдущаяСтраница" id="2">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Предыдущая порция</v8:content>
+					<v8:content>Предыдущая страница</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Предыдущая порция</v8:content>
+					<v8:content>Предыдущая страница</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Action>ПредыдущаяПорция</Action>
+			<Action>ПредыдущаяСтраница</Action>
 		</Command>
-		<Command name="СледующаяПорция" id="3">
+		<Command name="СледующаяСтраница" id="3">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Следующая порция</v8:content>
+					<v8:content>Следующая страница</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Следующая порция</v8:content>
+					<v8:content>Следующая страница</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Action>СледующаяПорция</Action>
+			<Action>СледующаяСтраница</Action>
 		</Command>
 	</Commands>
 </Form>

@@ -22,14 +22,6 @@
 			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Наименование</dataPath>
-			<field>Наименование</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>Код</dataPath>
-			<field>Код</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>СальдоНачКт</dataPath>
 			<field>СальдоНачКт</field>
 			<title xsi:type="v8:LocalStringType">
@@ -108,8 +100,7 @@
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
-	Основной.Код КАК Код,
-	Основной.Наименование,
+	Основной.Ссылка КАК Счет,
 	УправленческийОстаткиИОбороты.СуммаНачальныйОстатокДт КАК СальдоНачДт,
 	УправленческийОстаткиИОбороты.СуммаНачальныйОстатокКт КАК СальдоНачКт,
 	УправленческийОстаткиИОбороты.СуммаОборотДт КАК ОборотДт,
@@ -119,10 +110,7 @@
 ИЗ
 	ПланСчетов.Основной КАК Основной
 		ЛЕВОЕ СОЕДИНЕНИЕ РегистрБухгалтерии.Управленческий.ОстаткиИОбороты КАК УправленческийОстаткиИОбороты
-		ПО УправленческийОстаткиИОбороты.Счет = Основной.Ссылка
-
-УПОРЯДОЧИТЬ ПО
-	Код</query>
+		ПО УправленческийОстаткиИОбороты.Счет = Основной.Ссылка</query>
 	</dataSet>
 	<totalField>
 		<dataPath>ОборотДт</dataPath>
@@ -208,10 +196,7 @@
 		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
 			<dcsset:selection>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>Код</dcsset:field>
-				</dcsset:item>
-				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>Наименование</dcsset:field>
+					<dcsset:field>Счет</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>СальдоНачДт</dcsset:field>
@@ -236,9 +221,7 @@
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>Период</dcscor:parameter>
 					<dcscor:value xsi:type="v8:StandardPeriod">
-						<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
-						<v8:startDate>0001-01-01T00:00:00</v8:startDate>
-						<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+						<v8:variant xsi:type="v8:StandardPeriodVariant">ThisMonth</v8:variant>
 					</dcscor:value>
 					<dcsset:userSettingID>14622f1f-170c-44dc-9a45-8e6552181feb</dcsset:userSettingID>
 				</dcscor:item>

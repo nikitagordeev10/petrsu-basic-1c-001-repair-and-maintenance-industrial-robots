@@ -1,16 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <HomePageWorkArea xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
-	<WorkingAreaTemplate>TwoColumnsVariableWidth</WorkingAreaTemplate>
-	<LeftColumn>
+	<WorkingAreaTemplate>OneColumn</WorkingAreaTemplate>
+	<Column>
 		<Item>
-			<Form>Document.РасчетыЧерезКассу.Form.ФормаСписка</Form>
+			<Form>Report.ПоискДанных.Form.ФормаОтчета</Form>
 			<Height>10</Height>
 			<Visibility>
 				<xr:Common>true</xr:Common>
-				<xr:Value name="Role.СистемныйАдминистратор">false</xr:Value>
-				<xr:Value name="Role.АдминистраторТорговойТочки">false</xr:Value>
-				<xr:Value name="Role.Продавец">true</xr:Value>
-				<xr:Value name="Role.Расчетчик">false</xr:Value>
+				<xr:Value name="Role.Руководитель">false</xr:Value>
 				<xr:Value name="Role.Бухгалтер">false</xr:Value>
 			</Visibility>
 		</Item>
@@ -20,89 +17,7 @@
 			<Visibility>
 				<xr:Common>true</xr:Common>
 				<xr:Value name="Role.СистемныйАдминистратор">false</xr:Value>
-				<xr:Value name="Role.АдминистраторТорговойТочки">false</xr:Value>
-				<xr:Value name="Role.Продавец">false</xr:Value>
-				<xr:Value name="Role.Расчетчик">false</xr:Value>
-			</Visibility>
-		</Item>
-		<Item>
-			<Form>Report.НачисленияCотрудникам.Form.ФормаОтчета</Form>
-			<Height>10</Height>
-			<Visibility>
-				<xr:Common>true</xr:Common>
-				<xr:Value name="Role.СистемныйАдминистратор">false</xr:Value>
-				<xr:Value name="Role.АдминистраторТорговойТочки">false</xr:Value>
-				<xr:Value name="Role.Продавец">false</xr:Value>
-				<xr:Value name="Role.Расчетчик">true</xr:Value>
-			</Visibility>
-		</Item>
-		<Item>
-			<Form>Report.РейтингПродуктов.Form.ФормаОтчета</Form>
-			<Height>10</Height>
-			<Visibility>
-				<xr:Common>true</xr:Common>
-				<xr:Value name="Role.СистемныйАдминистратор">false</xr:Value>
-				<xr:Value name="Role.АдминистраторТорговойТочки">true</xr:Value>
-				<xr:Value name="Role.Продавец">false</xr:Value>
-				<xr:Value name="Role.Расчетчик">false</xr:Value>
-				<xr:Value name="Role.Бухгалтер">false</xr:Value>
-			</Visibility>
-		</Item>
-		<Item>
-			<Form>Report.ПоискДанных.Form.ФормаОтчета</Form>
-			<Height>10</Height>
-			<Visibility>
-				<xr:Common>true</xr:Common>
-				<xr:Value name="Role.АдминистраторТорговойТочки">false</xr:Value>
-				<xr:Value name="Role.Продавец">false</xr:Value>
-				<xr:Value name="Role.Расчетчик">false</xr:Value>
-				<xr:Value name="Role.Бухгалтер">false</xr:Value>
-			</Visibility>
-		</Item>
-	</LeftColumn>
-	<RightColumn>
-		<Item>
-			<Form>Document.ПриходныеНакладные.Form.ФормаСписка</Form>
-			<Height>10</Height>
-			<Visibility>
-				<xr:Common>true</xr:Common>
-				<xr:Value name="Role.СистемныйАдминистратор">false</xr:Value>
-				<xr:Value name="Role.АдминистраторТорговойТочки">false</xr:Value>
-				<xr:Value name="Role.Расчетчик">false</xr:Value>
-				<xr:Value name="Role.Бухгалтер">false</xr:Value>
-			</Visibility>
-		</Item>
-		<Item>
-			<Form>Catalog.Клиенты.Form.ФормаСписка</Form>
-			<Height>10</Height>
-			<Visibility>
-				<xr:Common>true</xr:Common>
-				<xr:Value name="Role.СистемныйАдминистратор">false</xr:Value>
-				<xr:Value name="Role.АдминистраторТорговойТочки">false</xr:Value>
-				<xr:Value name="Role.Расчетчик">false</xr:Value>
-				<xr:Value name="Role.Бухгалтер">false</xr:Value>
-			</Visibility>
-		</Item>
-		<Item>
-			<Form>Document.НачисленияСотрудникам.Form.ФормаСписка</Form>
-			<Height>10</Height>
-			<Visibility>
-				<xr:Common>true</xr:Common>
-				<xr:Value name="Role.СистемныйАдминистратор">false</xr:Value>
-				<xr:Value name="Role.АдминистраторТорговойТочки">false</xr:Value>
-				<xr:Value name="Role.Продавец">false</xr:Value>
-				<xr:Value name="Role.Бухгалтер">false</xr:Value>
-			</Visibility>
-		</Item>
-		<Item>
-			<Form>Report.ПереченьПродуктов.Form.ФормаОтчета</Form>
-			<Height>10</Height>
-			<Visibility>
-				<xr:Common>true</xr:Common>
-				<xr:Value name="Role.СистемныйАдминистратор">false</xr:Value>
-				<xr:Value name="Role.Продавец">false</xr:Value>
-				<xr:Value name="Role.Расчетчик">false</xr:Value>
-				<xr:Value name="Role.Бухгалтер">false</xr:Value>
+				<xr:Value name="Role.Руководитель">false</xr:Value>
 			</Visibility>
 		</Item>
 		<Item>
@@ -111,10 +26,8 @@
 			<Visibility>
 				<xr:Common>true</xr:Common>
 				<xr:Value name="Role.СистемныйАдминистратор">false</xr:Value>
-				<xr:Value name="Role.Продавец">false</xr:Value>
-				<xr:Value name="Role.Расчетчик">false</xr:Value>
 				<xr:Value name="Role.Бухгалтер">false</xr:Value>
 			</Visibility>
 		</Item>
-	</RightColumn>
+	</Column>
 </HomePageWorkArea>

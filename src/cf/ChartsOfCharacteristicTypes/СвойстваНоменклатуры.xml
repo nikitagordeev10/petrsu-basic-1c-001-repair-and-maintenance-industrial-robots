@@ -40,6 +40,9 @@
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<CharacteristicExtValues>Catalog.ДополнительныеСвойстваНоменклатуры</CharacteristicExtValues>
 			<Type>
+				<v8:Type>cfg:EnumRef.ВозможностьШтабелирования</v8:Type>
+				<v8:Type>cfg:EnumRef.ТребованияКПеревозке</v8:Type>
+				<v8:Type>cfg:EnumRef.Хрупкость</v8:Type>
 				<v8:Type>xs:boolean</v8:Type>
 				<v8:Type>cfg:CatalogRef.ДополнительныеСвойстваНоменклатуры</v8:Type>
 				<v8:Type>xs:string</v8:Type>
@@ -62,7 +65,7 @@
 			<FoldersOnTop>true</FoldersOnTop>
 			<CodeLength>11</CodeLength>
 			<CodeAllowedLength>Variable</CodeAllowedLength>
-			<DescriptionLength>25</DescriptionLength>
+			<DescriptionLength>60</DescriptionLength>
 			<CodeSeries>WholeCharacteristicKind</CodeSeries>
 			<CheckUnique>true</CheckUnique>
 			<Autonumbering>true</Autonumbering>
@@ -83,7 +86,7 @@
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 			<DefaultObjectForm>ChartOfCharacteristicTypes.СвойстваНоменклатуры.Form.ФормаЭлемента</DefaultObjectForm>
 			<DefaultFolderForm/>
-			<DefaultListForm/>
+			<DefaultListForm>ChartOfCharacteristicTypes.СвойстваНоменклатуры.Form.ФормаСписка</DefaultListForm>
 			<DefaultChoiceForm/>
 			<DefaultFolderChoiceForm/>
 			<AuxiliaryObjectForm/>
@@ -106,6 +109,7 @@
 		</Properties>
 		<ChildObjects>
 			<Form>ФормаЭлемента</Form>
+			<Form>ФормаСписка</Form>
 		</ChildObjects>
 	</ChartOfCharacteristicTypes>
 </MetaDataObject>

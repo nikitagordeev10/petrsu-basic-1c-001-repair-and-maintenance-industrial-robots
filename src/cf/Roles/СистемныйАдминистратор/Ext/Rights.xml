@@ -37,7 +37,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ПриходныеНакладные</name>
+		<name>Document.ПриходнаяНакладная</name>
 		<right>
 			<name>InteractiveDelete</name>
 			<value>false</value>
@@ -55,7 +55,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Клиенты</name>
+		<name>Catalog.Банки</name>
 		<right>
 			<name>InteractiveDelete</name>
 			<value>false</value>
@@ -84,7 +84,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.РасчетыЧерезКассу</name>
+		<name>Document.ОказаниеУслуги</name>
 		<right>
 			<name>InteractiveDelete</name>
 			<value>false</value>
@@ -102,7 +102,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ТорговыеТочки</name>
+		<name>Catalog.ОбъектыПредприятия</name>
 		<right>
 			<name>InteractiveDelete</name>
 			<value>false</value>

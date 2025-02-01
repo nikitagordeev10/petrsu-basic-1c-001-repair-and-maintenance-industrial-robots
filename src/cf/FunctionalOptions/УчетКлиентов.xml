@@ -13,9 +13,9 @@
 			<Location>Constant.УчетКлиентов</Location>
 			<PrivilegedGetMode>true</PrivilegedGetMode>
 			<Content>
-				<xr:Object>Catalog.Клиенты</xr:Object>
-				<xr:Object>Document.РасчетыЧерезКассу.Attribute.Клиент</xr:Object>
-				<xr:Object>AccumulationRegister.Продажи.Dimension.Клиент</xr:Object>
+				<xr:Object>Catalog.Банки</xr:Object>
+				<xr:Object>Document.ОказаниеУслуги.Attribute.Покупатель</xr:Object>
+				<xr:Object>AccumulationRegister.Продажи.Dimension.Покупатель</xr:Object>
 			</Content>
 		</Properties>
 	</FunctionalOption>

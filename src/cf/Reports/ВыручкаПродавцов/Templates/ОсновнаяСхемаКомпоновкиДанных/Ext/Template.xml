@@ -26,13 +26,6 @@
 			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Клиент</dataPath>
-			<field>Клиент</field>
-			<role>
-				<dcscom:dimension>true</dcscom:dimension>
-			</role>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>Выручка</dataPath>
 			<field>Выручка</field>
 			<title xsi:type="v8:LocalStringType">
@@ -46,17 +39,24 @@
 			<dataPath>ТорговаяТочка</dataPath>
 			<field>ТорговаяТочка</field>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Покупатель</dataPath>
+			<field>Покупатель</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	ПродажиОбороты.Продавец,
 	ПродажиОбороты.Период,
-	ПродажиОбороты.Клиент,
+	ПродажиОбороты.Покупатель,
 	СУММА(ПродажиОбороты.ВыручкаОборот) КАК Выручка
 ИЗ
 	РегистрНакопления.Продажи.Обороты(, , День, ) КАК ПродажиОбороты
 
 СГРУППИРОВАТЬ ПО
-	ПродажиОбороты.Клиент,
+	ПродажиОбороты.Покупатель,
 	ПродажиОбороты.Продавец,
 	ПродажиОбороты.Период</query>
 	</dataSet>
@@ -127,12 +127,16 @@
 			<dcsset:dataParameters>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>НачалоПериода</dcscor:parameter>
-					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
+					<dcscor:value xsi:type="v8:StandardBeginningDate">
+						<v8:variant xsi:type="v8:StandardBeginningDateVariant">BeginningOfThisMonth</v8:variant>
+					</dcscor:value>
 					<dcsset:userSettingID>da65b80e-9132-4358-915d-4d7bb07325fe</dcsset:userSettingID>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>ДатаОкончания</dcscor:parameter>
-					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
+					<dcscor:value xsi:type="v8:StandardBeginningDate">
+						<v8:variant xsi:type="v8:StandardBeginningDateVariant">BeginningOfThisDay</v8:variant>
+					</dcscor:value>
 					<dcsset:userSettingID>2b1645d6-6064-4738-9125-76841a6a7c64</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>

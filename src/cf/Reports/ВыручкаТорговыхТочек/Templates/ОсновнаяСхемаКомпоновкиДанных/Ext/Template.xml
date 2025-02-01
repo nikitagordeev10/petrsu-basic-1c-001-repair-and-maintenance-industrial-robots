@@ -29,15 +29,19 @@
 			<field>Номенклатура</field>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Клиент</dataPath>
-			<field>Клиент</field>
+			<dataPath>ТорговаяТочка</dataPath>
+			<field>ТорговаяТочка</field>
 			<role>
 				<dcscom:dimension>true</dcscom:dimension>
 			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>ТорговаяТочка</dataPath>
-			<field>ТорговаяТочка</field>
+			<dataPath>Продавец</dataPath>
+			<field>Продавец</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Покупатель</dataPath>
+			<field>Покупатель</field>
 			<role>
 				<dcscom:dimension>true</dcscom:dimension>
 			</role>
@@ -45,7 +49,7 @@
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	ПродажиОбороты.Период,
-	ПродажиОбороты.Клиент,
+	ПродажиОбороты.Покупатель,
 	ПродажиОбороты.ТорговаяТочка,
 	СУММА(ПродажиОбороты.ВыручкаОборот) КАК Выручка
 ИЗ
@@ -53,7 +57,7 @@
 
 СГРУППИРОВАТЬ ПО
 	ПродажиОбороты.Период,
-	ПродажиОбороты.Клиент,
+	ПродажиОбороты.Покупатель,
 	ПродажиОбороты.ТорговаяТочка</query>
 	</dataSet>
 	<totalField>
@@ -127,12 +131,16 @@
 			<dcsset:dataParameters>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>НачалоПериода</dcscor:parameter>
-					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
+					<dcscor:value xsi:type="v8:StandardBeginningDate">
+						<v8:variant xsi:type="v8:StandardBeginningDateVariant">BeginningOfThisMonth</v8:variant>
+					</dcscor:value>
 					<dcsset:userSettingID>ec118212-b075-43fb-844b-87597da58a82</dcsset:userSettingID>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>ДатаОкончания</dcscor:parameter>
-					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
+					<dcscor:value xsi:type="v8:StandardBeginningDate">
+						<v8:variant xsi:type="v8:StandardBeginningDateVariant">BeginningOfThisDay</v8:variant>
+					</dcscor:value>
 					<dcsset:userSettingID>5044e3a3-65ee-4b99-ba39-c5e85f38d8ab</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
@@ -216,12 +224,16 @@
 			<dcsset:dataParameters>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>НачалоПериода</dcscor:parameter>
-					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
+					<dcscor:value xsi:type="v8:StandardBeginningDate">
+						<v8:variant xsi:type="v8:StandardBeginningDateVariant">BeginningOfThisMonth</v8:variant>
+					</dcscor:value>
 					<dcsset:userSettingID>4902dab4-a66e-43b1-9a7c-74ba12dcc930</dcsset:userSettingID>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>ДатаОкончания</dcscor:parameter>
-					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
+					<dcscor:value xsi:type="v8:StandardBeginningDate">
+						<v8:variant xsi:type="v8:StandardBeginningDateVariant">BeginningOfThisDay</v8:variant>
+					</dcscor:value>
 					<dcsset:userSettingID>7c201b03-b996-4246-9ba6-2fc43037b938</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>

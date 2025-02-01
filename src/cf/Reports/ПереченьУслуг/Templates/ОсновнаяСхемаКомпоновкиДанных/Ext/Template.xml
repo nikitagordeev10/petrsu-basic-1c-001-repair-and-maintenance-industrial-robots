@@ -34,18 +34,18 @@
 		<query>ВЫБРАТЬ
 	СпрНоменклатура.Родитель КАК ГруппаУслуг,
 	СпрНоменклатура.Ссылка КАК Услуга,
-	ЦеныСрезПоследних.Цена
+	ЦеныНаНоменклатуруСрезПоследних.Цена
 ИЗ
 	Справочник.Номенклатура КАК СпрНоменклатура
-		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.Цены.СрезПоследних(&amp;ДатаОтчета, ) КАК ЦеныСрезПоследних
-		ПО ЦеныСрезПоследних.Номенклатура = СпрНоменклатура.Ссылка
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ЦеныНаНоменклатуру.СрезПоследних(&amp;ДатаОтчета, ) КАК ЦеныНаНоменклатуруСрезПоследних
+		ПО (ЦеныНаНоменклатуруСрезПоследних.Номенклатура = СпрНоменклатура.Ссылка)
 ГДЕ
 	СпрНоменклатура.ВидНоменклатуры = &amp;ВидНоменклатуры
 
 СГРУППИРОВАТЬ ПО
 	СпрНоменклатура.Родитель,
 	СпрНоменклатура.Ссылка,
-	ЦеныСрезПоследних.Цена</query>
+	ЦеныНаНоменклатуруСрезПоследних.Цена</query>
 	</dataSet>
 	<totalField>
 		<dataPath>Цена</dataPath>
@@ -111,6 +111,13 @@
 					<dcsset:field>Цена</dcsset:field>
 				</dcsset:item>
 			</dcsset:selection>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ДатаОтчета</dcscor:parameter>
+					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
+					<dcsset:userSettingID>483cde85-0bac-4f0d-98a2-8421573f4653</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
 			<dcsset:outputParameters>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>РасположениеПолейГруппировки</dcscor:parameter>

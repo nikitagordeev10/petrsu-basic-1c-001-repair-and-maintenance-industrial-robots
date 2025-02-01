@@ -17,11 +17,18 @@
 		<Command name="Report.ПоискДанных.StandardCommand.Open">
 			<CommandGroup>ActionsPanelTools</CommandGroup>
 		</Command>
+		<Command name="DataProcessor.КонсольЗапросов.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.КонсольЗапросов1.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
 	</CommandsOrder>
 	<SubsystemsOrder>
+		<Subsystem>Subsystem.Настройки.Subsystem.ВнешнийВидСистемы</Subsystem>
+		<Subsystem>Subsystem.Настройки.Subsystem.Безопасность</Subsystem>
 		<Subsystem>Subsystem.Настройки.Subsystem.ДляРазработчиков</Subsystem>
 		<Subsystem>Subsystem.Настройки.Subsystem.ОбменДанными</Subsystem>
-		<Subsystem>Subsystem.Настройки.Subsystem.Управление</Subsystem>
 	</SubsystemsOrder>
 	<GroupsOrder>
 		<Group>ActionsPanelTools</Group>

@@ -32,11 +32,11 @@
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
-			<Name>УправлениеТорговлей</Name>
+			<Name>Предприятие</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Управление торговлей, редакция 1.0</v8:content>
+					<v8:content>Предприятие, редакция 1.0</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -49,7 +49,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>Никита Гордеев</Vendor>
-			<Version>0.0.0.12</Version>
+			<Version>0.0.0.1</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -232,19 +232,24 @@
 			<AllowedIncomingShareRequestTypes/>
 			<MainClientApplicationWindowMode>Normal</MainClientApplicationWindowMode>
 			<DefaultInterface/>
-			<DefaultStyle>Style.МолочныйСтиль</DefaultStyle>
+			<DefaultStyle>Style.СветлоКоричневыйСтиль</DefaultStyle>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Управление торговлей, редакция 1.0</v8:content>
+					<v8:content>Предприятие, редакция 1.0</v8:content>
 				</v8:item>
 			</BriefInformation>
-			<DetailedInformation/>
+			<DetailedInformation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Упрощенная система управления предприятием полного цикла. Оно производит товары для дома из дерева, а затем продаёт или сдаёт в прокат.</v8:content>
+				</v8:item>
+			</DetailedInformation>
 			<Copyright>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Copyright: Никита Гордеев, 2024</v8:content>
+					<v8:content>Никита Гордеев, 2024-2025</v8:content>
 				</v8:item>
 			</Copyright>
 			<VendorInformationAddress>
@@ -256,7 +261,7 @@
 			<ConfigurationInformationAddress>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>https://github.com/nikitagordeev10/petrsu-basic-1c-002-dairy-production-trade-management</v8:content>
+					<v8:content>https://github.com/nikitagordeev10/petrsu-final-qualification-work-001-configuration-enterprise</v8:content>
 				</v8:item>
 			</ConfigurationInformationAddress>
 			<DataLockControlMode>Managed</DataLockControlMode>
@@ -270,16 +275,27 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
-			<Subsystem>Торговля</Subsystem>
-			<Subsystem>Запасы</Subsystem>
-			<Subsystem>Оборудование</Subsystem>
-			<Subsystem>Сотрудники</Subsystem>
+			<Subsystem>НашеПредприятие</Subsystem>
+			<Subsystem>УправлениеПроцессами</Subsystem>
+			<Subsystem>УправлениеФинансами</Subsystem>
 			<Subsystem>Настройки</Subsystem>
-			<Style>МолочныйСтиль</Style>
-			<CommonPicture>Торговля</CommonPicture>
-			<CommonPicture>Запасы</CommonPicture>
-			<CommonPicture>Оборудование</CommonPicture>
-			<CommonPicture>Сотрудники</CommonPicture>
+			<Style>СинийСтиль</Style>
+			<Style>ЗеленыйСтиль</Style>
+			<Style>ЖелтыйСтиль</Style>
+			<Style>СерыйСтиль</Style>
+			<Style>КрасныйСтиль</Style>
+			<Style>СветлоКоричневыйСтиль</Style>
+			<Style>КоричневыйСтиль</Style>
+			<Style>ЛазурныйСтиль</Style>
+			<Style>ТеррактотовыйСтиль</Style>
+			<Style>НежноРозовыйСтиль</Style>
+			<Style>СероГолубойСтиль</Style>
+			<Style>СероЖелтыйСтиль</Style>
+			<Style>БледноЖелтыйСтиль</Style>
+			<Style>КремовыйСтиль</Style>
+			<CommonPicture>НашеПредприятие</CommonPicture>
+			<CommonPicture>УправлениеПроцессами</CommonPicture>
+			<CommonPicture>УправлениеФинансами</CommonPicture>
 			<CommonPicture>Настройки</CommonPicture>
 			<CommonPicture>КнопкаЗакрытие</CommonPicture>
 			<CommonPicture>КнопкаОчистка</CommonPicture>
@@ -300,67 +316,103 @@
 			<CommonPicture>КнопкаИнформация</CommonPicture>
 			<Interface>ИнтерфейсАдминистратора</Interface>
 			<Role>СистемныйАдминистратор</Role>
-			<Role>АдминистраторТорговойТочки</Role>
-			<Role>Продавец</Role>
-			<Role>Расчетчик</Role>
+			<Role>Руководитель</Role>
 			<Role>Бухгалтер</Role>
 			<CommonModule>РаботаСДокументамиКлиент</CommonModule>
 			<CommonModule>РаботаСоСправочникамиСервер</CommonModule>
 			<CommonModule>ПроведениеРасчетовСервер</CommonModule>
 			<CommonModule>РегламентныеПроцедурыСервер</CommonModule>
+			<CommonModule>ГлобальныйПоискВДанныхСервер</CommonModule>
 			<CommonModule>ОбменСервер</CommonModule>
-			<ExchangePlan>Филиалы</ExchangePlan>
-			<ExchangePlan>Отделения</ExchangePlan>
+			<ExchangePlan>Доставка</ExchangePlan>
+			<ExchangePlan>Производство</ExchangePlan>
+			<ExchangePlan>ТорговаяТочка</ExchangePlan>
+			<WSReference>КурсыВалютССайтаЦБ</WSReference>
 			<ScheduledJob>ОбновлениеИндекса</ScheduledJob>
 			<ScheduledJob>СлияниеИндексов</ScheduledJob>
 			<FunctionalOption>БухгалтерскийУчет</FunctionalOption>
 			<FunctionalOption>РасчетЗарплаты</FunctionalOption>
 			<FunctionalOption>УчетКлиентов</FunctionalOption>
+			<FunctionalOption>ИспользоватьНесколькоСкладов</FunctionalOption>
 			<Constant>ПрефиксНумерации</Constant>
 			<Constant>БухгалтерскийУчет</Constant>
 			<Constant>РасчетЗарплаты</Constant>
 			<Constant>УчетКлиентов</Constant>
+			<Constant>ИспользоватьНесколькоСкладов</Constant>
+			<Constant>СкладПоУмолчанию</Constant>
+			<Constant>РассчитыватьСтоимостьАвтоматически</Constant>
+			<Constant>НесколькоВалют</Constant>
+			<Constant>АвтоматическиПроводитьДокумент</Constant>
+			<Constant>СоздаватьВалютуАвтоматически</Constant>
 			<CommonForm>ОбщиеНастройки</CommonForm>
-			<Catalog>Клиенты</Catalog>
-			<Catalog>Сотрудники</Catalog>
 			<Catalog>Номенклатура</Catalog>
-			<Catalog>ТорговыеТочки</Catalog>
 			<Catalog>ВариантыНоменклатуры</Catalog>
 			<Catalog>ДополнительныеСвойстваНоменклатуры</Catalog>
+			<Catalog>ТранспортныеСредства</Catalog>
+			<Catalog>ВидыТранспорта</Catalog>
+			<Catalog>ТопливныеКарты</Catalog>
+			<Catalog>ОбъектыПредприятия</Catalog>
+			<Catalog>Сотрудники</Catalog>
+			<Catalog>Роли</Catalog>
 			<Catalog>ВидыГрафиковРаботы</Catalog>
+			<Catalog>МинистерстваИВедомства</Catalog>
+			<Catalog>КонтактныеЛица</Catalog>
+			<Catalog>Банки</Catalog>
 			<Catalog>Субконто</Catalog>
-			<Document>ПриходныеНакладные</Document>
-			<Document>РасчетыЧерезКассу</Document>
+			<Catalog>Контрагенты</Catalog>
+			<Catalog>Должности</Catalog>
+			<Document>ПриходнаяНакладная</Document>
+			<Document>ОказаниеУслуги</Document>
 			<Document>НачисленияСотрудникам</Document>
 			<Document>ВводНачальныхОстатковНоменклатуры</Document>
+			<Document>ПриемНаРаботу</Document>
+			<Document>Увольнение</Document>
+			<Document>ПриобретениеАвто</Document>
+			<Document>СписаниеАвто</Document>
+			<Document>ПополнениеТопливнойКарты</Document>
+			<Document>НазначениеОкладаИДолжности</Document>
 			<Enum>ВидыНоменклатуры</Enum>
 			<Enum>ВидыРаботы</Enum>
+			<Enum>ПолФизическогоЛица</Enum>
 			<Enum>Должности</Enum>
-			<Report>Продукты</Report>
-			<Report>РеестрДокументовРасчетыЧерезКассу</Report>
-			<Report>РейтингПродуктов</Report>
+			<Enum>ТипыКонтрагентов</Enum>
+			<Enum>ВидыОперацийРасходаДенег</Enum>
+			<Enum>ТипыГрафиковРаботы</Enum>
+			<Enum>ВозможностьШтабелирования</Enum>
+			<Enum>ТребованияКПеревозке</Enum>
+			<Enum>Хрупкость</Enum>
+			<Enum>ПричинаИзмененияСтатуса</Enum>
+			<Report>ОборотНоменклатуры</Report>
+			<Report>РеестрДокументовОказаниеУслуги</Report>
+			<Report>РейтингНоменклатуры</Report>
 			<Report>РейтингУслуг</Report>
 			<Report>ВыручкаТорговыхТочек</Report>
 			<Report>ВыручкаПродавцов</Report>
-			<Report>ПереченьПродуктов</Report>
+			<Report>ПереченьНоменклатуры</Report>
 			<Report>ПереченьУслуг</Report>
 			<Report>РейтингКлиентов</Report>
 			<Report>Универсальный</Report>
-			<Report>ОстаткиПродуктовПоСвойствам</Report>
+			<Report>ОстаткиНоменклатурыПоСвойствам</Report>
 			<Report>ОборотноСальдоваяВедомость</Report>
 			<Report>Перерасчет</Report>
 			<Report>НачисленияCотрудникам</Report>
 			<Report>ДиаграммаНачислений</Report>
+			<Report>КурсыВалют</Report>
 			<Report>ПоискДанных</Report>
 			<DataProcessor>ОбменДанными</DataProcessor>
 			<DataProcessor>ПланировщикЗаданий</DataProcessor>
 			<DataProcessor>ОбменСОтделениями</DataProcessor>
 			<DataProcessor>Калькулятор</DataProcessor>
-			<InformationRegister>Цены</InformationRegister>
+			<DataProcessor>КонсольЗапросов1</DataProcessor>
+			<DataProcessor>КонсольЗапросов</DataProcessor>
+			<DataProcessor>ЗагрузкаКурсовВалют</DataProcessor>
+			<InformationRegister>ЦеныНаНоменклатуру</InformationRegister>
 			<InformationRegister>ЗначенияСвойствНоменклатуры</InformationRegister>
 			<InformationRegister>ГрафикиРаботы</InformationRegister>
-			<AccumulationRegister>ОстаткиПродуктов</AccumulationRegister>
-			<AccumulationRegister>СтоимостьПродуктов</AccumulationRegister>
+			<InformationRegister>КурсыВалют</InformationRegister>
+			<InformationRegister>СведенияОСотрудниках</InformationRegister>
+			<AccumulationRegister>ОстаткиНоменклатуры</AccumulationRegister>
+			<AccumulationRegister>СтоимостьНоменклатуры</AccumulationRegister>
 			<AccumulationRegister>Продажи</AccumulationRegister>
 			<ChartOfCharacteristicTypes>СвойстваНоменклатуры</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ВидыСубконто</ChartOfCharacteristicTypes>

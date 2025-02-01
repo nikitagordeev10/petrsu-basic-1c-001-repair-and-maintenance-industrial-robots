@@ -300,7 +300,24 @@
 					<xr:ChoiceParameters/>
 				</xr:StandardAttribute>
 			</StandardAttributes>
-			<Characteristics/>
+			<Characteristics>
+				<xr:Characteristic>
+					<xr:CharacteristicTypes from="ChartOfCharacteristicTypes.СвойстваНоменклатуры">
+						<xr:KeyField>ChartOfCharacteristicTypes.СвойстваНоменклатуры.StandardAttribute.Ref</xr:KeyField>
+						<xr:TypesFilterField>-1</xr:TypesFilterField>
+						<xr:TypesFilterValue xsi:nil="true"/>
+						<xr:DataPathField>ChartOfCharacteristicTypes.СвойстваНоменклатуры.StandardAttribute.Ref</xr:DataPathField>
+						<xr:MultipleValuesUseField>-1</xr:MultipleValuesUseField>
+					</xr:CharacteristicTypes>
+					<xr:CharacteristicValues from="InformationRegister.ЗначенияСвойствНоменклатуры">
+						<xr:ObjectField>InformationRegister.ЗначенияСвойствНоменклатуры.Dimension.НаборСвойств</xr:ObjectField>
+						<xr:TypeField>InformationRegister.ЗначенияСвойствНоменклатуры.Dimension.ВидСвойства</xr:TypeField>
+						<xr:ValueField>InformationRegister.ЗначенияСвойствНоменклатуры.Resource.Значение</xr:ValueField>
+						<xr:MultipleValuesKeyField>-1</xr:MultipleValuesKeyField>
+						<xr:MultipleValuesOrderField>-1</xr:MultipleValuesOrderField>
+					</xr:CharacteristicValues>
+				</xr:Characteristic>
+			</Characteristics>
 			<PredefinedDataUpdate>Auto</PredefinedDataUpdate>
 			<EditType>InDialog</EditType>
 			<QuickChoice>false</QuickChoice>
